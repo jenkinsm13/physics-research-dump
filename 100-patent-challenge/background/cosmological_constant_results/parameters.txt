@@ -1,0 +1,13 @@
+Cosmological Constant Calculator Parameters
+===========================================
+
+r0 = 1.3299145839282103e-30
+alpha = 1.0
+c0 = 0.1
+beta = 0.1
+gamma = 3.0
+lambda_ord = 2.0
+kappa_minus = 1.0000000000001361e-150
+max_finite_shell = 150
+shell_cutoff = 2000
+tensor_mode = False

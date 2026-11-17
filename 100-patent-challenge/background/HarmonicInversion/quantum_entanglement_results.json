@@ -1,0 +1,27 @@
+{
+  "test_parameters": {
+    "n_shells": 296,
+    "test_time": 5.391247e-34,
+    "shell_pairs": [
+      [
+        50,
+        51
+      ],
+      [
+        50,
+        60
+      ],
+      [
+        50,
+        75
+      ],
+      [
+        50,
+        100
+      ]
+    ]
+  },
+  "chsh_results": {
+    "50-51": {
+      "S_parameter": 8.659560562354933e-17,
+      "violates_bell": 

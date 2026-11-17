@@ -1,0 +1,34 @@
+# DivideByZero Setup Instructions
+
+To set up and install DivideByZero, follow these steps:
+
+1. Create and activate a virtual environment (recommended):
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install the package in development mode with all optional dependencies:
+```
+pip install -e ".[quantum,test]"
+```
+
+3. Run the simple test to verify the installation:
+```
+python simple_test.py
+```
+
+4. Run the full test suite:
+```
+python -m pytest tests/
+```
+
+If you encounter any issues with imports or missing functionality, make sure to check:
+1. All imports in source files use relative imports (e.g., `from .module import func`)
+2. The registry.py file has the `get_registry()` function defined
+3. No circular imports exist between modules
+
+For detailed debugging, you can run specific test files:
+```
+python -m pytest tests/test_framework.py -v
+```

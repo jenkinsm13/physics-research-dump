@@ -1,0 +1,200 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+QUANTUM TECHNOLOGY PATENT GUIDELINES
+
+1. Theoretical Framework Requirements
+
+A. Quantum State Descriptions
+- Maintain consistent notation for state vectors and density matrices
+- Explicitly define Hilbert spaces and operator domains
+- Specify measurement bases and transformations
+- Include decoherence and noise considerations
+
+B. Mathematical Precision
+```
+For each quantum mechanism described:
+1. Define relevant operators
+2. Specify commutation relations
+3. State conservation laws
+4. Identify symmetries
+5. Clarify boundary conditions
+```
+
+2. Implementation Specifications
+
+A. Quantum-Classical Interface
+- Detail measurement protocols
+- Specify readout mechanisms
+- Define control parameters
+- Document calibration procedures
+
+B. Error Handling
+```
+Address systematically:
+- Decoherence mechanisms
+- State preparation errors
+- Measurement uncertainties 
+- Environmental coupling
+- Correction protocols
+```
+
+3. Quantum Device Architecture
+
+A. Component Specifications
+```
+For each quantum element:
+1. Physical parameters
+2. Operating conditions
+3. Coupling mechanisms
+4. Control interfaces
+5. Readout channels
+```
+
+B. System Integration
+- Interface protocols
+- Signal routing
+- Timing requirements
+- Feedback mechanisms
+
+4. Mathematical Documentation Standards
+
+A. Operator Definitions
+```
+For each operator:
+- Domain specification
+- Action on basis states
+- Commutation relations
+- Physical interpretation
+```
+
+B. State Evolution
+```
+For dynamic processes:
+1. Hamiltonian terms
+2. Time evolution operators
+3. Interaction pictures
+4. Schrödinger/Heisenberg representations
+```
+
+5. Quantum Information Protocols
+
+A. State Preparation
+```
+Document:
+- Initial state specifications
+- Preparation sequences
+- Verification methods
+- Fidelity metrics
+```
+
+B. Measurement Strategies
+```
+Specify:
+- POVM elements
+- Detection schemes
+- Tomography protocols
+- Reconstruction algorithms
+```
+
+6. Patent Claim Construction Guidelines
+
+A. Quantum Properties
+```
+For each claimed feature:
+1. Classical analog (if any)
+2. Quantum advantage
+3. Implementation requirements
+4. Measurement verification
+```
+
+B. Implementation Details
+```
+Include:
+- Physical requirements
+- Control parameters
+- Error bounds
+- Performance metrics
+```
+
+7. Prior Art Assessment
+
+A. Quantum Uniqueness
+```
+Evaluate:
+- Novel quantum effects
+- Classical impossibility
+- Quantum advantages
+- Implementation novelty
+```
+
+B. Technical Differentiation
+```
+Document:
+- Quantum speedup
+- Enhanced precision
+- Novel protocols
+- Unique architectures
+```
+
+8. Quantum-Specific Embodiments
+
+A. Physical Implementations
+```
+Detail:
+- Material systems
+- Energy scales
+- Coherence times
+- Control mechanisms
+```
+
+B. Operational Parameters
+```
+Specify:
+- Operating conditions
+- Performance bounds
+- Error thresholds
+- Success metrics
+```
+
+9. Documentation Requirements
+
+A. Quantum Protocols
+```
+For each protocol:
+1. Initial conditions
+2. Operation sequence
+3. Success criteria
+4. Error handling
+```
+
+B. Performance Metrics
+```
+Document:
+- Fidelity measures
+- Success probabilities
+- Error rates
+- Resource requirements
+```
+
+10. Verification Standards
+
+A. Quantum Validation
+```
+Specify:
+- State verification
+- Process tomography
+- Error characterization
+- Performance bounds
+```
+
+B. Classical Verification
+```
+Include:
+- Observable measurements
+- Statistical analysis
+- Calibration procedures
+- Validation protocols
+```

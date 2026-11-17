@@ -1,0 +1,60 @@
+{
+  "system_configuration": {
+    "vehicle_mass_kg": 1000,
+    "active_shells": 51,
+    "shell_range": [
+      150,
+      200
+    ]
+  },
+  "performance_envelope": {
+    "0.1g": {
+      "force_N": 981.0000000000001,
+      "acceleration_m_s2": 0.9810000000000001,
+      "acceleration_g": 0.1,
+      "power_required_W": 8.464102236869795e+95,
+      "specific_impulse_s": 1.3998906032857724e+24,
+      "efficiency": 3.474631958211828e-85
+    },
+    "1g": {
+      "force_N": 9810.0,
+      "acceleration_m_s2": 9.81,
+      "acceleration_g": 1.0,
+      "power_required_W": 8.464102236869796e+97,
+      "specific_impulse_s": 1.3998906032857725e+23,
+      "efficiency": 3.474631958211827e-86
+    },
+    "10g": {
+      "force_N": 98100.00000000001,
+      "acceleration_m_s2": 98.10000000000001,
+      "acceleration_g": 10.0,
+      "power_required_W": 8.464102236869796e+99,
+      "specific_impulse_s": 1.3998906032857723e+22,
+      "efficiency": 3.474631958211827e-87
+    }
+  },
+  "launch_capability": {
+    "time_to_orbit_s": 228.5999999999913,
+    "max_altitude_km": 400.1991952499982,
+    "max_velocity_m_s": 3968.63549999998
+  },
+  "interstellar_performance": {
+    "acceleration_phase": {
+      "acceleration_g": 10,
+      "time_to_0.1c_days": 3.5370235634462186,
+      "distance_AU": 30.620396447503154,
+      "max_velocity_fraction_c": 0.1
+    },
+    "energy_requirements": {
+      "kinetic_energy_J": 4.493775893684088e+17,
+      "total_energy_J": 1.293309895185777e+104,
+      "fuel_mass_equivalent_kg": 1.439001327373154e+87,
+      "fuel_to_vehicle_ratio": 1.439001327373154e+84
+    },
+    "mission_capability": {
+      "proxima_centauri_years": 42.4,
+      "alpha_centauri_years": 43.699999999999996,
+      "range_ly": 0.0019367685494572039
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "generated": "2025-05-27T20:30:32.492753",
+  "company": "Quantum Thoughtworks Corporation",
+  "technology": "Temporal Antigravity Propulsion",
+  "timeline": {
+    "R&D Start": "2025-01-01T00:00:00",
+    "R&D Complete": "2027-01-01T00:00:00",
+    "Prototype Start": "2027-01-01T00:00:00",
+    "First Prototype": "2028-01-01T00:00:00",
+    "Testing Complete": "2028-12-31T00:00:00",
+    "Pilot Production": "2030-07-01T00:00:00",
+    "Scale-up Complete": "2032-06-30T00:00:00",
+    "Mass Production": "2032-06-30T00:00:00",
+    "1000 Units/Year": "2033-06-30T00:00:00"
+  },
+  "investment": {
+    "R&D": {
+      "Facilities": 500000000,
+      "Equipment": 300000000,
+      "Personnel": 200000000,
+      "Materials": 100000000,
+      "Subtotal": 1100000000
+    },
+    "Prototype": {
+      "Manufacturing": 500000000,
+      "Testing": 200000000,
+      "Iterations": 300000000,
+      "Subtotal": 1000000000
+    },
+    "Pilot_Production": {
+      "Facility": 1000000000,
+      "Equipment": 500000000,
+      "Training": 100000000,
+      "Initial_Production": 400000000,
+      "Subtotal": 2000000000
+    },
+    "Scale_Up": {
+      "Additional_Facilities": 3000000000,
+      "Automation": 500000000,
+      "Supply_Chain": 400000000,
+      "Working_Capital": 600000000,
+      "Subtotal": 4500000000
+    },
+    "Mass_Production": {
+      "Gigafactories": 10000000000,
+      "Global_Supply_Chain": 2000000000,
+      "Inventory": 3000000000,
+      "Subtotal": 15000000000
+    },
+    "Total": 23600000000
+  },
+  "phases": [
+    {
+      "phase": "Research & Development",
+      "duration": 24,
+      "details": {
+        "duration_months": 24,
+        "objectives": [
+          "Develop superconducting metamaterial compositions",
+          "Perfect chronon field generation techniques",
+          "Validate temporal flow control methods",
+          "Create manufacturing process specifications"
+        ],
+        "facilities": [
+          {
+            "name": "Temporal Physics Research Center",
+            "size_sqm": 50000,
+            "location": "Near particle accelerator",
+            "cost": 500000000,
+            "features": [
+              "10 Tesla magnetic field chambers",
+              "Quantum vacuum test cells",
+              "Chronon detection arrays",
+              "Superconductor synthesis labs"
+            ]
+          }
+        ],
+        "milestones": [
+          {
+            "month": 6,
+            "goal": "First chronon field generated"
+          },
+          {
+            "month": 12,
+            "goal": "Metamaterial formula finalized"
+          },
+          {
+            "month": 18,
+            "goal": "Temporal gradient achieved"
+          },
+          {
+            "month": 24,
+            "goal": "Lab-scale antigravity demonstrated"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "Testing & Validation",
+      "duration": 12,
+      "details": {
+        "duration_months": 12,
+        "test_campaigns": [
+          {
+            "name": "Component Testing",
+            "duration_weeks": 8,
+            "tests": [
+              "Superconductor critical current",
+              "Metamaterial resonance",
+              "Field generator coherence",
+              "Control system latency"
+            ]
+          },
+          {
+            "name": "Integration Testing",
+            "duration_weeks": 12,
+            "tests": [
+              "Field generation efficiency",
+              "Temporal gradient uniformity",
+              "Power system stability",
+              "Emergency shutdown"
+            ]
+          },
+          {
+            "name": "Flight Testing",
+            "duration_weeks": 24,
+            "tests": [
+              "Tethered hover tests",
+              "Low altitude maneuvers",
+              "High acceleration runs",
+              "Long duration flights"
+            ]
+          }
+        ],
+        "facilities": [
+          {
+            "name": "Antigravity Test Range",
+            "size_sqkm": 100,
+            "features": [
+              "Reinforced test stands",
+              "Remote monitoring systems",
+              "Emergency containment",
+              "Radar tracking"
+            ],
+            "cost": 200000000
+          }
+        ]
+      }
+    },
+    {
+      "phase": "Pilot Production",
+      "duration": 18,
+      "details": {
+        "duration_months": 18,
+        "production_rate": "1 unit per month",
+        "objectives": [
+          "Validate manufacturing processes",
+          "Train production workforce",
+          "Establish quality standards",
+          "Optimize supply chain"
+        ],
+        "facilities": [
+          {
+            "name": "Pilot Production Facility",
+            "size_sqm": 100000,
+            "capacity": "12 units/year",
+            "workforce": 500,
+            "cost": 1000000000
+          }
+        ]
+      }
+    },
+    {
+      "phase": "Production Scale-up",
+      "duration": 24,
+      "details": {
+        "duration_months": 24,
+        "milestones": [
+          {
+            "month": 6,
+            "rate": "5 units/month"
+          },
+          {
+            "month": 12,
+            "rate": "10 units/month"
+          },
+          {
+            "month": 18,
+            "rate": "20 units/month"
+          },
+          {
+            "month": 24,
+            "rate": "50 units/month"
+          }
+        ],
+        "investments": {
+          "Additional facilities": 3000000000,
+          "Automation systems": 500000000,
+          "Workforce training": 100000000,
+          "Supply chain expansion": 400000000
+        }
+      }
+    },
+    {
+      "phase": "Mass Production",
+      "duration": 0,
+      "details": {
+        "start_year": 2035,
+        "production_capacity": "1000 units/year",
+        "facilities": [
+          {
+            "name": "Gigafactory Alpha",
+            "location": "Nevada, USA",
+            "size_sqm": 500000,
+            "workforce": 5000,
+            "output": "400 units/year"
+          },
+          {
+            "name": "Gigafactory Beta",
+            "location": "Brandenburg, Germany",
+            "size_sqm": 400000,
+            "workforce": 4000,
+            "output": "300 units/year"
+          },
+          {
+            "name": "Gigafactory Gamma",
+            "location": "Shanghai, China",
+            "size_sqm": 450000,
+            "workforce": 4500,
+            "output": "300 units/year"
+          }
+        ],
+        "unit_cost_projection": {
+          "2035": 100000000,
+          "2040": 50000000,
+          "2045": 25000000,
+          "2050": 10000000
+        }
+      }
+    }
+  ],
+  "supply_chain": [
+    {
+      "component": "YBCO Superconductor Wire",
+      "supplier": "American Superconductor Corp",
+      "lead_time_days": 180,
+      "cost_per_unit": 1000,
+      "minimum_order": 10000,
+      "strategic_stock": 50000
+    },
+    {
+      "component": "Quantum Processors",
+      "supplier": "IBM Quantum / Google Quantum AI",
+      "lead_time_days": 365,
+      "cost_per_unit": 10000000,
+      "minimum_order": 10,
+      "strategic_stock": 50
+    },
+    {
+      "component": "Metamaterial Substrates",
+      "supplier": "Metamaterial Technologies Inc",
+      "lead_time_days": 120,
+      "cost_per_unit": 100000,
+      "minimum_order": 100,
+      "strategic_stock": 500
+    },
+    {
+      "component": "Fusion Fuel (Deuterium-Tritium)",
+      "supplier": "ITER Consortium",
+      "lead_time_days": 90,
+      "cost_per_unit": 1000,
+      "minimum_order": 100,
+      "strategic_stock": 1000
+    },
+    {
+      "component": "Cryogenic Systems",
+      "supplier": "Linde / Air Liquide",
+      "lead_time_days": 150,
+      "cost_per_unit": 500000,
+      "minimum_order": 5,
+      "strategic_stock": 20
+    }
+  ],
+  "quality_metrics": [
+    {
+      "parameter": "Superconductor Critical Current",
+      "specification": "> 1000 A/cm\u00b2",
+      "tolerance": 0.05,
+      "test_method": "Four-point probe at 77K",
+      "frequency": "Every coil"
+    },
+    {
+      "parameter": "Metamaterial Q-Factor",
+      "specification": "> 10^6",
+      "tolerance": 0.1,
+      "test_method": "Microwave cavity resonance",
+      "frequency": "Sample from each batch"
+    },
+    {
+      "parameter": "Temporal Field Uniformity",
+      "specification": "< 0.1% variation",
+      "tolerance": 0.001,
+      "test_method": "3D field mapping",
+      "frequency": "Every assembled unit"
+    },
+    {
+      "parameter": "Quantum Coherence Time",
+      "specification": "> 1 second",
+      "tolerance": 0.1,
+      "test_method": "Ramsey interferometry",
+      "frequency": "Daily calibration"
+    },
+    {
+      "parameter": "System Efficiency",
+      "specification": "> 85%",
+      "tolerance": 0.02,
+      "test_method": "Full system power analysis",
+      "frequency": "Every unit"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+% Patent Application LaTeX Template with AI Prompting Instructions
+% This template follows USPTO requirements and includes detailed guidance
+% Use this as a starting point for creating professionally formatted patent applications
+
+\documentclass[12pt,letterpaper]{article}
+
+% Essential packages for patent formatting
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry} % Proper margins
+\usepackage{setspace} % For 1.5 or double line spacing
+\usepackage{times} % Times Roman font (or use \usepackage{helvet} for Arial)
+\usepackage{enumitem} % For customizing lists/enumerations in claims
+\usepackage{fancyhdr} % For headers
+\usepackage{titlesec} % For section formatting
+\usepackage{graphicx} % For including drawings
+\usepackage{lipsum} % For sample text (remove in actual document)
+
+% Set the line spacing to 1.5 (or 2.0 for double spacing)
+\onehalfspacing
+% \doublespacing  % Uncomment for double spacing
+
+% Configure headers and footers
+\pagestyle{fancy}
+\fancyhf{} % Clear all headers and footers
+\renewcommand{\headrulewidth}{0pt} % Remove header rule
+\fancyfoot[C]{\thepage} % Page number at bottom center
+
+% Configure section formatting
+\titleformat{\section}
+  {\normalfont\bfseries\uppercase}
+  {}
+  {0em}
+  {}
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Configure subsection formatting
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {}
+  {0em}
+  {}
+\titlespacing{\subsection}{0pt}{12pt}{6pt}
+
+% Custom paragraph format with additional spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Custom enumeration for claims
+\newlist{patentclaims}{enumerate}{2}
+\setlist[patentclaims,1]{label=\arabic*., align=left, leftmargin=2em, itemsep=1em}
+\setlist[patentclaims,2]{label=\arabic*., align=left, leftmargin=2em, itemsep=0.5em}
+
+\begin{document}
+
+% ===== TITLE PAGE =====
+\begin{center}
+\Large\bfseries
+TITLE OF INVENTION
+\end{center}
+
+\vspace{0.5in}
+
+% INSTRUCTIONS: Replace with your actual title. The title should be brief but technically accurate and descriptive. Avoid using "new" or similar terms. Aim for a title that is 5-15 words and clearly indicates the subject matter. For AI prompting: "Generate a concise, technically precise title that describes the core innovation without using terms like 'new' or 'improved'. Focus on the key technical functionality in 5-15 words."
+
+\vspace{1in}
+
+\section*{CROSS-REFERENCE TO RELATED APPLICATIONS}
+
+% INSTRUCTIONS: Identify any related patent applications here. Include application numbers, filing dates, and relationship. If this is the first application in a family, state "Not Applicable." For AI prompting: "List all related patent applications with their application numbers, filing dates, and explain how they relate to this application (continuation, divisional, etc.). If there are no related applications, state 'Not Applicable'."
+
+This application [claims the benefit of/is a continuation of/is a divisional of] U.S. Patent Application No. XX/XXX,XXX, filed [Month Day, Year], which [claims the benefit of/is a continuation of] [additional relationships as needed], the entire contents of which are hereby incorporated by reference.
+
+\section*{FIELD OF THE INVENTION}
+
+% INSTRUCTIONS: Define the technical field to which the invention pertains. Be specific about the industry, technology area, and type of problem addressed. Keep this section brief (1-3 paragraphs). For AI prompting: "Describe the specific technical field of the invention. Identify the industry, technology domain, and type of problems addressed. Be precise and concise, using proper technical terminology. Avoid broad generalizations."
+
+The present invention relates to [specific technical field], and more particularly to [more specific aspect of that field]. Specifically, the invention pertains to [precise subject matter, e.g., devices, methods, systems, compositions] for [specific function or purpose].
+
+\section*{BACKGROUND}
+
+% INSTRUCTIONS: Describe the state of the art before your invention. Outline existing technologies, their limitations, and the problem your invention solves. Do not disparage prior solutions but objectively present their limitations. Include 2-5 paragraphs with relevant technical details. For AI prompting: "Describe existing technologies in this field before the invention. Explain technical limitations of current approaches objectively without disparagement. Identify specific problems these limitations create. Use precise technical language and reference typical industry approaches."
+
+In the field of [technical area], conventional [devices/methods/systems] typically employ [describe current approaches]. For example, [specific example of current technology] operates by [explain how it works].
+
+However, these conventional approaches suffer from several limitations. First, [describe technical limitation]. This limitation results in [describe negative consequence]. Second, [describe another technical limitation] which leads to [another negative consequence].
+
+Attempts have been made to address these limitations. For instance, [describe prior attempt at solution] has been developed to [purpose]. Nevertheless, this approach introduces [new limitation or tradeoff].
+
+Therefore, there remains a need for [describe what is needed] that overcomes the aforementioned limitations while maintaining [important advantages/functionalities].
+
+\section*{SUMMARY}
+
+% INSTRUCTIONS: Summarize your invention at a high level. Explain what the invention is and its main advantages, focusing on the core innovation. This section should be 1-3 paragraphs and align with your broadest claims. For AI prompting: "Provide a high-level summary of the invention that aligns with the broadest independent claim. Explain the core technical innovation and primary advantages without limiting the scope. Focus on what the invention is and does, not implementation details."
+
+The present invention addresses the aforementioned limitations by providing [general description of invention]. In one aspect, the invention comprises [describe core elements of the broadest embodiment].
+
+An advantage of the present invention is [primary technical advantage]. Additionally, the invention [additional advantage].
+
+In various embodiments, the invention may include [optional features] to further enhance [specific aspect of performance or functionality].
+
+\section*{BRIEF DESCRIPTION OF THE DRAWINGS}
+
+% INSTRUCTIONS: List each figure number with a brief description of what it shows. Every drawing must be described, and every element referenced in the Detailed Description must appear in at least one drawing. For AI prompting: "Create a list of figure descriptions where each entry briefly describes what that figure shows. Use the format 'FIG. X is a [type of view/diagram] of [what it shows].' Include all perspectives needed to understand the invention's physical structure and operation."
+
+FIG. 1 is a perspective view of an embodiment of the [invention] according to the present invention.
+
+FIG. 2 is a front elevational view of the embodiment shown in FIG. 1.
+
+FIG. 3 is a cross-sectional view taken along line 3-3 of FIG. 2.
+
+FIG. 4 is an exploded view showing the component parts of the embodiment.
+
+FIG. 5 is a block diagram illustrating the functional relationship between components of the invention.
+
+FIG. 6 is a flowchart depicting a method of [operation/manufacturing] according to an embodiment of the invention.
+
+\section*{DETAILED DESCRIPTION}
+
+% INSTRUCTIONS: Provide a complete and enabling disclosure of your invention. Describe each embodiment in detail using reference numbers that match your drawings. Explain structure, function, and operations. This is the longest section (typically 5-20 pages). For AI prompting: "Explain the invention in extensive detail, describing at least one complete embodiment with reference to drawing element numbers (e.g., widget 101). Describe physical structure, functional relationships, materials, dimensions where relevant, manufacturing methods, and operational procedures. The description must enable a skilled person to make and use the invention without undue experimentation."
+
+The following detailed description refers to the accompanying drawings which form a part of this disclosure. In the drawings, similar symbols typically identify similar components, unless context dictates otherwise. The illustrative embodiments described herein are not meant to be limiting. Other embodiments may be utilized, and other changes may be made, without departing from the spirit or scope of the subject matter presented here.
+
+Referring first to FIG. 1, a [invention name] 100 includes a [component name] 101 connected to a [another component] 102. The [component name] 101 is formed of [material] and has [dimensions/shape/other characteristics].
+
+As shown in FIG. 2, the [component name] 101 includes [subcomponents] 103, 104, and 105. The [subcomponent] 103 is positioned [describe position] and functions to [describe function]. The [subcomponent] 104 extends from [position] to [position] and has a [characteristic] of [specific value or range]. The [subcomponent] 105 is movably/fixedly connected to [another element] to facilitate [function].
+
+Referring now to FIG. 3, which shows a cross-sectional view, the internal structure of [component] 101 can be observed. As illustrated, an internal [feature] 106 is disposed within [location]. The [feature] 106 is connected to [another feature] 107 via [connection means] 108.
+
+In operation, the [invention] 100 functions as follows. First, [describe first step of operation]. This causes [result]. Next, [second step] occurs, resulting in [another result]. The [component] 101 then [action], which [effect]. This process [continues/concludes] with [final step/result].
+
+An alternative embodiment is illustrated in FIG. 4, wherein the [component] 101 is replaced with [alternative component] 110. The [alternative component] 110 provides [advantage] while maintaining [core functionality].
+
+In some embodiments, the [component] 101 may be constructed of alternative materials such as [list alternatives], which may offer advantages including [list advantages].
+
+The dimensions of the components may vary depending on the specific application. For example, the [component] 101 may have a length ranging from [minimum] to [maximum], a width ranging from [minimum] to [maximum], and a thickness ranging from [minimum] to [maximum].
+
+Methods of manufacturing the [invention] 100 may include the following steps. First, [first manufacturing step]. Next, [second manufacturing step]. Then, [third manufacturing step]. Finally, [final manufacturing step].
+
+\newpage
+\section*{CLAIMS}
+
+% INSTRUCTIONS: Begin with independent claims defining the broadest protection scope, followed by dependent claims adding specific limitations. Each claim must be a single sentence. For AI prompting: "Draft patent claims starting with the broadest independent claim that captures the inventive concept. Follow with dependent claims that add specific limitations. Each claim must be a single sentence beginning with 'A [device/method/system]' for independent claims or 'The [device/method/system] of claim X' for dependent claims. Ensure claims are clear, complete, and supported by the description."
+
+\begin{patentclaims}
+    \item A device comprising:
+    \begin{itemize}[leftmargin=2em]
+        \item a housing;
+        \item a component disposed within the housing; and
+        \item a mechanism operatively connected to the component,
+        \item wherein the mechanism is configured to perform a function.
+    \end{itemize}
+    
+    \item The device of claim 1, wherein the housing includes a first portion and a second portion connected by a hinge.
+    
+    \item The device of claim 2, wherein the first portion includes a display.
+    
+    \item The device of claim 1, wherein the component comprises a processor and a memory.
+    
+    \item The device of claim 4, wherein the memory stores instructions that, when executed by the processor, cause the device to:
+    \begin{itemize}[leftmargin=2em]
+        \item detect a first condition;
+        \item activate the mechanism in response to detecting the first condition; and
+        \item perform the function.
+    \end{itemize}
+    
+    \item A method comprising:
+    \begin{itemize}[leftmargin=2em]
+        \item detecting, by a device, a condition;
+        \item activating, in response to the condition, a mechanism of the device; and
+        \item performing, by the mechanism, a function.
+    \end{itemize}
+    
+    \item The method of claim 6, further comprising:
+    \begin{itemize}[leftmargin=2em]
+        \item receiving user input; and
+        \item modifying the function based on the user input.
+    \end{itemize}
+\end{patentclaims}
+
+\newpage
+\section*{ABSTRACT}
+
+% INSTRUCTIONS: Write a single paragraph (150 words or less) summarizing the invention. Focus on what is new and how it solves the identified problem. For AI prompting: "Write a single paragraph of no more than 150 words summarizing the technical disclosure. Focus on the novel technical solution and its advantages. Use clear language explaining what the invention is and does. Avoid phrases like 'The disclosure provides' and legal terminology."
+
+A device includes a housing, a component disposed within the housing, and a mechanism operatively connected to the component. The mechanism is configured to perform a function that addresses limitations of conventional devices. The housing includes a first portion and a second portion connected by a hinge, with the first portion containing a display. The component includes a processor and memory storing instructions that detect conditions, activate the mechanism, and perform the function. This configuration provides improved efficiency, reduced complexity, and enhanced performance compared to conventional approaches. The device solves the problem of [specific problem] through [specific technical solution], resulting in [specific advantage].
+
+\newpage
+\section*{DRAWINGS}
+
+% INSTRUCTIONS: Include professional technical drawings showing all aspects of your invention. Number elements consistently across all figures. For AI prompting: "Create technical drawings showing different views and aspects of the invention. Use reference numbers (e.g., 101, 102) consistently across all drawings. Include perspective, front, side, cross-sectional views as necessary to fully understand the invention's structure. Label each figure clearly (FIG. 1, FIG. 2, etc.)."
+
+% Example placeholder for drawings
+\begin{figure}[h]
+\centering
+\framebox{Drawing of FIG. 1 would be placed here}
+\caption*{FIG. 1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\framebox{Drawing of FIG. 2 would be placed here}
+\caption*{FIG. 2}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\framebox{Drawing of FIG. 3 would be placed here}
+\caption*{FIG. 3}
+\end{figure}
+
+% Additional space for more figures as needed
+
+\end{document}

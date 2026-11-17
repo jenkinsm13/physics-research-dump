@@ -1,0 +1,90 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Patent Application Format Guide
+
+## General Requirements
+- Create a nonprovisional utility patent application with specification, claims, and drawings.
+- Format text in single column with 1.5 or double-spacing.
+- Use nonscript font (Arial, Times Roman, or Courier) preferably size 12.
+- Organize content in clear, full, concise, and exact terms to enable any skilled person to make and use the invention.
+
+## Title
+- Provide a short, specific title for the invention at the beginning of the specification.
+- The title should be descriptive but concise, representing the invention accurately.
+
+## Abstract
+- Create a single paragraph of 150 words or less on a separate page.
+- Summarize what is new in the art to which the invention pertains.
+- Use narrative form highlighting the invention's nature and essence.
+- Focus on the novel features for which protection is sought.
+
+## Specification Structure
+The specification should include these sections in order:
+
+### 1. Field of Invention
+- State the field of endeavor to which the invention pertains.
+- Be specific about the technical domain.
+
+### 2. Background
+- Describe problems with existing technology that the invention solves.
+- Explain current approaches and their limitations.
+- Do not disparage others' inventions but factually present the state of the art.
+
+### 3. Summary
+- Present the general idea of the claimed invention in summarized form.
+- Explain the invention's advantages and how it solves previous problems.
+- Keep this section relatively brief while capturing the invention's essence.
+
+### 4. Brief Description of Drawings
+- List all figures by number (e.g., "Figure 1") with corresponding descriptions.
+- For each figure, explain what view or perspective it represents.
+- Example: "Figure 1 is an isometric view of a device according to a first embodiment."
+
+### 5. Detailed Description
+- Explain the invention thoroughly using the reference numbers from drawings.
+- Describe how to make and use the invention in full, clear terms.
+- Reference specific elements in the drawings by their numbers consistently.
+- Explain all aspects of each embodiment completely.
+- Describe the structure, function, operation, and relationships between components.
+- Mention variations and alternatives where appropriate.
+
+## Claims
+- Begin claims on a new, separate page.
+- Number claims consecutively using Arabic numerals.
+- Write each claim as a single sentence.
+- Start with an independent claim defining the broadest scope of protection.
+- Follow with dependent claims that refer back to and further limit earlier claims.
+- Independent claims format: "A device comprising an operating face, wherein at least a substantial portion of the front face has a concave shape."
+- Dependent claims format: "A device according to claim 1, wherein the front face has a first extent and a second extent."
+- Each dependent claim should only reference previous claims and add specific limitations.
+- Make sure claims particularly point out and distinctly claim the subject matter.
+
+## Drawings
+- Use black and white line drawings with solid black lines (India ink or equivalent).
+- Number sheets consecutively (1/2, 2/2) at the top middle of each sheet.
+- Label different views as Fig. 1, Fig. 2, etc.
+- Reference all elements with numerals (200, 201, 202, etc.).
+- Ensure all elements mentioned in the description appear in the drawings with consistent numbering.
+- Make sure the same element has the same reference number in all views.
+- Do not include reference characters in drawings that aren't mentioned in the description.
+
+## Cross-Reference to Related Applications
+- For applications claiming benefit of earlier applications, include appropriate cross-references.
+- Reference earlier applications using their application number and filing date.
+
+## Example Format Structure
+1. Title
+2. Cross-Reference to Related Applications (if applicable)
+3. Field of Invention
+4. Background
+5. Summary
+6. Brief Description of Drawings
+7. Detailed Description
+8. Claims (on separate page)
+9. Abstract (on separate page)
+10. Drawings (on separate sheets)
+
+When drafting each section, maintain consistency in terminology throughout the document and ensure all elements are thoroughly described to satisfy the enablement and written description requirements.

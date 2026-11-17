@@ -1,0 +1,71 @@
+\section{The field equation}\label{sec:fieldeq}
+
+Having closed the boost group on the chronon two-vector $\Vvec(k)=(\cosh\rap,-\sinh\rap)$ with $\rap=k/\phigr$, we now \emph{promote $k$ from a label to a dynamical field coordinate}. The dynamical variable is a two-component flow-space field $\boldsymbol\Psi(k)\in\mathbb{R}^{1,1}$ over the ordinal (shell-stack) manifold, with metric $\eta=\mathrm{diag}(+1,-1)$. The only derivative that respects the boost gauge symmetry is the covariant one,
+\begin{equation}
+D_k=\partial_k-\frac{1}{\phigr}\,\Kgen,\qquad
+\Kgen=\begin{pmatrix}0&-1\\-1&0\end{pmatrix},\quad \Kgen^2=I,
+\label{eq:fieldeq:Dk}
+\end{equation}
+whose holonomy $\exp(\int A_k)=\Lambda(\Dk/\phigr)$ is the one-shell boost. The unique boost-invariant, second-order, local action is
+\begin{equation}
+S[\boldsymbol\Psi]=\int dk\;\Big[\half\,\langle D_k\boldsymbol\Psi,\,D_k\boldsymbol\Psi\rangle_\eta-\half\,M^2(k)\,\langle\boldsymbol\Psi,\boldsymbol\Psi\rangle_\eta\Big],\qquad M^2(k)=\osc^2(k).
+\label{eq:fieldeq:action}
+\end{equation}
+The mass term is \emph{not inserted by hand}: $M^2$ is the Casimir of the closed group, the boost-invariant norm of the dressed field, so the Lagrangian is built entirely from group invariants. Varying $\boldsymbol\Psi$ gives the \textbf{field equation of inverse temporal flow},
+\begin{equation}
+\boxed{\;\big(D_k^{\,2}+M^2(k)\big)\,\boldsymbol\Psi(k)=0,\qquad
+D_k^{\,2}=\partial_k^2-\frac{2}{\phigr}\,\Kgen\,\partial_k+\frac{1}{\phigr^2}\,I\;}
+\label{eq:fieldeq:KG}
+\end{equation}
+(using $\Kgen^2=I$). This is a $(1{+}1)$ Klein--Gordon equation on the ordinal line with a gauge-magnetic first-order term $-\tfrac{2}{\phigr}\Kgen\partial_k$ and a position-dependent mass set by the flow-reversal lattice---the framework's analog of $(\Box+m^2)\phi=0$ on the single coordinate the worldline possesses.
+
+\subsection{Carrier, honest defect, and dispersion}
+
+The master field $\boldsymbol\Psi(k)=\osc(k)\,\Vvec(k)=(\Gsym,\Gflow)$ is the exact covariantly-constant carrier of the \emph{first-order} structure: $\Vvec$ is the zero mode of $D_k$ ($D_k\Vvec=0$, verified $|D_k\Vvec|\le1.4\times10^{-9}$), so all ordinal dynamics is carried by the scalar dressing, $D_k\boldsymbol\Psi=(\partial_k\osc)\Vvec$ and $D_k^{\,2}\boldsymbol\Psi=\osc''(k)\,\Vvec$. Substituting into \eqref{eq:fieldeq:KG} leaves a single scalar residual along $\Vvec$,
+\begin{equation}
+\big(D_k^{\,2}+\osc^2\big)\boldsymbol\Psi=R(k)\,\Vvec,\qquad R(k)=\osc''(k)+\osc^3(k).
+\label{eq:fieldeq:residual}
+\end{equation}
+Be honest: $R(k)\neq0$, and it is largest \emph{at} the comb. $\osc\,\Vvec$ is the exact first-order carrier but \emph{nowhere a homogeneous solution} of the second-order operator---$R$ is $O(1)$ (RMS $0.66$, $\max|R|=0.85$ over a comb period), worst at the shells: $R(k_1)=-0.85$, where $\osc'=0$ but $\osc''=-8(\lnphi)^2=-1.853$ and $\osc^3=1$, relaxing to $R=+0.59$ at the osc minimum. So $\boldsymbol\Psi$ is the \emph{leading-order (adiabatic) solution with a computable defect}, not an exact one; the comb's exactness lives in the on-shell spectrum, not in the operator at $k_n$.
+
+In the adiabatic/WKB regime, freeze the mass at its local value and take a plane wave $\boldsymbol\Psi_\omega(k)=e^{i\omega k}\boldsymbol\chi$ on the ordinal/rapidity line (the discrete-scale-invariance lattice, not a spatial phase). The operator diagonalizes in the boost eigenbasis $\Kgen\mathbf n_s=s\,\mathbf n_s$, with $\mathbf n_{-1}=(1,1)$ the retarded null channel onto which $\Vvec$ projects weight $\half e^{-\rap}\propto\kappa(+k)$. In channel $s=\pm1$,
+\begin{equation}
+\boxed{\;\omega(k)=\pm\,\osc(k)\;-\;\frac{i\,s}{\phigr}\;}
+\label{eq:fieldeq:dispersion}
+\end{equation}
+(closed-form root vs.\ quadratic agree to $1.1\times10^{-16}$). The real part $\pm\osc(k)$ is the mass shell---the field oscillates at the local flow-reversal rate. The imaginary part $-s/\phigr$ is the arrow of time: the $s=-1$ retarded mode decays as $e^{-k/\phigr}$, the $s=+1$ advanced mode grows as $e^{+k/\phigr}$, and their modulus ratio reproduces the detailed-balance factor $\kappa(+k)/\kappa(-k)=e^{-2\rap}$ with the corpus weights $\kappa(\pm k)=\osc\,e^{\mp\rap}$. Gravity (the $1/\phigr$ damping) and quantum correlation (the osc frequency) are the imaginary and real parts of one complex dispersion.
+
+\subsection{Spectrum, static sector, and conserved charge}
+
+On-shell, normalizable modes require the mass to saturate its Casimir unit, $M^2=\osc^2=1$, i.e.\ $\cos^2(2k\lnphi)=0$, selecting the inversion comb
+\begin{equation}
+k_n=\frac{(2n-1)\pi}{4\lnphi}=1.632,\,4.896,\,8.161,\dots,\qquad \Dk=\frac{\pi}{2\lnphi}=3.26425,
+\label{eq:fieldeq:comb}
+\end{equation}
+with $\mathrm{Re}\,\omega(k_n)=1$ identically. \textbf{The spectrum of the field equation is the inversion comb}---the discrete-scale-invariance ladder appearing as the eigenvalues of a wave operator, not as an assumed comb. Setting $\omega=0$ collapses the dispersion to the pure-imaginary branch: the static sector is governed by $D_k$ alone, whose Green's function is the boost holonomy $G(n,m)=\Theta(n-m)\Lambda((n-m)/\phigr)$. Its flow component, dressed by osc and convolved against the chronon density $\rho_m$, reproduces the spine potential
+\begin{equation}
+V_{\text{grav}}(n)=\sum_{m<n}\frac{\sinh\!\big((n-m)/\phigr\big)}{1+\cos^2\!\big(2(n-m)\lnphi\big)}\,\rho_m
+\label{eq:fieldeq:Vgrav}
+\end{equation}
+(matched to the spine to $7\times10^{-9}$): gravity is the static zero-mode Green's function, led by the advanced ($s=+1$, growing $\sinh$) branch. The boost $\delta\boldsymbol\Psi=\epsilon\Kgen\boldsymbol\Psi$ is a symmetry of \eqref{eq:fieldeq:action}; on the carrier its Noether charge collapses to the geometric invariant
+\begin{equation}
+Q_{\text{boost}}=\langle\Vvec,\Vvec\rangle_\eta=\cosh^2\rap-\sinh^2\rap=1=\Ly
+\label{eq:fieldeq:noether}
+\end{equation}
+(verified to $8.9\times10^{-16}$). The field theory inherits exactly one conservation law---conservation of time.
+
+\subsection{The retarded Green's function and the echo decrement}
+
+The retarded ($s=-1$) channel polynomial $r^2+\tfrac{2}{\phigr}r+(\tfrac{1}{\phigr^2}+m^2)=0$ has roots $r_\pm=-\tfrac{1}{\phigr}\pm i\,\osc(k)$: a damped oscillator with decay constant $1/\phigr$ and ring frequency $\osc(k)$. Its causal impulse response is
+\begin{equation}
+\boxed{\;G_R(k)=\Theta(k)\,e^{-k/\phigr}\,\frac{\sin(m\,k)}{m},\qquad m=\osc(k)\ \text{(frozen)}\;}
+\label{eq:fieldeq:greenR}
+\end{equation}
+(satisfies the homogeneous channel equation on the interior to $9.2\times10^{-9}$)---a wave that rings at the flow-reversal rate and decays at the golden boost rate, causally ordered by $\Theta(k)$. The quality factor $Q(k)=\phigr\,\osc(k)/2$ runs from $Q_{\min}=\phigr/4=0.405$ at the osc minima to $Q_{\max}=\phigr/2=0.809$ on the comb: the stack is a chain of sub-critically damped oscillators ($Q<1$ everywhere), sharpest on the shells. $G_R$ falls to $1/e$ in $\phigr=1.618$ ordinal units---a fixed $\phigr$-shell e-folding, recovering the redshift $\tanh(n/\phigr)$ envelope.
+
+Finally, the GW-echo decrement carried as an \emph{input} in the bounce and horizon notes is here \emph{derived} as (damping rate)$\times$(mode spacing). The amplitude ratio of consecutive comb echoes is
+\begin{equation}
+\frac{|h_{n+1}|}{|h_n|}=e^{-\frac{1}{\phigr}\Dk}=e^{-\frac{\pi}{2\phigr\lnphi}}=e^{-S_1}=0.1330,
+\label{eq:fieldeq:echo}
+\end{equation}
+with the identity $S_1=\tfrac{1}{\phigr}\Dk=2k_1/\phigr$ holding exactly (residual $0$). This is an algebraic identity, not a fit: the bounce action factorizes into the imaginary part $1/\phigr$ (boost quantum) and the real spectral spacing $\Dk$ (osc lattice), each pinned independently---the field equation paying for itself by removing $S_1$ as a separately-imposed template input. The dimensionless ratio $|\mathrm{Im}\,\omega|/\mathrm{Re}\,\omega=1/\phigr=0.618$ on the comb gives an observable timing ratio $\tanh(1/\phigr)=0.5498$ against the LIGO re-analysis value $0.548$---a $0.4\%$ miss, an \emph{honest bracket} $[0.54,0.55]$, not an exact hit. The falsifier is sharp: a confirmed echo train with $\gamma_{\text{echo}}\notin[0.13,0.14]$, a log-time comb spacing $\neq e^{\pi/2}=4.81$, or an inversion-shell mode with $Q\gg1$ contradicts the derived dispersion.

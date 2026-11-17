@@ -1,0 +1,16 @@
+3D Spatial Audio Test - Position Information
+==================================================
+
+Time     Name            Position             Frequency 
+------------------------------------------------------------
+1.1      Circle-1        (3.0, 0.0, 0.0)      600       
+2.2      Circle-2        (2.1, 2.1, 0.0)      650       
+3.3      Circle-3        (0.0, 3.0, 0.0)      700       
+4.4      Circle-4        (-2.1, 2.1, 0.0)     750       
+5.5      Circle-5        (-3.0, 0.0, 0.0)     800       
+6.6      Circle-6        (-2.1, -2.1, 0.0)    850       
+7.7      Circle-7        (-0.0, -3.0, 0.0)    900       
+8.8      Circle-8        (2.1, -2.1, 0.0)     950       
+
+Total positions: 8
+Instructions: Put on headphones and listen for each tone's position in 3D space.

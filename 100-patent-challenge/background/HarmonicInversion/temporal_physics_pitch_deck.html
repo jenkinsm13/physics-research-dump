@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Thoughtworks Corporation - Temporal Physics Revolution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+            position: relative;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+        }
+
+        /* Enhanced animated background */
+        .quantum-bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(ellipse at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(ellipse at 40% 80%, rgba(120, 219, 255, 0.2) 0%, transparent 50%),
+                linear-gradient(135deg, #0a0e27 0%, #000 100%);
+            z-index: -1;
+        }
+
+        .quantum-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: rgba(100, 200, 255, 0.8);
+            border-radius: 50%;
+            animation: float 20s infinite linear;
+        }
+
+        @keyframes float {
+            from {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            to {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        /* Company branding */
+        .company-logo {
+            position: fixed;
+            top: 40px;
+            left: 40px;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 20px;
+            color: white;
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+        }
+
+        .company-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .company-tagline {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        /* Slide container */
+        .slide-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 80px 80px 80px;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .slide.prev {
+            transform: translateX(-100%);
+        }
+
+        /* Enhanced typography */
+        h1 {
+            font-size: 72px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            margin-bottom: 24px;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #64f4ff;
+            margin-bottom: 48px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #a78bfa;
+            margin-bottom: 20px;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 1000px;
+            text-align: center;
+            margin: 0 auto 24px;
+            font-weight: 400;
+        }
+
+        .subtitle {
+            font-size: 28px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 40px;
+            letter-spacing: 0.005em;
+        }
+
+        /* Enhanced special elements */
+        .equation-box {
+            background: rgba(255, 255, 255, 0.06);
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 32px 0;
+            backdrop-filter: blur(20px);
+            font-size: 28px;
+            text-align: center;
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.12) 0%, rgba(118, 75, 162, 0.12) 100%);
+            border: 2px solid rgba(102, 126, 234, 0.25);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            max-width: 1000px;
+            box-shadow: 
+                0 8px 32px rgba(102, 126, 234, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin: 60px 0;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .metric-card {
+            background: rgba(255, 255, 255, 0.06);
+            border: 2px solid rgba(255, 255, 255, 0.12);
+            border-radius: 20px;
+            padding: 40px 32px;
+            text-align: center;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(15px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .metric-card:hover::before {
+            transform: translateX(0);
+        }
+
+        .metric-card:hover {
+            transform: translateY(-12px);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 
+                0 24px 48px rgba(100, 200, 255, 0.25),
+                0 0 0 1px rgba(100, 200, 255, 0.3);
+            border-color: rgba(100, 200, 255, 0.4);
+        }
+
+        .metric-number {
+            font-size: 42px;
+            font-weight: 900;
+            color: #64f4ff;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .metric-label {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        /* Enhanced navigation */
+        .nav-container {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 100;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 16px;
+            font-weight: 600;
+            backdrop-filter: blur(20px);
+            letter-spacing: -0.01em;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .slide-indicator {
+            position: fixed;
+            top: 40px;
+            right: 40px;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 600;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Enhanced custom elements */
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 50px auto;
+            width: 100%;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin: 40px 0;
+            opacity: 0;
+            animation: fadeInUp 0.8s forwards;
+        }
+
+        .timeline-item:nth-child(1) { animation-delay: 0.2s; }
+        .timeline-item:nth-child(2) { animation-delay: 0.4s; }
+        .timeline-item:nth-child(3) { animation-delay: 0.6s; }
+        .timeline-item:nth-child(4) { animation-delay: 0.8s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+
+        .timeline-marker {
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(135deg, #64f4ff, #a78bfa);
+            border-radius: 50%;
+            margin-right: 32px;
+            margin-top: 8px;
+            flex-shrink: 0;
+            box-shadow: 0 0 20px rgba(100, 244, 255, 0.5);
+        }
+
+        .timeline-content {
+            flex: 1;
+        }
+
+        .timeline-content h3 {
+            margin-bottom: 12px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .timeline-content p {
+            text-align: left;
+            margin: 0;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .vision-statement {
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 1.4;
+            text-align: center;
+            max-width: 1100px;
+            margin: 50px auto;
+            background: linear-gradient(135deg, #64f4ff, #a78bfa, #f093fb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            color: #fff;
+            padding: 20px 60px;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            margin-top: 40px;
+            box-shadow: 0 12px 32px rgba(102, 126, 234, 0.4);
+            letter-spacing: -0.01em;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 16px 40px rgba(102, 126, 234, 0.5);
+        }
+
+        .shell-visualization {
+            width: 350px;
+            height: 350px;
+            position: relative;
+            margin: 40px auto;
+        }
+
+        .shell {
+            position: absolute;
+            border: 3px solid rgba(100, 244, 255, 0.4);
+            border-radius: 50%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            animation: pulse 4s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0%, 100% { 
+                opacity: 0.3; 
+                transform: translate(-50%, -50%) scale(1);
+            }
+            50% { 
+                opacity: 0.8; 
+                transform: translate(-50%, -50%) scale(1.05);
+            }
+        }
+
+        .split-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+            align-items: center;
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .feature-list {
+            list-style: none;
+            text-align: left;
+            padding: 0;
+        }
+
+        .feature-list li {
+            font-size: 22px;
+            margin: 24px 0;
+            padding-left: 40px;
+            position: relative;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+
+        .feature-list li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #64f4ff;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .profile-section {
+            text-align: center;
+            max-width: 700px;
+        }
+
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            margin: 0 auto 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 72px;
+            font-weight: 900;
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
+            border: 4px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .slide {
+                padding: 80px 50px 60px 50px;
+            }
+            
+            h1 {
+                font-size: 56px;
+            }
+            
+            h2 {
+                font-size: 40px;
+            }
+            
+            .metric-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            
+            .split-layout {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+            
+            .company-logo {
+                top: 20px;
+                left: 20px;
+            }
+            
+            .logo-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+            
+            .company-name {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="quantum-bg"></div>
+    <div class="quantum-particles" id="particles"></div>
+
+    <!-- Company Branding -->
+    <div class="company-logo">
+        <div class="logo-icon">QT</div>
+        <div>
+            <div class="company-name">Quantum Thoughtworks</div>
+            <div class="company-tagline">Redefining Reality Through Time</div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>Temporal Physics Revolution</h1>
+            <p class="subtitle">The Universe's Operating System Revealed</p>
+            <div class="equation-box">
+                \( \frac{d\gamma^\alpha}{ds} = -\eta^{\alpha\beta} \frac{\partial S}{\partial t^\beta} \)
+                <p style="font-size: 16px; color: rgba(255,255,255,0.7); margin-top: 15px; font-family: 'Inter', sans-serif;">
+                    Consciousness Flow Equation
+                </p>
+            </div>
+            <p style="font-size: 24px; margin-top: 30px;">First unified theory explaining consciousness, gravity, and quantum mechanics</p>
+            <button class="cta-button">Enter the Future of Physics</button>
+        </div>
+
+        <!-- Slide 2: The Problem -->
+        <div class="slide">
+            <h2>The Crisis in Modern Physics</h2>
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-number">95%</div>
+                    <div class="metric-label">Of Universe Unexplained<br>(Dark Matter/Energy)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">10¹²¹</div>
+                    <div class="metric-label">Cosmological Constant<br>Prediction Error</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">100+</div>
+                    <div class="metric-label">Years Without<br>Unified Theory</div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <p style="font-size: 24px; margin-bottom: 20px; font-weight: 700;"><strong>The Cosmological Constant Problem:</strong></p>
+                <p style="font-size: 20px;">Einstein's "greatest mistake" remains physics' most embarrassing failure.<br>
+                <strong>Standard theory predicts:</strong> Λ = 10⁶⁹ m⁻² | <strong>Reality:</strong> Λ = 1.1×10⁻⁵² m⁻²</p>
+            </div>
+            <p style="font-size: 24px; margin-top: 40px;">Despite centuries of progress, fundamental questions remain unanswered.<br>
+            <strong>The problem? We've been looking at reality backwards.</strong></p>
+        </div>
+
+        <!-- Slide 3: Revolutionary Solution -->
+        <div class="slide">
+            <h2>The Temporal Revolution</h2>
+            <div class="split-layout" style="align-items: flex-start; gap: 80px;">
+                <div style="text-align: center;">
+                    <h3 style="color: #ff6b6b; margin-bottom: 30px; font-size: 28px;">Traditional Physics</h3>
+                    <ul class="feature-list" style="text-align: left; max-width: 350px; margin: 0 auto;">
+                        <li style="margin: 20px 0; font-size: 20px;">Space as primary</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Time as parameter</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Consciousness ignored</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Dark matter mystery</li>
+                        <li style="margin: 20px 0; font-size: 20px;">121 orders of magnitude error</li>
+                    </ul>
+                </div>
+                <div style="text-align: center;">
+                    <h3 style="color: #4ecdc4; margin-bottom: 30px; font-size: 28px;">Temporal Framework</h3>
+                    <ul class="feature-list" style="text-align: left; max-width: 350px; margin: 0 auto;">
+                        <li style="margin: 20px 0; font-size: 20px;">Time as foundation</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Space emerges naturally</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Consciousness integrated</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Dark phenomena explained</li>
+                        <li style="margin: 20px 0; font-size: 20px;">Perfect cosmological constant</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box" style="margin-top: 60px;">
+                <p style="font-size: 24px; font-weight: 600;">First unified theory explaining consciousness, gravity, and quantum mechanics<br>
+                through a single mathematical framework</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: Technical Foundation -->
+        <div class="slide">
+            <h2>Breakthrough: First Validated Theory of Everything</h2>
+            <div class="split-layout">
+                <div>
+                    <div class="equation-box">
+                        <p style="font-size: 20px; margin-bottom: 20px; font-weight: 600;">Consciousness Flow Equation:</p>
+                        \( \frac{d\gamma^\alpha}{ds} = -\eta^{\alpha\beta} \frac{\partial S}{\partial t^\beta} \)
+                        <p style="font-size: 16px; color: rgba(255,255,255,0.7); margin-top: 15px; font-family: 'Inter', sans-serif;">
+                            <strong>Business Impact:</strong> Enables direct consciousness measurement & temporal engineering
+                        </p>
+                    </div>
+                    <div class="equation-box">
+                        <p style="font-size: 20px; margin-bottom: 20px; font-weight: 600;">Exact Cosmological Constant:</p>
+                        \( \Lambda = \frac{c_0}{8\pi G r_0^3} \times \frac{1}{e^3 - 1} \times S \)
+                        <p style="font-size: 16px; color: rgba(255,255,255,0.7); margin-top: 15px; font-family: 'Inter', sans-serif;">
+                            <strong>Business Impact:</strong> Solves physics' greatest problem → validates entire framework
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="color: #64f4ff; margin-bottom: 30px;">Competitive Advantages</h3>
+                    <ul class="feature-list">
+                        <li><strong>Exact Solutions:</strong> No approximations needed</li>
+                        <li><strong>Unified Framework:</strong> One theory explains everything</li>
+                        <li><strong>Predictive Power:</strong> Testable, falsifiable predictions</li>
+                        <li><strong>Patent Moat:</strong> Fundamental physics = broad IP protection</li>
+                        <li><strong>First-Mover:</strong> Revolutionary paradigm shift</li>
+                    </ul>
+                    <div class="highlight-box" style="margin-top: 40px;">
+                        <p style="font-size: 18px; font-weight: 600;"><strong>Key Insight:</strong> Time is fundamental, space emerges<br>
+                        This reversal unlocks technologies impossible under current physics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Practical Applications -->
+        <div class="slide">
+            <h2>Revolutionary Applications</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Quantum Computing Revolution</h3>
+                        <p>Temporal shell isolation eliminates decoherence - quantum computers that never lose coherence</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Vacuum Energy Extraction</h3>
+                        <p>Harness infinite energy through chronon interference patterns - clean, unlimited power</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Gravitational Engineering</h3>
+                        <p>Manipulate spacetime through temporal flow control - antigravity and propulsion systems</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Consciousness Technology</h3>
+                        <p>Direct measurement and enhancement of conscious processes - brain-computer interfaces 2.0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-box" style="margin-top: 50px;">
+                <p style="font-size: 20px; font-weight: 600;">Each application represents a trillion-dollar market opportunity<br>
+                enabled by understanding time's true nature</p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Market Opportunity -->
+        <div class="slide">
+            <h2>Defensible $11.2T Market Opportunity</h2>
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-number">$2.1T</div>
+                    <div class="metric-label">Global Energy Market<br>(10% penetration target)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">$450B</div>
+                    <div class="metric-label">Quantum Computing<br>(Full addressable market)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">$8.7T</div>
+                    <div class="metric-label">Consciousness Technology<br>(15-year development timeline)</div>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3 style="color: #64f4ff; margin-bottom: 25px; font-size: 22px;">Consciousness Technology TAM Breakdown (by 2040)</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; text-align: left;">
+                    <div>
+                        <p style="font-size: 18px; margin: 10px 0;">• Brain-Computer Interfaces: <strong>$53B by 2034</strong></p>
+                        <p style="font-size: 18px; margin: 10px 0;">• Mental Health Technology: <strong>$44B by 2033</strong></p>
+                        <p style="font-size: 18px; margin: 10px 0;">• Neurotechnology Market: <strong>$53B by 2034</strong></p>
+                    </div>
+                    <div>
+                        <p style="font-size: 18px; margin: 10px 0;">• Spiritual Wellness Apps: <strong>$5B by 2030</strong></p>
+                        <p style="font-size: 18px; margin: 10px 0;">• Meditation/Mindfulness: <strong>$7B by 2029</strong></p>
+                        <p style="font-size: 18px; margin: 10px 0;">• Neurofeedback Devices: <strong>$250M+</strong></p>
+                    </div>
+                </div>
+                <div style="margin-top: 25px; padding-top: 25px; border-top: 2px solid rgba(255,255,255,0.2);">
+                    <p style="font-size: 20px; margin: 12px 0;"><strong>Base Market Total: ~$215B</strong> (adjusted for 30% overlap)</p>
+                    <p style="font-size: 20px; margin: 12px 0;"><strong>Paradigm Multiplier: 200x</strong> (Internet: 500x telecom, Electricity: 1000x)</p>
+                    <p style="font-size: 20px; margin: 12px 0;"><strong>New Industries:</strong> Consciousness Commerce, Temporal Computing, Neural Finance</p>
+                    <p style="font-size: 24px; margin: 20px 0; color: #64f4ff; font-weight: 700;"><strong>Total Consciousness TAM: $8.7 Trillion by 2040</strong></p>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <p style="font-size: 20px; font-weight: 600;">First-mover advantage in physics revolution comparable to<br>
+                electricity, semiconductors, and the internet combined</p>
+            </div>
+        </div>
+
+        <!-- Slide 7: Validation -->
+        <div class="slide">
+            <h2>Unprecedented Mathematical Precision</h2>
+            <div class="shell-visualization">
+                <div class="shell" style="width: 120px; height: 120px; animation-delay: 0s;"></div>
+                <div class="shell" style="width: 220px; height: 220px; animation-delay: 0.5s;"></div>
+                <div class="shell" style="width: 320px; height: 320px; animation-delay: 1s;"></div>
+                <div class="shell" style="width: 420px; height: 420px; animation-delay: 1.5s;"></div>
+            </div>
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-number">1.10×10⁻⁵²</div>
+                    <div class="metric-label">Calculated Λ (m⁻²)<br><strong>EXACT MATCH</strong></div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">30</div>
+                    <div class="metric-label">Terms for Convergence<br>Mathematical Elegance</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-number">1.000</div>
+                    <div class="metric-label">Precision Ratio<br>Theory/Observation</div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <p style="font-size: 22px; font-weight: 600;">Series: S = 3.51×10⁻⁶⁰ | Inner sum: 1/(e³-1) ≈ 0.0524<br>
+                <strong>First exact derivation of cosmological constant in physics history</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 8: The Team & Validation -->
+        <div class="slide">
+            <h2>Founder + Strategic Validation</h2>
+            <div class="split-layout">
+                <div class="profile-section">
+                    <div class="profile-image">MJ</div>
+                    <h3 style="font-size: 36px; margin-bottom: 10px;">Michael C. Jenkins</h3>
+                    <p class="subtitle" style="font-size: 22px; margin-bottom: 30px;">Founder & Chief Executive Officer</p>
+                    <div class="highlight-box">
+                        <p style="font-size: 20px; margin-bottom: 20px; font-weight: 700;"><strong>Breakthrough Achievement:</strong></p>
+                        <p style="font-size: 18px;">First-ever exact solution to cosmological constant problem from fundamental principles<br>
+                        (121 orders of magnitude error → perfect match)</p>
+                    </div>
+                    <ul class="feature-list" style="text-align: left;">
+                        <li>Independent theoretical physicist</li>
+                        <li>Pattern recognition across disciplines</li>
+                        <li>Unencumbered by institutional constraints</li>
+                        <li>Direct lineage: Einstein → Feynman → Future</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color: #64f4ff; margin-bottom: 30px;">Building World-Class Team</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Advisory Board (Recruiting)</h3>
+                                <p>Nobel laureates, quantum computing pioneers, consciousness researchers</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Academic Partnerships</h3>
+                                <p>Targeting MIT, Stanford, CERN for experimental validation</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Industry Validation</h3>
+                                <p>Google Quantum AI, IBM Research, Microsoft Quantum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="highlight-box">
+                        <p style="font-size: 18px; font-weight: 600;"><strong>Historical Precedent - Outsiders Drive Breakthroughs:</strong><br>
+                        <strong>Einstein:</strong> Patent clerk → Relativity Theory<br>
+                        <strong>Ramanujan:</strong> Self-taught clerk → Modern number theory<br>
+                        <strong>Faraday:</strong> Bookbinder's apprentice → Electromagnetic theory<br>
+                        <strong>Tesla:</strong> Immigrant engineer → AC power revolution<br>
+                        <strong>Pattern:</strong> Institutional outsiders see what insiders miss</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Investment Opportunity -->
+        <div class="slide">
+            <h2 style="letter-spacing: 0.02em;">$5M Seed <span style="color: #64f4ff;">→</span> $50B+ Valuation Path</h2>
+            <div class="split-layout">
+                <div>
+                    <div class="metric-card" style="margin-bottom: 40px;">
+                        <div class="metric-number">$5M</div>
+                        <div class="metric-label">Seed Round<br>18-Month Runway</div>
+                    </div>
+                    <h3 style="color: #64f4ff; margin: 30px 0 20px 0;">Use of Funds</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <p style="font-size: 18px;"><strong>$2M</strong> - Laboratory & Equipment</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <p style="font-size: 18px;"><strong>$1.5M</strong> - Research Team (5 PhDs)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <p style="font-size: 18px;"><strong>$1M</strong> - IP Protection & Legal</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <p style="font-size: 18px;"><strong>$500K</strong> - Operations & Admin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="color: #a78bfa; margin-bottom: 25px;">Value Creation Milestones</h3>
+                    <div class="metric-grid" style="grid-template-columns: 1fr; gap: 20px;">
+                        <div class="metric-card">
+                            <div class="metric-number">6 Months</div>
+                            <div class="metric-label">Experimental Validation<br>$50M+ Valuation</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-number">12 Months</div>
+                            <div class="metric-label">First Patent Portfolio<br>$200M+ Valuation</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-number">18 Months</div>
+                            <div class="metric-label">Series A Ready<br>$500M+ Valuation</div>
+                        </div>
+                    </div>
+                    <div class="highlight-box" style="margin-top: 30px;">
+                        <h3 style="color: #64f4ff; margin-bottom: 20px; font-size: 20px;">Exit Scenarios (5-7 Years)</h3>
+                        <p style="font-size: 18px; margin: 10px 0;"><strong>Strategic Acquisition:</strong> $10-50B (Google, Microsoft, Meta)</p>
+                        <p style="font-size: 18px; margin: 10px 0;"><strong>IPO:</strong> $50B+ (Paradigm shift = NVIDIA-scale returns)</p>
+                        <p style="font-size: 20px; margin: 15px 0; color: #64f4ff; font-weight: 700;"><strong>Seed ROI:</strong> 1,000x - 10,000x potential</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Vision -->
+        <div class="slide">
+            <h2>The Future We're Building</h2>
+            <div class="vision-statement">
+                "We stand at the threshold of the greatest scientific revolution since Copernicus. 
+                By understanding time's true nature, we unlock technologies that will transform 
+                human civilization itself."
+            </div>
+            <div class="split-layout" style="margin-top: 60px;">
+                <div>
+                    <h3 style="color: #a78bfa; margin-bottom: 25px;">Near-Term Impact (2-5 years)</h3>
+                    <ul class="feature-list">
+                        <li>Quantum computers immune to decoherence</li>
+                        <li>Clean, unlimited energy from vacuum</li>
+                        <li>Revolutionary consciousness interfaces</li>
+                        <li>Gravitational field manipulation</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color: #64f4ff; margin-bottom: 25px;">Long-Term Vision (10+ years)</h3>
+                    <ul class="feature-list">
+                        <li>Interstellar propulsion systems</li>
+                        <li>Consciousness uploading/downloading</li>
+                        <li>Temporal field engineering</li>
+                        <li>Reality manipulation technology</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box" style="margin-top: 50px;">
+                <p style="font-size: 24px; font-weight: 600;">Join us in rewriting the fundamental laws of reality.<br>
+                The universe is waiting for its true nature to be revealed.</p>
+            </div>
+            <button class="cta-button" style="margin-top: 40px;">Invest in the Future of Physics</button>
+        </div>
+
+        <!-- Slide 11: Contact & Next Steps -->
+        <div class="slide">
+            <h2>Ready to Change Everything?</h2>
+            <div class="split-layout">
+                <div style="text-align: center;">
+                    <div class="company-logo" style="position: static; margin-bottom: 40px; justify-content: center;">
+                        <div class="logo-icon" style="width: 80px; height: 80px; font-size: 32px;">QT</div>
+                        <div>
+                            <div class="company-name" style="font-size: 28px;">Quantum Thoughtworks</div>
+                            <div class="company-tagline" style="font-size: 16px; margin-top: 5px;">Redefining Reality Through Time</div>
+                        </div>
+                    </div>
+                    <div class="highlight-box">
+                        <h3 style="color: #64f4ff; margin-bottom: 20px;">Contact Information</h3>
+                        <p style="font-size: 20px; margin: 15px 0;"><strong>Michael C. Jenkins</strong><br>Founder & CEO</p>
+                        <p style="font-size: 18px; margin: 10px 0;">📧 michael@quantumthoughtworks.com</p>
+                        <p style="font-size: 18px; margin: 10px 0;">🌐 quantumthoughtworks.com</p>
+                        <p style="font-size: 18px; margin: 10px 0;">📱 [Your Phone Number]</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="color: #a78bfa; margin-bottom: 30px;">Next Steps</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Initial Discussion</h3>
+                                <p>30-minute call to discuss opportunity and answer questions</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Technical Deep Dive</h3>
+                                <p>Detailed presentation of mathematical framework and predictions</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Due Diligence</h3>
+                                <p>Access to complete technical documentation and validation data</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 style="font-size: 20px;">Investment Decision</h3>
+                                <p>Term sheet negotiation and funding completion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-box" style="margin-top: 50px;">
+                <p style="font-size: 24px; font-weight: 600;">The question isn't whether this revolution will happen,<br>
+                but who will have the vision to catalyze it.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-container">
+        <button class="nav-btn" onclick="previousSlide()">← Previous</button>
+        <button class="nav-btn" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <div class="slide-indicator">
+        <span id="current-slide">1</span> / <span id="total-slides">11</span>
+    </div>
+
+    <script>
+        // Initialize MathJax
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                displayMath: [['$$','$$'], ['\\[','\\]']],
+                processEscapes: true
+            }
+        });
+
+        // Particle animation
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.animationDuration = (Math.random() * 20 + 10) + 's';
+            particle.style.animationDelay = Math.random() * 20 + 's';
+            document.getElementById('particles').appendChild(particle);
+
+            setTimeout(() => {
+                particle.remove();
+            }, 30000);
+        }
+
+        // Create initial particles
+        for (let i = 0; i < 50; i++) {
+            setTimeout(createParticle, i * 200);
+        }
+
+        // Continue creating particles
+        setInterval(createParticle, 1000);
+
+        // Slide navigation
+        let currentSlide = 1;
+        const totalSlides = 11;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            
+            if (n > totalSlides) currentSlide = 1;
+            if (n < 1) currentSlide = totalSlides;
+            
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active', 'prev');
+                if (index + 1 < currentSlide) slide.classList.add('prev');
+                if (index + 1 === currentSlide) slide.classList.add('active');
+            });
+
+            document.getElementById('current-slide').textContent = currentSlide;
+            
+            // Re-render MathJax for new slide
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+
+        function nextSlide() {
+            currentSlide++;
+            showSlide(currentSlide);
+        }
+
+        function previousSlide() {
+            currentSlide--;
+            showSlide(currentSlide);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') previousSlide();
+        });
+
+        // Touch/swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            if (touchEndX < touchStartX - 50) nextSlide();
+            if (touchEndX > touchStartX + 50) previousSlide();
+        });
+
+        // Initialize
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>

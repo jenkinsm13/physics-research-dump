@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{microtype}
+\usepackage[left=1.25in, right=1.25in, top=1.5in, bottom=1.5in]{geometry} 
+\usepackage[english]{babel}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\geometry{a4paper}
+\setlength{\parskip}{12pt} 
+
+% Configuration for the listings package to format Python code
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    commentstyle=\color{green},
+    morecomment=[l][\color{magenta}]{\#},
+    frame=single, % adds a frame around the code
+    breaklines=true, % sets automatic line breaking
+    breakatwhitespace=true, % sets if automatic breaks should only happen at whitespace
+    showstringspaces=false, % Do not emphasize spaces in strings
+}
+
+\title{Modeling Chronon Interactions with \\``Call of the Void'' Potential}
+\author{Michael Christopher Jenkins}
+\newcommand{\companyname}{\textbf{Quantum Transformations, Inc.}}
+\date{\today \\[10pt] \companyname}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+This paper presents a detailed mathematical derivation of the modified Schrödinger equation incorporating the ``call of the void'' potential for modeling chronon interactions. The proposed equation is derived by incorporating a double Gaussian potential well formulation to represent the attraction-repulsion forces of the call of the void. The resulting equation can be solved numerically or analytically to reveal the dynamics of the chronon wavefunction influenced by the call of the void potential.
+\end{abstract}
+
+\begin{theorem}[Wavelets arising from Chronons]
+Given a time field \(T\) composed of discrete units of time, or chronons, each chronon \(c\) is associated with a wavelet \(w_c(t)\) in the time-frequency domain.
+\end{theorem}
+
+\begin{proof}:
+Let's denote the time associated with a chronon as \(t_c\) and assume that the wavelet associated with each chronon \(w_c(t)\) is a function of time localized around \(t_c\).
+
+By wavelet theory, we know that \(w_c(t)\) can be expressed as a scaled and translated version of a mother wavelet \(\psi(t)\):
+
+\(w_c(t) = a_c\psi(t - t_c)\),
+
+where \(a_c\) is the scaling factor.
+
+Assuming that each chronon gives rise to a wavelet, the time field \(T\) can be represented as a superposition of these wavelets:
+
+\(T(t) = \sum_{c} w_c(t) = \sum_{c} a_c\psi(t - t_c)\).
+
+This expression shows that the time field is a composition of wavelets arising from individual chronons, which completes the proof.
+\end{proof}
+
+\begin{center}
+    \textbf{\Large Mathematical Derivation of the \\Modified Schrödinger Equation}\\[10pt]
+    \textit{Incorporating the ``Call of the Void'' Potential for Modeling Chronon Interactions}
+\end{center}
+
+\begin{align*}
+i\hbar\frac{\partial \Psi(r,t)}{\partial t} &= \left(-\frac{\hbar^2}{2m}\nabla^2 + \hat{V} -V_1 e^{-\frac{(r-r_1)^2}{2\sigma_1^2}} + V_2 e^{-\frac{(r-r_2)^2}{2\sigma_2^2}} \right)\Psi(r,t)
+\end{align*}
+
+Where:
+\begin{align*}
+\Psi(r,t) &\text{ is the chronon wavefunction} \\
+\hat{H} &\text{ is the Hamiltonian operator} \\
+\hat{T} &\text{ is the kinetic energy operator} \\
+\hat{V} &\text{ is the standard potential energy operator} \\
+\hat{W}_{\text{void}} &\text{ represents the additional ``call of the void'' potential} \\
+V_1, \sigma_1 &\text{ characterize the attractive potential well} \\
+V_2, \sigma_2 &\text{ characterize the repulsive potential well} \\
+r_2 - r_1 &\text{ is the distance between the potential wells}
+\end{align*}
+
+The proposed modified Schrödinger equation incorporates a double Gaussian potential well formulation to model the attraction-repulsion forces of the call of the void. This equation can be solved numerically or analytically to reveal the dynamics of the chronon wavefunction influenced by the call of the void potential. The derivation presented here provides a starting point for modeling the speculated attraction-repulsion forces between chronons using established quantum mechanical principles.
+
+\begin{align*}
+i\hbar\frac{\partial \Psi(r,t)}{\partial t} &= \hat{H}\Psi(r,t) \\
+\hat{H} &= \hat{T} + \hat{V} + \hat{W}_{\text{void}} % Replace \hat{W}_{void} with \hat{W}_{\text{void}} to fix the chktex warning
+\end{align*}
+
+Where $\Psi(r,t)$ is the chronon wavefunction, $\hat{H}$ is the Hamiltonian operator, $\hat{T}$ is the kinetic energy operator, $\hat{V}$ is the standard potential energy operator, and $\hat{W}_{\text{void}}$ represents the additional ``call of the void'' potential.
+
+We can model the attraction-repulsion of the call of the void using a double Gaussian potential well formulation:
+
+\begin{align*}
+\hat{W}_{\text{void}} = -V_1 e^{-\frac{(r-r_1)^2}{2\sigma_1^2}} + V_2 e^{-\frac{(r-r_2)^2}{2\sigma_2^2}} 
+\end{align*}
+
+Where $V_1$ and $\sigma_1$ characterize the attractive potential well, while $V_2$ and $\sigma_2$ characterize the repulsive well. The distance between the wells is given by $r_2 - r_1$.
+
+Substituting these operators into the Schrödinger equation yields the proposed modified equation:
+
+\begin{align*}
+i\hbar\frac{\partial \Psi(r,t)}{\partial t} &= \left(-\frac{\hbar^2}{2m}\nabla^2 + \hat{V} -V_1 e^{-\frac{(r-r_1)^2}{2\sigma_1^2}} + V_2 e^{-\frac{(r-r_2)^2}{2\sigma_2^2}} \right)\Psi(r,t)
+\end{align*}
+
+Which can be solved numerically or analytically to reveal chronon wavefunction dynamics influenced by the call of the void potential. This derivation provides a starting point for modeling the speculated attraction-repulsion forces between chronons using established quantum mechanical principles.
+
+\end{document}

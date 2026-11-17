@@ -1,0 +1,7 @@
+jax
+jaxlib
+equinox
+optax
+yfinance
+scikit-learn
+matplotlib 

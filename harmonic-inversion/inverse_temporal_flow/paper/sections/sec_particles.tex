@@ -1,0 +1,182 @@
+\section{The particle sector}\label{sec:particles}
+
+The two-vector $\Vvec(k)=(\cosh\rap,-\sinh\rap)$, $\rap=k/\phigr$, and its
+oscillatory weight $\osc(k)=1/(1+\cos^2(2k\lnphi))$ are enough to read the
+Standard-Model fermions off the flow-reversal lattice. The single spectroscopic
+phase is $\theta(k)\equiv 2k\lnphi\pmod\pi$, and gravity, flow, and correlation
+weight are all functions of it through $\osc(k)$. Bosons live on the
+oscillation peaks $\osc=1$ (the inversion shells $k_n=(2n-1)\pi/(4\lnphi)$);
+fermions live on the nodes $\osc=\half$, since the spin-$\half$ half-boost
+$\rap/2=k/(2\phigr)$ at doubled depth lands $\osc(2k_n)=\half=\osc(0)$ exactly.
+Half-integer spin thus inhabits the antisymmetric $\Gflow$ branch natively.
+
+\subsection{Charged leptons: the $SO(2)$ rotor orbit}
+
+The mass fit places the charged leptons at ordinals $k_e\approx 24$,
+$k_\mu\approx 63$, $k_\tau\approx 102$ --- an arithmetic comb with exact integer
+step
+\begin{equation}
+k_\mu-k_e=k_\tau-k_\mu=39=6\Dk \;\equiv\; \Delta_g,
+\label{eq:particles:step}
+\end{equation}
+one generation being $39$ shells (six oscillation periods, twelve inversion-shell
+terraces) deeper into inverse flow. The phase decrement is constant to machine
+precision because $39$ shells advance the raw phase by $78\lnphi=11.948\,\pi$,
+whose floor count of $\pi$-boundaries is exactly $12$ at every step. Folding out
+those twelve flow reversals gives the generational drift invariant
+\begin{equation}
+\delta\theta_g \;=\; 78\lnphi-12\pi \;=\; -0.16459\ \mathrm{rad},
+\label{eq:particles:drift}
+\end{equation}
+a theorem, not a fit. Lifting each lepton to its phase vector
+$\mathbf e(k)=(\cos\theta,\sin\theta)$, the whole tower is one rigid rotation,
+\begin{equation}
+\mathbf e(k+\Delta_g)=\mathsf R(\delta\theta_g)\,\mathbf e(k),
+\qquad \det\mathsf R=1,
+\label{eq:particles:rotor}
+\end{equation}
+verified $\mathsf R\,\mathbf e(24)=\mathbf e(63)$, etc., to $\lesssim 10^{-14}$.
+Since $\delta\theta_g/\pi$ is irrational the orbit never closes: the lepton comb
+is aperiodic and Weyl-equidistributes. The three lepton ordinals are an exactly
+equispaced (rigid) orbit; this rigidity is why there is no tree-level lepton
+mixing. The next rung is exact and parameter-free, $k_4=k_\tau+\Delta_g=141$;
+the mass there is only \emph{bracketed} to $\sim1.4$--$160$~GeV, as three points
+cannot stably fix both the affine slope and the $\cos\theta$ curvature term.
+
+\begin{table}[ht]\centering
+\begin{tabular}{lccccc}
+\toprule
+lepton & $k$ & $\theta\bmod\pi$ & $\cos\theta$ & $\osc$ & $\kfren$ \\
+\midrule
+$e$    & $24$  & $1.10702$ & $-0.44733$ & $0.83326$ & $1.59545$ \\
+$\mu$  & $63$  & $0.94243$ & $-0.58782$ & $0.74320$ & $1.27553$ \\
+$\tau$ & $102$ & $0.77784$ & $-0.71243$ & $0.66332$ & $1.00742$ \\
+$k_4$  & $141$ & $0.61325$ & $-0.81778$ & $0.59900$ & $0.80262$ \\
+\bottomrule
+\end{tabular}
+\caption{Lepton ordinals on the comb. All sit off-reversal ($\cos\theta<0$,
+$\Phi>0$); $\kfren$ drains monotonically toward the floor $\half$ as mass rises.}
+\label{tab:particles:leptons}
+\end{table}
+
+\subsection{Spin and the half-boost}
+
+The boost-invariant mass is the hyperbolic Casimir, identical for the vector and
+its spinor half-boost:
+\begin{equation}
+M^2=\Gsym^2-\Gflow^2=\osc^2(k),
+\qquad (\Gsym,-\Gflow)=\osc(k)\,(\cosh\rap,\sinh\rap),
+\label{eq:particles:casimir}
+\end{equation}
+verified $M^2=\osc^2$ to $\le2.5\times10^{-14}$. The spin--torsion contact term
+cancels out of $M^2$. On an inversion shell $M^2(k_n)=1$ while the local torsion
+rate $\tfren$ passes through zero --- flow reversal at a unit mass-shell, not a
+vanishing of coupling.
+
+\subsection{Quarks and CKM (honest framing)}
+
+Inverting the lepton calibration $\ln m=ak+b$ ($a=0.10454$) on the PDG masses
+gives quark ordinals $u/d/s/c/b/t=37.8/45.2/73.8/98.8/110.2/145.8$ --- a
+\emph{strained} rotor orbit, not equispaced. A mass ratio is a full boost chord
+$m_i/m_j=e^{a(k_i-k_j)}$, so its square root is the spin-$\half$ half-boost
+chord. The Cabibbo angle is the down-sector half-chord:
+\begin{equation}
+\lambda=\sin\theta_c \;\overset{\text{GST}}{\simeq}\; \sqrt{m_d/m_s}=0.2242,
+\label{eq:particles:cabibbo}
+\end{equation}
+versus $|V_{us}|=0.2243$ ($0.0\%$), $\theta_c=12.96^\circ$ vs $13.04^\circ$. This
+is the standard Gatto--Sartori--Tonin relation, and we are explicit that
+\emph{$\phigr$ cancels identically}: substituting $k_i-k_j=(\ln m_i-\ln m_j)/a$
+collapses the exponent to $\exp[\half(\ln m_i-\ln m_j)]$, so both $\lnphi$ and
+$a$ drop out and $\lambda$ is a function of $m_d,m_s$ alone (confirmed to
+$<3\times10^{-17}$). The framework owns the \emph{interpretation} --- generation
+mixing is a half-boost chord on the inversion circle, making GST mandatory rather
+than coincidental --- not the digit. The Wolfenstein ladder is reproduced in
+structure but only bracketed numerically: $|V_{cb}|\sim\lambda^2$ is $+23\%$
+(residual $A=0.81$ unexplained), $|V_{ub}|\sim\lambda^3$ is a factor $\sim 3$
+high. The CP apex is the one place $\phigr$ enters genuinely, as an accumulated
+\emph{compact}-rotor phase:
+\begin{equation}
+\sqrt{\rho^2+\eta^2}\;\sim\;\sin(2|\delta\theta_g|)=0.323,
+\label{eq:particles:cp}
+\end{equation}
+versus the global-fit apex $0.383$ ($-16\%$), an honest bracket
+$\sin(2|\delta\theta_g|)<0.383<\sin(3|\delta\theta_g|)=0.474$.
+
+\subsection{Electroweak gauge structure}
+
+The flow-space $2\times2$ generators are already on the table. The spinor
+half-boost $\sigma_x$, the now-involution $\sigma_z$, and their commutator
+$\sigma_y$ close $\mathfrak{su}(2)$ \emph{exactly} (residual $0$),
+$[\sigma_x,\sigma_y]=2i\sigma_z$ and cyclic --- so $SU(2)_L$ is the half-boost
+triplet, acting only on the spinor (chiral) doublet while the full boost stays a
+weak-isospin singlet. Hypercharge $U(1)_Y$ is the compact rotor of
+\eqref{eq:particles:rotor}, the Wick sibling of the boost. Positing the
+coupling-ratio ansatz $\tan^2\theta_W=1/\phigr$ (flagged as the load-bearing
+assumption; the algebra fixes the generators, not their coupling normalization),
+the golden identity $\phigr+1=\phigr^2$ gives an exact bare value, and one shell
+quantum of running carries it to
+\begin{equation}
+\sin^2\theta_W(m_Z)=\frac{1}{\phigr^2}\cdot\frac{1}{\phigr}=\frac{1}{\phigr^3}
+=0.23607,
+\label{eq:particles:weinberg}
+\end{equation}
+versus the measured $\overline{\text{MS}}$ value $0.23121$: $+2.1\%$. We flag the
+scheme honestly --- on-shell the miss is $+5.8\%$, the same size as the
+scheme-conversion correction, so the favorable $\overline{\text{MS}}$ choice is on
+the table. The mass ratio $m_W/m_Z=\sqrt2/\phigr=0.8740$ is the exact tree-level
+shadow of \eqref{eq:particles:weinberg}, not a second test. For colour the
+framework supplies only the \emph{count}: the CFT central charge $c\approx 2.94$
+rounds to $N_c=3=N_{\dim}$, but the eight-generator $\mathfrak{su}(3)$ algebra
+does not close from the $(1{+}1)$-dimensional flow-space --- recorded as an open
+edge.
+
+\subsection{Neutrinos: the near-null sector}
+
+Neutrinos sit \emph{on} the osc-nodes $\osc=\half$ at $k^\nu_m=m\,\Dk=3.26425\,m$,
+the residue of the now-seed carried to depth. The naive ``$\osc=\half\Rightarrow$
+light'' story is rejected: it is only a factor $\tfrac23$ and overshoots the scale
+by $\sim 10^2$. The real suppressor is the detailed-balance round-trip weight
+$e^{-2\rap}$ acting as the seesaw, $m_\nu=m_D^2/M_R=m_D\,e^{-2\rap_R}$, which lands
+$M_R\sim10^{10}$--$10^{14}$~GeV (mass-ladder ordinal $\sim330$, near the horizon
+shell $\Nstar=291.88$). The $m=0$ node is exactly massless ($\Gflow(0)=0$),
+forcing normal ordering $m_1=0<m_2<m_3$. The unified mass law is one formula,
+texture from the node $\sinh$-ladder and scale from the seesaw:
+\begin{equation}
+m_\nu(m)=\sqrt{\Delta m^2_{32}}\;
+\frac{\sinh(m\,\Dk/\phigr)}{\sinh(2\,\Dk/\phigr)},
+\qquad
+\frac{m_2}{m_3}=\frac{\sinh\rap_1}{\sinh\rap_2}=0.131,
+\label{eq:particles:numass}
+\end{equation}
+an honest $-24\%$ bracket against the measured $0.172$. The headline cross-prediction
+is that the reactor angle equals the charged-lepton rotor defect itself,
+\begin{equation}
+\theta_{13}=|\delta\theta_g|=|78\lnphi-12\pi|=9.43^\circ,
+\label{eq:particles:theta13}
+\end{equation}
+versus measured $8.53^\circ$ ($+10.6\%$): parameter-free, with the integers
+$78=2\Delta_g$ and $12$ forced by the lepton tower, nothing tuned to neutrinos.
+The solar angle is golden-ratio mixing $\tan\theta_{12}=1/\phigr$
+($\sin^2\theta_{12}=1/(2+\phigr)=0.276$ vs $0.304$, $-5.2\%$); $\theta_{23}=45^\circ$
+from now-surface equal weight, the weakest leg. The Dirac phase is bracketed at
+$|\delta_{CP}-\pi|=|\delta\theta_g|\,\phigr^{\,p}\in[15.3^\circ,24.7^\circ]$ with
+$p\in\{1,2\}$ \emph{not forced} --- a magnitude prediction (the measured
+$17^\circ$ sits inside), with the octant left open.
+
+\begin{table}[ht]\centering
+\begin{tabular}{llcc}
+\toprule
+angle & framework & predicted & measured \\
+\midrule
+$\theta_{13}$ & $|\delta\theta_g|$            & $9.43^\circ$  & $8.53^\circ$ \\
+$\theta_{12}$ & $\tan^{-1}(1/\phigr)$         & $31.72^\circ$ & $33.46^\circ$ \\
+$\theta_{23}$ & now-surface equal weight       & $45^\circ$    & $42$--$49^\circ$ \\
+$\theta_c$    & $\sin^{-1}\!\sqrt{m_d/m_s}$ (GST) & $12.96^\circ$ & $13.04^\circ$ \\
+\bottomrule
+\end{tabular}
+\caption{Mixing angles. $\theta_{13}$ and $\theta_c$ are parameter-free; the GST
+$\theta_c$ carries no $\phigr$ (it cancels), whereas $\theta_{13}$ carries $\phigr$
+through $\delta\theta_g$.}
+\label{tab:particles:mixing}
+\end{table}

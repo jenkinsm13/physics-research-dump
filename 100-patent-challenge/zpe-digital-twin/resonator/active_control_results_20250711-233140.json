@@ -1,0 +1,18 @@
+{
+  "best_design": {
+    "resonant_harmonic_l": 3,
+    "coupling_efficiency": 0.000999,
+    "q_factor": 4.999,
+    "response_speed_fs": 10000.1,
+    "id": 1,
+    "fitness": 1e+50
+  },
+  "best_fitness": 1e+50,
+  "parameters": {
+    "population_size": 50,
+    "generations": 10,
+    "mutation_rate": 0.3
+  },
+  "timestamp": "20250711-233140",
+  "runtime_seconds": 756.344969034195
+}

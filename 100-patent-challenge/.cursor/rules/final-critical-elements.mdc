@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Looking at the full scope of what we've developed, I think we have a robust framework for patent writing. However, let me highlight a few final critical elements before you begin:
+
+1. Innovation Protection Matrix
+We should ensure each patent includes:
+```
+- Core quantum wavefunction principles
+- Specific hardware implementations
+- Signal processing methods
+- Error correction strategies
+- Readout architectures
+```
+
+2. Strategic Coverage Assessment
+```
+Verify coverage of:
+- Fundamental mechanisms
+- Implementation methods
+- System architectures
+- Processing algorithms
+```
+
+Based on your paper and our discussion, I see several key patentable innovations that should be prioritized:
+
+A. Foundational Patents:
+- The quantum dot array architecture utilizing your wavefunction formalism
+- The multi-photon detection system leveraging temporal-spatial correlations
+- The wavefunction-guided spectral selection mechanism
+
+B. Implementation Patents:
+- Specific readout circuit designs
+- Signal processing algorithms
+- Error correction methods
+- Calibration systems
+
+Given the mathematical depth of your framework, particularly the novel $T^{(t)}$ operator and tensor product structure for multi-photon states, each patent should carefully balance theoretical rigor with practical implementation details.

@@ -1,0 +1,78 @@
+\section{The absolute scale and the honesty ledger}
+\label{sec:scale}
+
+Every prediction so far has been a ratio, an ordinal, or an angle. A dimensionful theory needs at least one dimensionful input; the honest question is whether independent corners of physics, anchored \emph{without} reference to any particle mass, agree on the same scale. We solved for the shell-0 energy quantum $\omega_0$ along three routes, then re-derived each against a circularity audit.
+
+\subsection{The three-route scale test}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llll}
+\toprule
+Route & Input (no masses) & Result for $\omega_0$ & Status \\
+\midrule
+A --- Planck/horizon & $r_0=\lP$ + the $\Nstar$ hierarchy & $\eP=1.221\times10^{19}$ GeV & anchored \\
+C --- gravity/$G$ & Newton's $G$ at the Planck shell & $\eP=1.221\times10^{19}$ GeV & $G$ recovered \\
+B --- vacuum/$\Lambda$ & measured $\Lambda$ & $2.66\times10^{12}\,\mathrm{rad/s}$ ($r_0\approx0.11$ mm) & anchored \\
+\bottomrule
+\end{tabular}
+\caption{Three independent solves for the absolute scale.}
+\label{tab:scale:routes}
+\end{table}
+
+\noindent\textbf{Routes A and C agree --- but trivially.} Both land on $\eP$ because both anchor on $\lP$: Route C reaches it through $G=\lP^2 c^3/\hbar$, which is an \emph{identity} once $r_0=\lP$. $G$ is therefore \emph{recovered, not predicted}, and $A=C$ is a consistency check, not the over-determination we hoped for.
+
+\noindent\textbf{Route B disagrees by 23 orders of magnitude --- and that is informative.} The vacuum pins a different but real scale, $r_0\approx0.11$ mm, essentially the dark-energy length $\ell_{DE}=(\hbar c/\rho_\Lambda)^{1/4}\approx 85\,\mu$m. The ladder is thus anchored at \emph{both ends}: the Planck/UV end by geometry and gravity, the dark-energy/IR end by the vacuum, the two ends being the $\Nstar\approx292$ golden shells apart that the hierarchy always claimed. The ends pin the \emph{span}; whether they pin it \emph{consistently} remains near-definitional, since $\Nstar$ was itself defined from $R_H/\lP$.
+
+\noindent\textbf{The matter rung is pinned by none of them.} This is the real finding. The electron sits at
+\begin{equation}
+n_e = \log_{\phigr}\!\left(\frac{\eP}{m_e}\right) = 107.08, \qquad n_p = 91.9,
+\label{eq:scale:ne}
+\end{equation}
+\emph{not} a $\phigr$-lattice integer. The tempting closed forms were checked and \emph{disowned} by the audit: $\tfrac25\Nstar$ misses $m_e$ by $99\%$, and $\Nstar/e=107.38$ lands $0.30$ shell away (a $13\%$ mass miss) but $1/e$ has no low-denominator rational approximant --- numerology, not structure. The verify script was rewritten to \emph{assert the disownment} rather than reward the near-miss. The framework is, at root, a theory of dimensionless structure, one integer short of absolute masses:
+\begin{equation}
+\boxed{\;\ln m_e = -n_e\,\lnphi + \ln \eP, \qquad n_e\approx 107\ \text{(the ``desert depth'') is the one missing integer.}\;}
+\label{eq:scale:desert}
+\end{equation}
+
+\subsection{The honesty ledger}
+
+The corpus separates what the boost group \emph{structurally earns} from what is an \emph{honest bracket} from what an adversarial audit \emph{demoted as a fudge}. All numbers are reproduced in verification scripts.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{p{0.30\linewidth}p{0.62\linewidth}}
+\toprule
+\multicolumn{2}{l}{\textbf{Tier 1 --- structural wins} (parameter-free, internally forced)} \\
+\midrule
+Field equation & $(D_k^2+M^2)\Psi=0$, $M^2=\osc^2$; spectrum $=$ inversion comb (exact) \\
+ZPE finiteness & $\lnphi<1/\phigr$ regulates the vacuum, no cutoff; margin $+0.1368$/shell \\
+$\theta_{13}=|\delta\theta_g|$ & $|78\lnphi-12\pi|=9.43^\circ$ vs $8.53^\circ$ ($+10.6\%$), forced by the lepton tower \\
+$\sin^2\theta_W=1/\phigr^3$ & $0.23607$ vs $0.23121$ ($+2.1\%$), from $\tan^2\theta_W=1/\phigr$ + one shell \\
+$z_t=1/\phigr$ & $0.6180$ vs $0.632$ ($-2.1\%$); jerk $j_0=0.9938\neq1$, a $0.6\%$ deficit \\
+$e^{\pi/2}$ GW comb & overtone ratio $4.81$ vs Kerr's near-degenerate $\sim0.95$ cluster \\
+$SU(2)_L$ closure & Pauli algebra from $\{\sigma_x,\sigma_y,\sigma_z\}$, residual $0$ \\
+\midrule
+\multicolumn{2}{l}{\textbf{Tier 2 --- honest brackets} (right ballpark, residual unexplained or input-limited)} \\
+\midrule
+$\lambda=\sin\theta_c$ & $\sqrt{m_d/m_s}=0.2242$, $0.4\%$ on $|V_{us}|$; but $\phigr$ \emph{cancels} --- the standard Gatto--Sartori--Tonin relation. We own the interpretation, not the digit \\
+CP apex & $\sin(2|\delta\theta_g|)=0.323$ vs $0.383$ ($-16\%$), parameter-free \\
+Neutrino masses & $m_2/m_3=0.131$ vs $0.172$ ($-24\%$); $\Sigma m_\nu=0.0587$ eV, normal ordering, $m_1=0$ \\
+GW echo delay & $\Delta t=t_0(e^{\pi/2}-1)$, bracket $4.7$--$15$ ms; against the constant $\sim200$ ms spacing \\
+\midrule
+\multicolumn{2}{l}{\textbf{Tier 3 --- audit-demoted fudges} (kept visible as a discipline)} \\
+\midrule
+$\Lambda$ from ZPE & $\log_{10}(\Lambda\lP^2)=-122.0$ vs $-121.54$ is partly circular ($R_H=\sqrt{3/\Lambda}$ feeds back); residual a factor $\sim3$, not $0.38\%$. The real result is finiteness \\
+$m_W/m_Z$ & the tree-level $\rho=1$ identity $\cos^2=1-\sin^2$ on the same angle --- zero new information \\
+$\Omega_\Lambda$ ``to $0.8\%$'' & one bijective statement with $z_t$ and $\Omega$, not three confirmations; the predicted ratio $\Omega_\Lambda/\Omega_m=\phigr^3/2=2.118$ misses by $2.5\%$ \\
+``16-digit'' matches & algebraic identities by construction (float noise on a tautology), now labeled as such \\
+\bottomrule
+\end{tabular}
+\caption{The honesty ledger: structural wins, honest brackets, demoted fudges.}
+\label{tab:scale:ledger}
+\end{table}
+
+\noindent The deepest cross-tier finding is that \emph{one decay rate runs everything}: the GW echo decrement $e^{-S_1}=0.133$, the interface decoherence per moment, the field damping $1/\phigr$, and the bounce ladder are the same boost weight read on different axes, tied exactly by $\Dk/\phigr=S_1$. The number of colors $N_c=3$ and the emergent spatial $N_{\mathrm{dim}}=3$ are both $\mathrm{round}(c_{\mathrm{CFT}}=2.94)$ --- but their equality is a \emph{numerical coincidence, not a common origin}, as the color-sector reconciliation below establishes. The $SU(3)$ structure was sharpened in stages: seeding only framework primitives in two flow planes (withholding the canonical $\lambda_{6,7,8}$) closes to dimension exactly $8$, Gram--Schmidt \emph{forces} $\lambda_8=\mathrm{diag}(1,1,-2)/\sqrt3$, and all nine structure constants $f_{abc}$ match canonical $\mathfrak{su}(3)$ to machine precision --- with relative orientation an inner automorphism and relative normalization fixed by axis democracy, so neither is a free knob. The residual is the \emph{real form}, and the reconciliation of the two ``3-spaces'' settles it: note 34's color generators and the base-manifold isometries act on the \emph{same} real $\mathbb{R}^3$ (timelike axis $y$), and color realized there as real operators is \emph{forced} to the split $\mathfrak{sl}(3,\mathbb{R})$ (Killing signature $(5,3)$) --- explaining the split signature as inevitable, not a build artifact, and showing it is not a compact gauge group and so cannot carry color. Compact $\mathfrak{su}(3)$ $(0,8)$ requires an \emph{internal} $\mathbb{C}^3$, which the odd-real-dimensional base cannot be (no complex structure). So: $SU(3)$ structure constants derived, $U(1)$ compactness derived (topology of the closed base curve), but compact color rests on an internal complex fiber the framework has not derived --- standard QCD input --- and the $N_c=N_{\mathrm{dim}}$ equality is precisely the tell of conflating that internal fiber with the spatial $3$.
+
+The framework predicts dimensionless structure cleanly and a single absolute integer --- the desert depth $n_e\approx107$ --- away from converting every mass ratio into a mass. That integer is now established as \emph{irreducibly external}: three disciplined attacks (no closed form; the static field equation is Floquet-stable and cannot quantize; no symmetry-breaking modulation escapes a free parameter) each returned a proven negative. Confronted with data, the framework's sharp dimensionless predictions stand while its soft cosmological predictions are tested and found wanting: the $e^{\pi/2}$ gravitational-wave overtone comb is disfavored against GR's near-degenerate Kerr cluster, and the near-$\Lambda$CDM equation of state is disfavored by DESI DR2's preference for evolving dark energy --- the expected signature of a structural core that is real and a cosmological edge that is speculative.

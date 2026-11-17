@@ -1,0 +1,29 @@
+{
+  "fundamental_equations": {
+    "temporal_angular_momentum": "L_t = I_t \u00d7 \u03c9_t \u00d7 \u00ea_\u03c6",
+    "temporal_moment_of_inertia": "I_t = \u03a3(m_i \u00d7 r_i\u00b2) \u00d7 (1 + \u03b1\u221a(\u210f/m_chronon\u00d7c\u00b2\u00d7t_0))",
+    "gyroscopic_precession": "\u03a9_p = (\u03c4_external / |L_t|) \u00d7 \u221a(1 - v_t\u00b2/c_t\u00b2)",
+    "temporal_torque": "\u03c4_t = r \u00d7 F_t + \u03b4\u03c4_quantum",
+    "euler_equations": "I_t \u00d7 d\u03c9/dt + \u03c9 \u00d7 (I_t \u00d7 \u03c9) = \u03c4_external"
+  },
+  "conservation_laws": {
+    "angular_momentum": "dL_t/dt = \u03c4_external",
+    "temporal_energy": "E_t = \u00bdL_t\u00b2/I_t + V_t(\u03c6)",
+    "phase_invariance": "\u2202L/\u2202\u03c6 = 0 \u2192 L_t = constant"
+  },
+  "quantum_corrections": {
+    "angular_momentum": "L_t_quantum = L_t \u00d7 (1 + \u03a3(\u210f/2\u03c0)^n \u00d7 \u03c8_n(L_t))",
+    "uncertainty_relation": "\u0394L_t \u00d7 \u0394\u03c6 \u2265 \u210f/2",
+    "commutation_relation": "[L_i, L_j] = i\u210f\u03b5_ijk L_k"
+  },
+  "stability_conditions": {
+    "lyapunov_stability": "\u03bb_max < 0 for all eigenvalues",
+    "energy_stability": "\u2202\u00b2E/\u2202\u03b8\u00b2 > 0 at equilibrium",
+    "gyroscopic_stability": "\u03c9_spin >> \u03c9_precession"
+  },
+  "relativistic_corrections": {
+    "time_dilation": "dt' = dt \u00d7 \u221a(1 - v\u00b2/c\u00b2)",
+    "length_contraction": "L' = L \u00d7 \u221a(1 - v\u00b2/c\u00b2)",
+    "mass_energy": "E = mc\u00b2 \u00d7 \u03b3_t"
+  }
+}

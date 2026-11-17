@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoSpatial Audio Engine</title>
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #00ffff;
+            text-align: center;
+            text-shadow: 0 0 20px #00ffff;
+        }
+        
+        .control-panel {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        button {
+            background: #222;
+            color: #fff;
+            border: 1px solid #00ffff;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #00ffff;
+            color: #000;
+            box-shadow: 0 0 10px #00ffff;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .visualization {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        canvas {
+            width: 100%;
+            height: auto;
+            border: 1px solid #333;
+            background: #0a0a0a;
+        }
+        
+        .info-panel {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .matrix-display {
+            font-size: 12px;
+            background: #000;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre;
+            font-family: 'Courier New', monospace;
+        }
+        
+        input[type="range"] {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .slider-container {
+            margin: 10px 0;
+        }
+
+        #initButton {
+            background: #00ffff;
+            color: #000;
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ChronoSpatial Audio Engine</h1>
+        
+        <button id="initButton" onclick="initializeAudio()">Initialize Audio Engine</button>
+        
+        <div class="control-panel">
+            <h3>Audio Source Controls</h3>
+            <div class="controls">
+                <button id="addSourceBtn" onclick="addSoundSource()" disabled>Add Sound Source</button>
+                <button id="startEncodingBtn" onclick="startEncoding()" disabled>Start Encoding</button>
+                <button id="playDecodedBtn" onclick="playDecoded()" disabled>Play Decoded Audio</button>
+                <button onclick="toggleAnimation()">Toggle Animation</button>
+                <button onclick="clearSources()">Clear All Sources</button>
+                <button id="testToneBtn" onclick="playTestTone()" disabled>Play Test Tone</button>
+            </div>
+            
+            <h3>Consciousness Parameters</h3>
+            <div class="controls">
+                <div class="slider-container">
+                    <label>Consciousness Coherence: <span id="coherenceValue">0.5</span></label>
+                    <input type="range" id="coherence" min="0" max="1" step="0.01" value="0.5" 
+                           oninput="updateCoherence(this.value)">
+                </div>
+                <div class="slider-container">
+                    <label>Temporal Phase: <span id="phaseValue">0</span>°</label>
+                    <input type="range" id="phase" min="0" max="360" step="1" value="0" 
+                           oninput="updatePhase(this.value)">
+                </div>
+            </div>
+        </div>
+        
+        <div class="visualization">
+            <canvas id="spatialCanvas" width="500" height="500"></canvas>
+            <canvas id="temporalCanvas" width="500" height="500"></canvas>
+        </div>
+        
+        <div class="info-panel">
+            <h3>Encoded Shell Data</h3>
+            <div id="shellInfo" class="matrix-display">Audio engine not initialized. Click "Initialize Audio Engine" to begin.</div>
+        </div>
+    </div>
+
+    <script>
+        // Global state
+        let audioContext = null;
+        let soundSources = [];
+        let encodedShells = [];
+        let animating = true;
+        let time = 0;
+        let coherence = 0.5;
+        let phase = 0;
+        let audioInitialized = false;
+        
+        // Canvas contexts
+        const spatialCanvas = document.getElementById('spatialCanvas');
+        const spatialCtx = spatialCanvas.getContext('2d');
+        const temporalCanvas = document.getElementById('temporalCanvas');
+        const temporalCtx = temporalCanvas.getContext('2d');
+        
+        // Initialize audio with user gesture
+        function initializeAudio() {
+            try {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                audioInitialized = true;
+                
+                // Enable buttons
+                document.getElementById('addSourceBtn').disabled = false;
+                document.getElementById('startEncodingBtn').disabled = false;
+                document.getElementById('playDecodedBtn').disabled = false;
+                document.getElementById('testToneBtn').disabled = false;
+                document.getElementById('initButton').style.display = 'none';
+                
+                updateShellInfo();
+                
+                // Add initial sources
+                for (let i = 0; i < 5; i++) {
+                    addSoundSource();
+                }
+            } catch (error) {
+                alert('Failed to initialize audio context: ' + error.message);
+            }
+        }
+        
+        // Test tone function
+        function playTestTone() {
+            if (!audioInitialized) {
+                alert('Please initialize audio first!');
+                return;
+            }
+            
+            // Resume audio context if suspended
+            if (audioContext.state === 'suspended') {
+                audioContext.resume();
+            }
+            
+            const duration = 1; // 1 second
+            const sampleRate = audioContext.sampleRate;
+            const buffer = audioContext.createBuffer(2, sampleRate * duration, sampleRate);
+            
+            for (let channel = 0; channel < 2; channel++) {
+                const channelData = buffer.getChannelData(channel);
+                for (let i = 0; i < channelData.length; i++) {
+                    const t = i / sampleRate;
+                    // 440Hz test tone with envelope
+                    const envelope = Math.min(1, i / (sampleRate * 0.01)) * 
+                                   Math.min(1, (channelData.length - i) / (sampleRate * 0.01));
+                    channelData[i] = 0.3 * Math.sin(2 * Math.PI * 440 * t) * envelope;
+                }
+            }
+            
+            const source = audioContext.createBufferSource();
+            source.buffer = buffer;
+            source.connect(audioContext.destination);
+            source.start();
+            
+            console.log('Test tone playing: 440Hz for 1 second');
+        }
+        
+        // Mathematical functions with error handling
+        function factorial(n) {
+            if (n < 0) return NaN;
+            if (n > 20) return Infinity; // Prevent overflow
+            if (n <= 1) return 1;
+            let result = 1;
+            for (let i = 2; i <= n; i++) {
+                result *= i;
+            }
+            return result;
+        }
+        
+        function associatedLegendre(l, m, x) {
+            // Clamp x to valid range
+            x = Math.max(-1, Math.min(1, x));
+            
+            // Handle edge cases
+            if (Math.abs(m) > l) return 0;
+            
+            // Compute P_l^m(x) using recurrence relations
+            if (l === 0) return 1;
+            
+            if (l === 1) {
+                if (m === 0) return x;
+                if (Math.abs(m) === 1) return -Math.sqrt(1 - x*x);
+            }
+            
+            if (l === 2) {
+                if (m === 0) return 0.5 * (3*x*x - 1);
+                if (Math.abs(m) === 1) return -3*x*Math.sqrt(1 - x*x);
+                if (Math.abs(m) === 2) return 3*(1 - x*x);
+            }
+            
+            if (l === 3) {
+                if (m === 0) return 0.5 * x * (5*x*x - 3);
+                if (Math.abs(m) === 1) return -1.5 * (5*x*x - 1) * Math.sqrt(1 - x*x);
+                if (Math.abs(m) === 2) return 15 * x * (1 - x*x);
+                if (Math.abs(m) === 3) return -15 * Math.pow(1 - x*x, 1.5);
+            }
+            
+            // For higher orders, use simplified approximation
+            return Math.cos(l * Math.acos(x)) * Math.pow(1 - x*x, Math.abs(m)/2);
+        }
+        
+        function sphericalHarmonic(l, m, theta, phi) {
+            const factRatio = factorial(l - Math.abs(m)) / factorial(l + Math.abs(m));
+            if (!isFinite(factRatio)) return 0;
+            
+            const norm = Math.sqrt((2*l + 1) * factRatio / (4 * Math.PI));
+            const legendre = associatedLegendre(l, Math.abs(m), Math.cos(theta));
+            
+            if (m === 0) {
+                return norm * legendre;
+            } else if (m > 0) {
+                return norm * legendre * Math.cos(m * phi) * Math.sqrt(2);
+            } else {
+                return norm * legendre * Math.sin(Math.abs(m) * phi) * Math.sqrt(2);
+            }
+        }
+        
+        function radialWaveFunction(n, l, r) {
+            // Simplified radial function with bounds checking
+            if (n <= 0 || l < 0 || l >= n) return 0;
+            
+            const a0 = 1;
+            const rho = 2 * r / (n * a0);
+            const factRatio = factorial(n-l-1) / factorial(n+l);
+            
+            if (!isFinite(factRatio)) return 0;
+            
+            const norm = Math.sqrt(Math.pow(2/(n*a0), 3) * factRatio / (2*n));
+            return norm * Math.pow(rho, l) * Math.exp(-rho/2);
+        }
+        
+        // Fixed void potential implementation
+        function voidPotential(r, t) {
+            // Double Gaussian wells with fixed exponentiation
+            const V1 = 1.0, sigma1 = 0.3, r1 = -1.0;
+            const V2 = 0.8, sigma2 = 0.2, r2 = 1.0;
+            
+            const attractive = -V1 * Math.exp(-Math.pow(r - r1, 2) / (2 * sigma1 * sigma1));
+            const repulsive = V2 * Math.exp(-Math.pow(r - r2, 2) / (2 * sigma2 * sigma2));
+            const temporalMod = Math.cos(2 * Math.PI * t / 49); // n=7 shells
+            
+            return (attractive + repulsive) * temporalMod;
+        }
+        
+        // Chronon wavelet generation
+        function generateChrononWavelet(shellNumber, t) {
+            const samples = 2048;
+            const wavelet = new Float32Array(samples);
+            
+            // Morlet wavelet parameters
+            const omega0 = 5;
+            const scale = 1 / shellNumber;
+            const shift = shellNumber * Math.PI;
+            
+            for (let i = 0; i < samples; i++) {
+                const tau = (i - samples/2) / (samples/4);
+                const scaledT = (tau - shift) / scale;
+                
+                // Morlet wavelet formula
+                wavelet[i] = Math.cos(omega0 * scaledT) * Math.exp(-scaledT * scaledT / 2);
+            }
+            
+            return wavelet;
+        }
+        
+        // Sound source class with fixed coordinate calculations
+        class SoundSource {
+            constructor(x, y, z, frequency) {
+                this.position = { x, y, z };
+                this.frequency = frequency;
+                this.amplitude = 1.0;
+                this.phase = Math.random() * 2 * Math.PI;
+                
+                // Calculate spherical coordinates with safety checks
+                const r = Math.sqrt(x*x + y*y + z*z);
+                
+                if (r < 0.001) {
+                    // Handle near-origin case
+                    this.n = 1;
+                    this.l = 0;
+                    this.m = 0;
+                } else {
+                    const theta = Math.acos(Math.max(-1, Math.min(1, z / r)));
+                    const phi = Math.atan2(y, x);
+                    
+                    // Assign quantum numbers based on position
+                    this.n = Math.min(Math.max(1, Math.floor(r) + 1), 7);
+                    this.l = Math.floor(Math.abs(theta / Math.PI) * this.n);
+                    this.m = Math.floor(phi / (2 * Math.PI) * (2 * this.l + 1)) - this.l;
+                    
+                    // Ensure valid quantum numbers
+                    this.l = Math.max(0, Math.min(this.l, this.n - 1));
+                    this.m = Math.max(-this.l, Math.min(this.m, this.l));
+                }
+            }
+            
+            getSphericalHarmonicEncoding() {
+                const r = Math.sqrt(this.position.x**2 + this.position.y**2 + this.position.z**2);
+                
+                if (r < 0.001) {
+                    return {
+                        amplitude: this.amplitude,
+                        quantum: { n: this.n, l: this.l, m: this.m },
+                        gender: 'feminine'
+                    };
+                }
+                
+                const theta = Math.acos(Math.max(-1, Math.min(1, this.position.z / r)));
+                const phi = Math.atan2(this.position.y, this.position.x);
+                
+                const Ylm = sphericalHarmonic(this.l, this.m, theta, phi);
+                const Rnl = radialWaveFunction(this.n, this.l, r);
+                
+                return {
+                    amplitude: Ylm * Rnl * this.amplitude,
+                    quantum: { n: this.n, l: this.l, m: this.m },
+                    gender: this.l % 2 === 0 ? 'feminine' : 'masculine'
+                };
+            }
+        }
+        
+        // Encoding function
+        function encodeToTemporalShells() {
+            if (!audioInitialized) {
+                alert('Please initialize audio first!');
+                return;
+            }
+            
+            encodedShells = [];
+            const nShells = 7;
+            
+            for (let shell = 1; shell <= nShells; shell++) {
+                const shellData = {
+                    number: shell,
+                    frequency: audioContext.sampleRate / (shell * shell),
+                    gender: shell % 2 === 0 ? 'feminine' : 'masculine',
+                    sources: [],
+                    wavelet: null,
+                    amplitude: 0
+                };
+                
+                // Assign sources to shells
+                soundSources.forEach(source => {
+                    if (source.n === shell) {
+                        const encoding = source.getSphericalHarmonicEncoding();
+                        shellData.sources.push({
+                            source: source,
+                            encoding: encoding
+                        });
+                        shellData.amplitude += Math.abs(encoding.amplitude);
+                    }
+                });
+                
+                // Normalize amplitude
+                if (shellData.sources.length > 0) {
+                    shellData.amplitude /= shellData.sources.length;
+                }
+                
+                // Generate chronon wavelet for this shell
+                shellData.wavelet = generateChrononWavelet(shell, time);
+                
+                // Apply void potential modulation
+                const voidMod = voidPotential(shell, time / 100);
+                shellData.amplitude *= (1 + voidMod * 0.5); // Reduce modulation strength
+                
+                encodedShells.push(shellData);
+            }
+            
+            updateShellInfo();
+        }
+        
+        // Decoding function with normalization
+        function decodeFromTemporalShells() {
+            const sampleRate = audioContext.sampleRate;
+            const duration = 2; // seconds
+            const buffer = audioContext.createBuffer(2, sampleRate * duration, sampleRate);
+            
+            // First, let's create a simple test tone to verify audio is working
+            const testTone = false; // Set to true to hear a test tone
+            
+            for (let channel = 0; channel < 2; channel++) {
+                const channelData = buffer.getChannelData(channel);
+                
+                if (testTone) {
+                    // Generate a simple 440Hz test tone
+                    for (let i = 0; i < channelData.length; i++) {
+                        const t = i / sampleRate;
+                        channelData[i] = 0.3 * Math.sin(2 * Math.PI * 440 * t);
+                    }
+                } else {
+                    // Process encoded shells
+                    encodedShells.forEach(shell => {
+                        if (shell.sources.length === 0) return;
+                        
+                        // Apply consciousness-responsive filtering
+                        let resonance = 1.0;
+                        if (shell.gender === 'masculine' && coherence > 0.7) {
+                            resonance = 1.2;
+                        } else if (shell.gender === 'feminine' && coherence < 0.3) {
+                            resonance = 1.1;
+                        }
+                        
+                        // Decode each source in the shell
+                        shell.sources.forEach(({ source, encoding }) => {
+                            const baseFreq = source.frequency;
+                            const freq = baseFreq * (1 + phase / 720); // Smaller phase effect
+                            
+                            // Increase base amplitude and make encoding effect subtler
+                            const baseAmp = 0.2; // Increased from 0.1
+                            const encodingFactor = Math.min(1, Math.abs(encoding.amplitude));
+                            const amp = baseAmp * (0.5 + 0.5 * encodingFactor) * resonance;
+                            
+                            // Generate audio samples
+                            for (let i = 0; i < channelData.length; i++) {
+                                const t = i / sampleRate;
+                                
+                                // Simple sine wave generation
+                                let sample = amp * Math.sin(2 * Math.PI * freq * t + source.phase);
+                                
+                                // Add harmonics for richer sound
+                                sample += amp * 0.3 * Math.sin(2 * Math.PI * freq * 2 * t + source.phase);
+                                sample += amp * 0.1 * Math.sin(2 * Math.PI * freq * 3 * t + source.phase);
+                                
+                                // Apply envelope (fade in/out)
+                                const envelope = Math.min(1, i / (sampleRate * 0.01)) * // 10ms fade in
+                                               Math.min(1, (channelData.length - i) / (sampleRate * 0.01)); // 10ms fade out
+                                sample *= envelope;
+                                
+                                // Apply wavelet modulation more subtly
+                                if (shell.wavelet) {
+                                    const waveletIndex = Math.floor((i / channelData.length) * shell.wavelet.length);
+                                    const waveletValue = shell.wavelet[Math.min(waveletIndex, shell.wavelet.length - 1)] || 1;
+                                    sample *= (0.7 + 0.3 * Math.abs(waveletValue)); // Subtle modulation
+                                }
+                                
+                                // Apply spatial positioning (simple stereo)
+                                const pan = Math.max(0, Math.min(1, (source.position.x + 5) / 10));
+                                if (channel === 0) {
+                                    channelData[i] += sample * Math.sqrt(1 - pan);
+                                } else {
+                                    channelData[i] += sample * Math.sqrt(pan);
+                                }
+                            }
+                        });
+                    });
+                    
+                    // Normalize to prevent clipping
+                    let maxValue = 0;
+                    for (let i = 0; i < channelData.length; i++) {
+                        maxValue = Math.max(maxValue, Math.abs(channelData[i]));
+                    }
+                    
+                    if (maxValue > 0.95) {
+                        const scale = 0.95 / maxValue;
+                        for (let i = 0; i < channelData.length; i++) {
+                            channelData[i] *= scale;
+                        }
+                    }
+                }
+            }
+            
+            console.log('Audio buffer created:', buffer);
+            console.log('First 100 samples:', buffer.getChannelData(0).slice(0, 100));
+            
+            return buffer;
+        }
+        
+        // UI Functions
+        function addSoundSource() {
+            if (!audioInitialized) {
+                alert('Please initialize audio first!');
+                return;
+            }
+            
+            const x = (Math.random() - 0.5) * 10;
+            const y = (Math.random() - 0.5) * 10;
+            const z = (Math.random() - 0.5) * 10;
+            
+            // Create more musical frequencies based on harmonic series
+            const fundamentals = [220, 261.63, 329.63, 392, 440, 523.25]; // A3, C4, E4, G4, A4, C5
+            const fundamental = fundamentals[Math.floor(Math.random() * fundamentals.length)];
+            const harmonic = Math.floor(Math.random() * 3) + 1; // 1st, 2nd, or 3rd harmonic
+            const frequency = fundamental * harmonic;
+            
+            console.log('Adding source with frequency:', frequency, 'Hz');
+            
+            soundSources.push(new SoundSource(x, y, z, frequency));
+            visualize();
+        }
+        
+        function clearSources() {
+            soundSources = [];
+            encodedShells = [];
+            updateShellInfo();
+            visualize();
+        }
+        
+        function startEncoding() {
+            if (soundSources.length === 0) {
+                alert('Please add some sound sources first!');
+                return;
+            }
+            encodeToTemporalShells();
+        }
+        
+        function playDecoded() {
+            if (!audioInitialized) {
+                alert('Please initialize audio first!');
+                return;
+            }
+            
+            if (encodedShells.length === 0) {
+                alert('Please encode audio first!');
+                return;
+            }
+            
+            // Resume audio context if suspended
+            if (audioContext.state === 'suspended') {
+                audioContext.resume();
+            }
+            
+            try {
+                const buffer = decodeFromTemporalShells();
+                
+                // Check if buffer has actual audio data
+                const channelData = buffer.getChannelData(0);
+                let hasSound = false;
+                for (let i = 0; i < Math.min(1000, channelData.length); i++) {
+                    if (Math.abs(channelData[i]) > 0.001) {
+                        hasSound = true;
+                        break;
+                    }
+                }
+                
+                if (!hasSound) {
+                    console.warn('Buffer appears to be silent!');
+                    alert('Warning: Generated audio appears to be silent. Try adding more sources or adjusting parameters.');
+                }
+                
+                const source = audioContext.createBufferSource();
+                source.buffer = buffer;
+                
+                // Add a gain node for volume control
+                const gainNode = audioContext.createGain();
+                gainNode.gain.value = 0.8; // Set volume to 80%
+                
+                source.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                source.start();
+                
+                // Show status
+                console.log('Playing audio:', {
+                    duration: buffer.duration,
+                    sampleRate: buffer.sampleRate,
+                    numberOfChannels: buffer.numberOfChannels,
+                    hasSound: hasSound
+                });
+                
+            } catch (error) {
+                console.error('Error playing audio:', error);
+                alert('Error playing audio: ' + error.message);
+            }
+        }
+        
+        function updateCoherence(value) {
+            coherence = parseFloat(value);
+            document.getElementById('coherenceValue').textContent = value;
+        }
+        
+        function updatePhase(value) {
+            phase = parseFloat(value);
+            document.getElementById('phaseValue').textContent = value + '°';
+        }
+        
+        function toggleAnimation() {
+            animating = !animating;
+        }
+        
+        function updateShellInfo() {
+            if (!audioInitialized) {
+                document.getElementById('shellInfo').textContent = 'Audio engine not initialized. Click "Initialize Audio Engine" to begin.';
+                return;
+            }
+            
+            let info = 'TEMPORAL SHELL ENCODING DATA\n';
+            info += '================================\n\n';
+            
+            if (encodedShells.length === 0) {
+                info += 'No shells encoded yet.\n';
+                info += 'Add sound sources and click "Start Encoding".\n';
+            } else {
+                encodedShells.forEach(shell => {
+                    info += `Shell ${shell.number} (${shell.gender}):\n`;
+                    info += `  Frequency: ${shell.frequency.toFixed(2)} Hz\n`;
+                    info += `  Sources: ${shell.sources.length}\n`;
+                    info += `  Amplitude: ${shell.amplitude.toFixed(4)}\n`;
+                    info += `  Wavelet: ${shell.wavelet ? 'Generated' : 'None'}\n`;
+                    
+                    shell.sources.forEach(({ source, encoding }) => {
+                        info += `    Source: |${encoding.quantum.n},${encoding.quantum.l},${encoding.quantum.m}⟩`;
+                        info += ` @ (${source.position.x.toFixed(1)}, ${source.position.y.toFixed(1)}, ${source.position.z.toFixed(1)})\n`;
+                    });
+                    info += '\n';
+                });
+            }
+            
+            info += `\nTotal Sources: ${soundSources.length}\n`;
+            info += `Animation: ${animating ? 'ON' : 'OFF'}\n`;
+            info += `Coherence: ${coherence.toFixed(2)}\n`;
+            info += `Phase: ${phase}°`;
+            
+            document.getElementById('shellInfo').textContent = info;
+        }
+        
+        // Visualization
+        function visualize() {
+            // Clear spatial canvas
+            spatialCtx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+            spatialCtx.fillRect(0, 0, spatialCanvas.width, spatialCanvas.height);
+            
+            const centerX = spatialCanvas.width / 2;
+            const centerY = spatialCanvas.height / 2;
+            const scale = 20;
+            
+            // Draw coordinate grid
+            spatialCtx.strokeStyle = '#333';
+            spatialCtx.lineWidth = 1;
+            
+            // Grid lines
+            for (let i = 0; i <= 10; i++) {
+                const x = i * spatialCanvas.width / 10;
+                const y = i * spatialCanvas.height / 10;
+                
+                spatialCtx.beginPath();
+                spatialCtx.moveTo(x, 0);
+                spatialCtx.lineTo(x, spatialCanvas.height);
+                spatialCtx.stroke();
+                
+                spatialCtx.beginPath();
+                spatialCtx.moveTo(0, y);
+                spatialCtx.lineTo(spatialCanvas.width, y);
+                spatialCtx.stroke();
+            }
+            
+            // Main axes
+            spatialCtx.strokeStyle = '#666';
+            spatialCtx.lineWidth = 2;
+            spatialCtx.beginPath();
+            spatialCtx.moveTo(0, centerY);
+            spatialCtx.lineTo(spatialCanvas.width, centerY);
+            spatialCtx.moveTo(centerX, 0);
+            spatialCtx.lineTo(centerX, spatialCanvas.height);
+            spatialCtx.stroke();
+            
+            // Draw sound sources
+            soundSources.forEach((source, index) => {
+                const x = centerX + source.position.x * scale;
+                const y = centerY - source.position.y * scale;
+                const size = 5 + Math.abs(source.position.z) * 0.5;
+                
+                // Draw glow effect
+                const gradient = spatialCtx.createRadialGradient(x, y, 0, x, y, size * 3);
+                const color = source.n % 2 === 0 ? '#ff00ff' : '#00ffff';
+                gradient.addColorStop(0, color);
+                gradient.addColorStop(0.5, color + '40');
+                gradient.addColorStop(1, 'transparent');
+                
+                spatialCtx.fillStyle = gradient;
+                spatialCtx.beginPath();
+                spatialCtx.arc(x, y, size * 3, 0, Math.PI * 2);
+                spatialCtx.fill();
+                
+                // Draw source
+                spatialCtx.fillStyle = color;
+                spatialCtx.beginPath();
+                spatialCtx.arc(x, y, size, 0, Math.PI * 2);
+                spatialCtx.fill();
+                
+                // Draw quantum numbers
+                spatialCtx.fillStyle = '#fff';
+                spatialCtx.font = '10px monospace';
+                spatialCtx.fillText(`|${source.n},${source.l},${source.m}⟩`, x + 10, y - 5);
+                spatialCtx.fillText(`${source.frequency.toFixed(0)}Hz`, x + 10, y + 5);
+            });
+            
+            // Clear temporal canvas
+            temporalCtx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+            temporalCtx.fillRect(0, 0, temporalCanvas.width, temporalCanvas.height);
+            
+            const shellCenterX = temporalCanvas.width / 2;
+            const shellCenterY = temporalCanvas.height / 2;
+            
+            // Draw temporal shells
+            encodedShells.forEach((shell, index) => {
+                const radius = shell.number * 30;
+                const lineWidth = Math.max(1, shell.amplitude * 10);
+                
+                temporalCtx.strokeStyle = shell.gender === 'feminine' ? '#ff00ff' : '#00ffff';
+                temporalCtx.lineWidth = lineWidth;
+                temporalCtx.globalAlpha = 0.3 + shell.amplitude * 0.7;
+                
+                // Draw shell circle
+                temporalCtx.beginPath();
+                temporalCtx.arc(shellCenterX, shellCenterY, radius, 0, Math.PI * 2);
+                temporalCtx.stroke();
+                
+                // Draw shell label
+                temporalCtx.globalAlpha = 1;
+                temporalCtx.fillStyle = shell.gender === 'feminine' ? '#ff00ff' : '#00ffff';
+                temporalCtx.font = '12px monospace';
+                temporalCtx.fillText(`n=${shell.number}`, shellCenterX + radius + 5, shellCenterY);
+                
+                // Draw rotating indicators
+                if (animating && shell.sources.length > 0) {
+                    const angle = time * 0.02 * (shell.gender === 'masculine' ? 1 : -1) / shell.number;
+                    const indicatorX = shellCenterX + Math.cos(angle) * radius;
+                    const indicatorY = shellCenterY + Math.sin(angle) * radius;
+                    
+                    // Indicator glow
+                    const glowGradient = temporalCtx.createRadialGradient(
+                        indicatorX, indicatorY, 0,
+                        indicatorX, indicatorY, 10
+                    );
+                    glowGradient.addColorStop(0, '#fff');
+                    glowGradient.addColorStop(0.5, '#fff8');
+                    glowGradient.addColorStop(1, 'transparent');
+                    
+                    temporalCtx.fillStyle = glowGradient;
+                    temporalCtx.beginPath();
+                    temporalCtx.arc(indicatorX, indicatorY, 10, 0, Math.PI * 2);
+                    temporalCtx.fill();
+                    
+                    // Indicator core
+                    temporalCtx.fillStyle = '#fff';
+                    temporalCtx.beginPath();
+                    temporalCtx.arc(indicatorX, indicatorY, 3, 0, Math.PI * 2);
+                    temporalCtx.fill();
+                }
+            });
+            
+            temporalCtx.globalAlpha = 1;
+        }
+        
+        // Animation loop
+        function animate() {
+            if (animating) {
+                time++;
+                visualize();
+            }
+            requestAnimationFrame(animate);
+        }
+        
+        // Start animation
+        animate();
+        
+        // Initial visualization
+        visualize();
+    </script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+\section{The chronon two-vector and the boost group}
+\label{sec:twovector}
+
+Golden-ordinal sampling $t_k=k\lnphi$ of the base worldline $\rr$ converts the conserved
+binormal current $\Ly=(\mathbf r'\times\mathbf r'')\cdot\hat{\mathbf y}=1$ into a
+parameter-free shell coupling that already wears its own arrow of time,
+\begin{equation}
+c(k)=\osc(k)\,e^{-k/\phigr},\qquad
+\osc(k)\equiv\frac{1}{1+\cos^2(2k\lnphi)},\qquad c(0)=\osc(0)=\half,
+\label{eq:twovector:ckappa}
+\end{equation}
+with $\phigr=(1+\sqrt5)/2$, $\lnphi=0.48121$, $1/\phigr=0.61803$. The forward kernel is
+the \emph{retarded} branch ($e^{-k/\phigr}$); inverse temporal flow is the
+\emph{advanced} branch, the same kernel continued to negative ordinal. Splitting into
+even and odd parts gives the two physical channels,
+\begin{equation}
+\Gsym=\osc\,\cosh\rap\ \ (\text{correlation}),\qquad
+\Gflow=-\osc\,\sinh\rap\ \ (\text{gravity}),\qquad \rap\equiv k/\phigr,
+\label{eq:twovector:GsymGflow}
+\end{equation}
+whose null projections are the propagator branches
+\begin{equation}
+\boxed{\;\kappa(\pm k)=\osc(k)\,e^{\mp\rap}=\osc(k)\,(\cosh\rap\mp\sinh\rap).\;}
+\label{eq:twovector:nullsplit}
+\end{equation}
+
+\subsection{The master vector and its conserved norm}
+
+Stripping the conformal weight $\osc$ exposes a single object, the chronon two-vector
+\begin{equation}
+\boxed{\;\Vvec(k)=\big(\cosh\rap,\,-\sinh\rap\big),\qquad \rap=k/\phigr,\;}
+\label{eq:twovector:V}
+\end{equation}
+a unit timelike vector in a $(1{+}1)$ flow-space with metric $\eta=\mathrm{diag}(+1,-1)$,
+the time axis being correlation and the space axis net flow/gravity. Its Minkowski norm is
+exactly the conserved current,
+\begin{equation}
+\|\Vvec(k)\|^2=\Vvec^{\mathsf T}\eta\,\Vvec=\cosh^2\rap-\sinh^2\rap=1=\Ly,
+\label{eq:twovector:norm}
+\end{equation}
+for every $k$ (verified $\big|\|\Vvec\|^2-1\big|\le9.1\times10^{-13}$). This is not a
+normalization accident: it is the Noether charge of the boost group of
+\eqref{eq:twovector:boostlaw} below, and time-likeness of $\Vvec$ \emph{is} conservation
+of time. The dressed coupling is $(\Gsym,\Gflow)=\osc(k)\,\Vvec(k)$.
+
+\subsection{One shell is one boost}
+
+Descending one ordinal is the active Lorentz boost in flow-space by rapidity $1/\phigr$,
+\begin{equation}
+\Lambda(\alpha)=\begin{pmatrix}\cosh\alpha&-\sinh\alpha\\-\sinh\alpha&\cosh\alpha\end{pmatrix}\in SO(1,1)^{\uparrow},
+\qquad \boxed{\;\Lambda\!\big(\tfrac{1}{\phigr}\big)\Vvec(k)=\Vvec(k{+}1),\;}
+\label{eq:twovector:boostlaw}
+\end{equation}
+seeded by the present moment $\Vvec(0)=(1,0)$, so $\Lambda(k/\phigr)(1,0)^{\mathsf T}=\Vvec(k)$
+identically. The family closes under composition,
+\begin{equation}
+\boxed{\;\Lambda(a)\,\Lambda(b)=\Lambda(a{+}b)\;}\qquad(\text{residual }8.9\times10^{-16}),
+\label{eq:twovector:group}
+\end{equation}
+because $a\mapsto\Lambda(a)$ is a homomorphism $(\mathbb R,+)\to SO(1,1)^{\uparrow}$:
+rapidities add while group elements compose. This is the rigorous content of the framework's
+hard rule \emph{never chain $\kappa(a)\kappa(b)$; use $\kappa(a{+}b)$} (developed in detail
+below). Ordinal depth is the canonical coordinate on the abelian group
+$SO(1,1)^{\uparrow}\cong(\mathbb R,+)$, with golden quantum $1/\phigr$ per shell.
+
+Differentiating $\Lambda$ at the identity gives the generator
+\begin{equation}
+\Kgen=\frac{d\Lambda}{d\alpha}\Big|_0=\begin{pmatrix}0&-1\\-1&0\end{pmatrix},\qquad
+\Kgen^2=I,\qquad \Lambda(\alpha)=e^{\alpha\Kgen}=\cosh\alpha\,I+\sinh\alpha\,\Kgen,
+\label{eq:twovector:K}
+\end{equation}
+the last equality exact because $\Kgen^2=I$ truncates the series to two terms. The master
+vector is boost-parallel-transported along the ordinal,
+\begin{equation}
+\boxed{\;\frac{d\Vvec}{dk}=\frac{1}{\phigr}\,\Kgen\,\Vvec(k),\qquad
+\Big(\partial_k-\tfrac{1}{\phigr}\Kgen\Big)\Vvec=0,\;}
+\label{eq:twovector:transport}
+\end{equation}
+a covariantly-constant field of a flat $SO(1,1)$ connection $A_k=\tfrac{1}{\phigr}\Kgen$;
+the holonomy over $[k_1,k_2]$ is $\Lambda((k_2{-}k_1)/\phigr)$. For the abelian algebra the
+Casimir is the metric norm itself, and dressing by $\osc$ gives the boost-invariant mass-shell
+\begin{equation}
+\boxed{\;M^2(k)=\Gsym^2-\Gflow^2=\osc^2(k)\,\|\Vvec\|^2=\osc^2(k),\;}
+\label{eq:twovector:casimir}
+\end{equation}
+with $M^2(k_n)=1$ exactly on the inversion shells. The conserved unit $\Ly=1$ is the Casimir
+eigenvalue. Finally, $\partial_k\Vvec=\tfrac1\phigr(\sinh\rap,-\cosh\rap)$ is spacelike with
+$\langle\partial_k\Vvec,\partial_k\Vvec\rangle_\eta=-1/\phigr^2$, so the accumulated arc length
+is $s(k)=k/\phigr=\rap$: rapidity is the hyperbolic arc length of the chronon worldline, and one
+shell is a fixed proper interval $1/\phigr=0.61803$.
+
+\subsection{The $\kappa(a{+}b)$ theorem and its lattice defect}
+
+Three round-1 derivations (boost composition, $\tanh$-velocity addition, additive action)
+collapse to the single homomorphism \eqref{eq:twovector:group}: a two-leg path is a boost
+composition, so ordinals add and the correct kernel is $\kappa(a{+}b)=\osc(a{+}b)\,e^{-(a+b)/\phigr}$.
+Writing $\kappa=\osc\cdot\mathrm{env}$, the chained product fails on exactly one factor:
+\begin{equation}
+\frac{\kappa(a)\kappa(b)}{\kappa(a{+}b)}
+=\underbrace{\frac{e^{-a/\phigr}e^{-b/\phigr}}{e^{-(a+b)/\phigr}}}_{=\,1\ (\text{envelope exact})}
+\cdot\;\Delta(a,b),\qquad
+\Delta(a,b)=\frac{\osc(a)\osc(b)}{\osc(a{+}b)}=\frac{g(a{+}b)}{g(a)\,g(b)},
+\label{eq:twovector:defect}
+\end{equation}
+with $g(k)=1+\cos^2(2k\lnphi)=\tfrac12(3+\cos 4k\lnphi)\in[1,2]$. The error is purely the
+flow-reversal lattice. The three values $g(a),g(b),g(a{+}b)$ are tied by the comb's double-angle
+law, so the box corner $\Delta=\tfrac14$ is unreachable; the exact reachable band has rational
+endpoints
+\begin{equation}
+\boxed{\;\tfrac25\le\Delta(a,b)\le2,\;}\qquad
+\text{geometric centre }\sqrt{\tfrac25\cdot2}=\tfrac{2}{\sqrt5}=0.894427,\quad
+\text{log-width }\ln5.
+\label{eq:twovector:band}
+\end{equation}
+The maximum is peak$+$peak, $\Delta(k_1,k_1)=\osc(k_1)^2/\osc(2k_1)=1/\tfrac12=2$ (two teeth
+always sum to a trough); the minimum $\tfrac25$ lives on the diagonal $a=b$ at
+$\cos^2(2a\lnphi)=\tfrac23$ (a revisited-depth, self-energy segment). The exact counterexample
+is $(a,b)=(k_1,2k_1)$ on the first inversion shell $k_1=\pi/(4\lnphi)=1.632$:
+$\osc(k_1)=1,\ \osc(2k_1)=\half,\ \osc(3k_1)=1$ give $\Delta(k_1,2k_1)=\half$ exactly --- a clean
+factor of two too small, the product having landed on the wrong shelf of the lattice. The defect
+is admissible ($\Delta=1$) only on a measure-zero curve $g(a)g(b)=g(a{+}b)$; shrinking the legs
+does \emph{not} restore it, since $\Delta(0,0)=\osc(0)=\half$.
+
+\subsection{Golden log-periodicity}
+
+The lattice spacing and the rapidity rate are reciprocal in the sharpest way,
+$\Dk\,\lnphi=\tfrac{\pi}{2\lnphi}\cdot\lnphi=\tfrac\pi2$ (exact), with $\Dk=\pi/(2\lnphi)=3.26425$.
+Physical radius grows as $r_n=r_0\phigr^{\,n}$, so one comb tooth multiplies scale by the
+\emph{golden log-periodicity constant}
+\begin{equation}
+\Lambda_\phigr\equiv\phigr^{\,\Dk}=e^{\Dk\lnphi}=e^{\pi/2}=4.810477,
+\qquad \omega_\phigr=\frac{2\pi}{\ln\Lambda_\phigr}=\frac{2\pi}{\pi/2}=4,
+\label{eq:twovector:dsi}
+\end{equation}
+the discrete-scale-invariance factor and its integer fundamental log-frequency. The dressed
+two-vector furnishes both pieces of the Weierstrass solution
+$F(s)=s^{-D}\mathcal P(\ln s/\ln\Lambda_\phigr)$: the rapidity envelope is the power law
+$e^{-k/\phigr}=(r/r_0)^{-D}$ with $D=1/(\phigr\lnphi)=1.28433$, and $\osc$ \emph{is} the
+log-periodic part. Its harmonic content sits only on $\{4n\}$,
+\begin{equation}
+\osc(r)=\frac{1}{\sqrt2}\Big[1+2\sum_{n=1}^{\infty}(-1)^n\,\delta_S^{-2n}\cos\!\big(4n\ln(r/r_0)\big)\Big],
+\qquad \delta_S^{-2}=3-2\sqrt2=(\sqrt2-1)^2,
+\label{eq:twovector:comb}
+\end{equation}
+a \emph{two-metal} comb: the golden ratio sets tooth spacing ($\Lambda_\phigr=e^{\pi/2}$,
+$\omega_\phigr=4$), the silver ratio $\delta_S=1+\sqrt2$ sets the amplitude decay
+$\delta_S^{-2}=0.171573$ per harmonic. The DC term is the period-mean $\langle\osc\rangle=1/\sqrt2$,
+\emph{derived} (not assumed) as the zeroth harmonic; the $n=1$ tooth already carries $97\%$ of the
+AC power. The same comb reads through three exponential maps: radial ($e^{\pi/2}$ per tooth),
+cosmic ($\log_2 e^{\pi/2}=\pi/(2\ln2)=2.26618$ octaves), and lepton mass, where the generation step
+$\Delta_g=39$ is six log-periods, $12\,\Dk=39.17101$, the $+0.44\%$ closure defect being exactly the
+rotor angle $\delta\theta_g$. The lepton tooth rides a measured slope and is therefore a projection
+through data, not a pure prediction.
+
+\subsection{Every branch is an $SO(1,1)$ representation}
+
+The unified field
+$\boldsymbol\Psi(k)=\osc(k)\,\Lambda(k/\phigr)(1,0)^{\mathsf T}=\osc(k)\,\Vvec(k)=(\Gsym,\Gflow)$
+generates the whole structure; each branch is a specific representation or covariant of the single
+boost orbit, with no free parameters beyond the seed $\Vvec(0)=(1,0)$ and the quantum $1/\phigr$.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lll}
+\toprule
+Branch & Object in flow-space & Form on $\Vvec$ \\
+\midrule
+Spine & conserved current $\Ly=1$ & norm $\|\Vvec\|^2=1$ \\
+Gravity & boost composition & $\kappa(a{+}b)$, rapidity addition \\
+Fermions & compact real form $SO(2)$ & rotor $\rap\to i\rap$ \\
+Thermo & null weights, detailed balance & $\kappa(+k)/\kappa(-k)=e^{-2\rap}$ \\
+Spin-$\tfrac12$ & spinor double cover $SL(2,\mathbb R)$ & half-boost $e^{(\alpha/2)\sigma}$ \\
+Cosmology & boost run to horizon shell & $\Nstar=291.88$ \\
+Transport & boost velocity $\beta$ & non-reciprocity $-\tanh\rap$ \\
+\bottomrule
+\end{tabular}
+\caption{The four representations of $SO(1,1)^{\uparrow}$: the vector rep
+(gravity/transport/cosmology), its double cover $SL(2,\mathbb R)$ (spin), the compact real form
+$SO(2)$ (fermion rotor, via the Wick continuation $\rap\to i\rap$), and the non-unitary null
+weights $e^{\mp\rap}$ (thermo).}
+\label{tab:twovector:reps}
+\end{table}
+
+\noindent
+Concretely: the transport non-reciprocity is the component ratio $\Gflow/\Gsym=-\tanh\rap$;
+the thermodynamic factor is the ratio of null boost weights $\kappa(+k)/\kappa(-k)=e^{-2\rap}$;
+the fermion tower is the compact sibling $\rap\to i\rap$ sending
+$\Kgen\to J=\big(\begin{smallmatrix}0&-1\\1&0\end{smallmatrix}\big)$, $\cosh\to\cos$; and
+spin-$\tfrac12$ rides the half-boost $\cosh(\rap/2)$ of the $2{:}1$ cover. Because $\boldsymbol\Psi$
+is boost-covariant, any observable carrying the golden log-period $\Dk=3.26425$ must appear in
+exactly one of these four channels --- there is no fifth. The base curve's Frenet data close the
+loop: the in-plane curvature $\kfren$ peaks at $\sqrt5$ exactly where the signed torsion $\tfren$
+(the temporal-flow rate) passes through zero, and those zeros are the inversion shells
+$k_n=(2n{-}1)\pi/(4\lnphi)=1.632,\,4.896,\,8.161$, of fixed ordinal spacing $\Dk$.

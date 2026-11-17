@@ -1,0 +1,154 @@
+\documentclass[11pt,onecolumn]{article}
+
+% ---------------------------------------------------------------------------
+% The Chronon Two-Vector — capstone paper compiled from the inverse_temporal_flow
+% corpus (notes 00-28, 97-99). Connective tissue (preamble, macros, abstract,
+% intro, conclusion) authored directly; body sections drafted from the notes.
+% ---------------------------------------------------------------------------
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black]{hyperref}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+% ---- Shared notation (every section uses these) ----------------------------
+\newcommand{\phigr}{\varphi}                         % golden ratio
+\newcommand{\lnphi}{\ln\phigr}
+\DeclareMathOperator{\osc}{osc}                       % osc(k) = 1/(1+cos^2(2k ln phi))
+\newcommand{\Vvec}{\mathbf{V}}                        % chronon two-vector
+\newcommand{\rap}{\theta}                             % rapidity theta = k/phi
+\newcommand{\Gsym}{G_{\mathrm{sym}}}
+\newcommand{\Gflow}{G_{\mathrm{flow}}}
+\newcommand{\Ly}{L_{y}}                               % conserved chronon current
+\newcommand{\Dk}{\Delta k}                            % inversion-shell spacing
+\newcommand{\Nstar}{N_{\star}}                        % horizon / depletion shell
+\newcommand{\kfren}{\kappa_{\mathrm{F}}}             % Frenet curvature
+\newcommand{\tfren}{\tau_{\mathrm{F}}}              % Frenet torsion
+\newcommand{\Kgen}{K}                                 % boost generator
+\newcommand{\rr}{\mathbf{r}}                          % base curve
+\newcommand{\half}{\tfrac12}
+\newcommand{\eP}{E_{P}}
+\newcommand{\lP}{\ell_{P}}
+
+\title{\bfseries The Chronon Two-Vector:\\
+Inverse Temporal Flow from the $\kappa$ Coupling Function}
+\author{M.\,C.\ Jenkins \and E.\ Voss}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+We develop a unified framework in which the $\kappa$ coupling function and
+``inverse temporal flow'' are a single object: the conserved binormal current of
+a fixed base manifold, read along two axes. The base curve
+$\rr(t)=(\sin t,\,\half\sin 2t,\,\cos t)$ --- the intersection of the unit cylinder
+with the saddle $y=xz$ --- carries an exact conserved current $\Ly=(\rr'\times\rr'')\cdot\hat{\mathbf y}=1$.
+Its Frenet curvature is the gravitational/spatial coupling and its \emph{signed}
+Frenet torsion is the temporal flow rate; gravity is most intense precisely where
+the net temporal flow reverses. Sampling at golden-ratio ordinal spacing collapses
+the structure onto a single unit timelike worldline in a $(1{+}1)$ flow-space, the
+\emph{chronon two-vector} $\Vvec(k)=(\cosh\rap,-\sinh\rap)$ with $\rap=k/\phigr$,
+whose Minkowski norm \emph{is} $\Ly=1$. Ordinal depth is rapidity; one shell is a
+fixed Lorentz boost $1/\phigr$. From this one object follow a boost-covariant field
+equation whose spectrum is the inversion-shell comb, a derivation of $\kappa(a{+}b)$
+as a composition theorem, and a chain of \emph{dimensionless} predictions:
+$\sin^2\theta_W=1/\phigr^3$, the reactor mixing angle $\theta_{13}=|\delta\theta_g|$,
+the acceleration-onset redshift $z_t=1/\phigr$, a cosmic jerk $j_0\neq1$, three
+emergent spatial dimensions, and a golden gravitational-wave overtone comb at
+ratio $e^{\pi/2}$. We are deliberate about what the framework does \emph{not} fix:
+it pins the ladder at both ends (Planck and dark-energy scales) but leaves the
+absolute matter scale --- the electron's ``desert depth'' $n_e\approx107$ --- a
+single missing integer away. Every quantitative claim is accompanied by an
+independently re-run numerical verification, and an honesty ledger separates
+structural wins from honest brackets from claims an adversarial audit demoted.
+\end{abstract}
+
+% ===========================================================================
+\section{Introduction}\label{sec:intro}
+
+The framework rests on a single observation that recurs across light transport,
+turbulent cascades, particle spectra, and gravitation: these are the same
+mathematical object under different labels, and that object is the $\kappa$
+coupling function
+\begin{equation}
+\kappa(r)=\frac{\kappa_0}{1+\beta r^{\gamma}}\,e^{-\lambda r},
+\label{eq:intro:kappa}
+\end{equation}
+a dressed propagator with rational prefactor and exponential envelope. Two strands
+of the program had long been carried side by side: $\kappa$ as a multi-scale
+transport kernel, and ``inverse temporal flow'' as a picture of gravity. This paper
+shows they are not two pillars to be joined but one structure seen along two axes
+of a single manifold.
+
+The argument proceeds constructively. Section~\ref{sec:manifold} introduces the
+base curve and its exact conserved current $\Ly=1$, and identifies the temporal
+axis inside the geometry. Section~\ref{sec:twovector} sharpens $\kappa$ into the
+chronon two-vector $\Vvec(k)$ and the boost group $SO(1,1)$ that organizes
+everything that follows, including the $\kappa(a{+}b)$ theorem and the universal
+log-periodic comb. Section~\ref{sec:fieldeq} promotes the algebra to a field
+equation. Sections~\ref{sec:gravity}--\ref{sec:cosmo} work out the gravitational,
+thermodynamic/quantum, particle, and cosmological sectors. Section~\ref{sec:scale}
+states the absolute-scale verdict and the honesty ledger without dressing up the
+gaps. Throughout, ``$r$'' denotes whatever scalar the application's coupling
+depends on --- dimensionless ordinal distance in the shell picture, optical path
+in transport, angular deviation in scattering --- and the transform is stated
+where it matters.
+
+A word on method. The results below were developed and then subjected to an
+adversarial verification pass that re-derived each headline number independently
+and flagged any fit that hid a free parameter or reasoned in a circle. Where that
+audit demoted a claim, we keep the demotion visible (Section~\ref{sec:scale});
+where a prediction survived, it survived a genuine attempt to break it. The guiding
+principle is that a correct ``predicts $X$, measured $Y$, $15\%$ off'' is worth
+more than a fabricated exact hit.
+
+% ===========================================================================
+\input{sections/sec_manifold.tex}
+\input{sections/sec_twovector.tex}
+\input{sections/sec_fieldeq.tex}
+\input{sections/sec_gravity.tex}
+\input{sections/sec_thermo_now.tex}
+\input{sections/sec_particles.tex}
+\input{sections/sec_cosmo_vacuum.tex}
+\input{sections/sec_scale_ledger.tex}
+
+% ===========================================================================
+\section{Conclusion}\label{sec:conclusion}
+
+The framework collapses to one statement: a single unit timelike worldline
+$\Vvec(k)$ in a $(1{+}1)$ flow-space, boosted by $1/\phigr$ per shell, wearing the
+flow-reversal lattice $\osc(k)$ as a conformal weight. Gravity, the arrow of time,
+the fermion spectrum, the cosmological constant, and rendering reciprocity are
+projections of that worldline. The conserved current $\Ly=1$ reappears as the
+Minkowski norm of $\Vvec$, the mass-shell Casimir $M^2=\osc^2$, the thermal
+identity $\rap^{*}U=-1$, and the relativistic ceiling $|\beta|<1$ --- one conserved
+unit in many disguises.
+
+What the framework earns is geometric and dimensionless: the boost group, the
+field equation, the comb, $\sin^2\theta_W=1/\phigr^3$, $\theta_{13}=|\delta\theta_g|$,
+$z_t=1/\phigr$, $j_0\neq1$, three emergent colors equal to three emergent
+dimensions, a UV-finite vacuum, and the $e^{\pi/2}$ gravitational-wave overtone
+comb. What it does not yet earn is the absolute matter scale: the ladder is pinned
+at both ends, but the electron's desert depth $n_e\approx107$ is one missing
+integer. The honest frontier is therefore sharp --- derive that integer from a
+selection principle on the field equation (with the discipline that has so far
+killed every numerical coincidence), or test the dimensionless predictions, of
+which the GW190521 overtone comb is the most immediately falsifiable.
+
+\appendix
+\input{sections/sec_appendix.tex}
+
+\end{document}

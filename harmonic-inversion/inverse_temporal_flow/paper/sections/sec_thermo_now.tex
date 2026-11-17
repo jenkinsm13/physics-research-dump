@@ -1,0 +1,79 @@
+\section{Flow, thermodynamics, and the now-surface}\label{sec:thermo}
+
+Having fixed the two-vector $\Vvec(k)=(\cosh\rap,\,-\sinh\rap)$ with $\rap=k/\phigr$, we now show that its single conserved scalar is a genuine Noether charge, that the same boost structure makes the chronon comb a thermal system at the golden temperature, that the figure-eight self-intersection is a tunneling instanton between two sheets of time, and that the present is a sharp fixed-point interface.
+
+\subsection{$\Ly=1$ as a Noether continuity law}
+
+The hodograph evolution is a pure boost. Writing $d\Vvec/dk=\phigr^{-1}\Kgen\,\Vvec$ with the generator
+\begin{equation}
+\Kgen=\begin{pmatrix}0&-1\\-1&0\end{pmatrix},\qquad \Kgen^2=I,
+\label{eq:thermo:Kgen}
+\end{equation}
+one has $\Vvec(k)=\exp(\rap\,\Kgen)\,\Vvec(0)$, a Lorentz boost of rapidity $\rap$ acting on $\Vvec(0)=(1,0)^{\mathsf T}$. The boost is a one-parameter (hodograph $U(1)$) symmetry, and its conserved bilinear is the Minkowski norm $Q=\Vvec^{\mathsf T}\eta\,\Vvec=V_0^2-V_1^2$ with $\eta=\mathrm{diag}(1,-1)$. Conservation follows from the antisymmetry of $\eta\Kgen$:
+\begin{equation}
+\dot Q=\tfrac{1}{\phigr}\,\Vvec^{\mathsf T}\!\left(\Kgen^{\mathsf T}\eta+\eta\Kgen\right)\Vvec=0,
+\qquad \Kgen^{\mathsf T}\eta+\eta\Kgen=0 .
+\label{eq:thermo:Qdot}
+\end{equation}
+Fixed by the initial condition, $Q=\cosh^2\rap-\sinh^2\rap=1$. This promotes the algebraic identity $\Ly=1$ to a dynamical conservation law. (The velocity-norm Lagrangian $L=\tfrac12\eta(\dot\Vvec,\dot\Vvec)$ yields a second, distinct conserved current of value $-1/\phigr$; the headline charge is the position-norm $Q$, not the velocity-norm.)
+
+On the inversion comb $k_n=(2n-1)\pi/(4\lnphi)$, with shell flux $J_n=\osc(k_n)\!\left(e^{-\rap_n}-e^{+\rap_n}\right)=\kappa(+k_n)-\kappa(-k_n)$, global conservation becomes a discrete continuity equation. The cascade transfer between shells is a discrete divergence,
+\begin{equation}
+J_{n+1}-J_n=-\frac{\Delta Q_n}{\Dk},\qquad \sum_n\left(J_{n+1}-J_n\right)=J_\infty-J_0=0 ,
+\label{eq:thermo:cont}
+\end{equation}
+the telescoping being exact under the decaying envelope; the per-shell $\Delta Q_n$ are envelope-dependent and the local form is schematic.
+
+\subsection{Detailed balance and the golden partition function}
+
+The forward/backward couplings $\kappa(\pm k)=\osc(k)\,e^{\mp\rap}$ obey
+\begin{equation}
+\frac{\kappa(+k)}{\kappa(-k)}=e^{-2\rap}=e^{-2k/\phigr},
+\label{eq:thermo:db}
+\end{equation}
+a Boltzmann factor at inverse temperature $\beta=1/\phigr=0.61803$ --- the golden ratio is the temperature of time. (Only the ratio is unambiguous; any split with $\beta E=2k/\phigr$ reproduces it.) Summing the comb weights with $a=\pi/(2\phigr\lnphi)=2.01765$,
+\begin{equation}
+Z=\sum_{n=1}^{\infty}e^{-2k_n/\phigr}=\sum_{n=1}^{\infty}e^{-(2n-1)a}=\frac{1}{2\sinh a}=0.13541 .
+\label{eq:thermo:Z}
+\end{equation}
+The branch probabilities $p_\pm=e^{\mp\rap}/(2\cosh\rap)$ give the branch entropy
+\begin{equation}
+S_{\mathrm{br}}(\rap)=\ln(2\cosh\rap)-\rap\tanh\rap,\qquad S_{\mathrm{br}}(0)=\ln 2=0.69315 ,
+\label{eq:thermo:Sbr}
+\end{equation}
+maximal at the present: $k=0$ is the moment of maximal undecidedness between forward and inverse flow, with $S_{\mathrm{br}}\to0$ as $|k|\to\infty$. The two-branch system shows a Schottky anomaly $C(\rap)=\rap^2\,\mathrm{sech}^2\rap$ (shape, not normalization), peaking where $dC/d\rap=0$, i.e.
+\begin{equation}
+\rap^*\tanh\rap^*=1\ \Longrightarrow\ \rap^*\approx1.1997 .
+\label{eq:thermo:schottky}
+\end{equation}
+With flow velocity $U=-\tanh\rap$, this is the rapidity-weighted condition $\rap^*U=-1$: the heat-capacity peak sits exactly where rapidity times flow velocity equals $-1$.
+
+\subsection{The figure-eight as a two-sheeted-time instanton}
+
+The base curve $\rr(t)$ projects to a figure-eight whose two lobes are forward and inverse time sheets; the self-intersection is a bounce. Identifying the instanton action with the rapidity difference across a shell gives
+\begin{equation}
+S_n=2k_n/\phigr=(2n-1)\,a,\qquad S_1=2.01765,\ S_2=6.05295,\ S_3=10.0883 .
+\label{eq:thermo:Sn}
+\end{equation}
+This linear-in-$k_n$ form is physically motivated but \emph{not uniquely forced}: the naive integral $\int_0^{k_n}\rap\,dk'=k_n^2/\phigr$ is quadratic, so $S_n=2k_n/\phigr$ is a choice, the weakest link in the bounce account. Granting it, the total sheet-crossing rate and ladder ratio are
+\begin{equation}
+\Gamma_{\mathrm{tot}}=\sum_{n=1}^{\infty}e^{-S_n}=\frac{1}{2\sinh a}=0.13539,
+\qquad \frac{\Gamma_{n+1}}{\Gamma_n}=e^{-2a}=e^{-\pi/(\phigr\lnphi)}=0.01769 .
+\label{eq:thermo:gamma}
+\end{equation}
+Since $S_1=a$, the single-shell rate $e^{-S_1}=e^{-2\rap_1}$ is exactly the detailed-balance factor of Eq.~\eqref{eq:thermo:db}, and $\Gamma_{\mathrm{tot}}=Z$ identically --- one fact, not two independent coincidences. The crossing thus replaces the apparent singularity with a finite-action bounce, a temporal analog of the loop-quantum big bounce; this is a picture, not a curvature theorem.
+
+\subsection{The now-surface as a fixed-point interface}
+
+Time reversal acts as the involution $T=\sigma_3=\mathrm{diag}(1,-1)$, $T^2=I$, flipping $\rap\to-\rap$. Its fixed points are $V_1=0$, i.e. $k=0$: the present is the fixed-point surface of $T$, where forward and inverse flow coincide. The projector onto the $T$-even subspace is
+\begin{equation}
+P_{\mathrm{now}}=\half(I+T)=\begin{pmatrix}1&0\\0&0\end{pmatrix},
+\qquad P_{\mathrm{now}}\Vvec=(\cosh\rap,\,0)^{\mathsf T},
+\label{eq:thermo:Pnow}
+\end{equation}
+extracting the time-symmetric component and projecting out the flow part. Treating the now-surface as a physical interface, a rapidity kick produces a flow response $V_1=-\sinh(\delta\rap)$; with the golden weighting $\rap=k/\phigr$ the linear susceptibility is
+\begin{equation}
+\chi_I=\left.\frac{\partial V_1}{\partial k}\right|_{0}\!\!=\frac{1}{\phigr}=0.61803 .
+\label{eq:thermo:chi}
+\end{equation}
+Because $V_1=-\sinh\rap\approx-\rap$ is first order while $V_0=\cosh\rap\approx1+\rap^2/2$ is second order, the first-order response of the present is entirely in the flow component --- pure flow, hence pure gravity, with the energy ($V_0$) response appearing only at second order. The value $\chi_I=1/\phigr$ is clean but definitional, and "pure gravity" rests on the $V_1\leftrightarrow$ gravity identification established elsewhere in the corpus; within that identification the statement is exact.

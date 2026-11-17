@@ -1,0 +1,55 @@
+{
+  "system_configuration": {
+    "target_shell": 100,
+    "active_shells": 20,
+    "boundary_regions": 5,
+    "extraction_efficiency": 0.001
+  },
+  "best_boundary": {
+    "shell_pair": [
+      90,
+      91
+    ],
+    "energy_density_J_m3": 8.230285500786482e+37,
+    "boundary_strength": 0.010869565217391304
+  },
+  "extractor_designs": {
+    "casimir": {
+      "boundary_index": 0.0,
+      "plate_separation_m": 1.3240101791793812e-16,
+      "plate_area_m2": 1.753002954570617e-32,
+      "casimir_force_N": -74165.63497841953,
+      "enhanced_force_N": -6.215586076725393e-23,
+      "enhancement_factor": 8.38068207537626e-28,
+      "plate_velocity_m_s": 1e-06,
+      "power_output_W": 6.215586076725392e-32,
+      "energy_density_J_m3": 8.230285500786482e+37
+    },
+    "electromagnetic": {
+      "boundary_index": 0.0,
+      "resonant_frequency_Hz": 1.1321380406071e+24,
+      "cavity_length_m": 1.3240101791793812e-16,
+      "cavity_radius_m": 1.3240101791793812e-17,
+      "cavity_volume_m3": 7.291616932824059e-50,
+      "quality_factor": 286.5047968601901,
+      "vacuum_field_V_m": 9.615823581015989e+24,
+      "flow_enhancement": 7.532181416591235e-11,
+      "power_output_W": 0.017767806081750215
+    }
+  },
+  "theoretical_limits": {
+    "planck_energy_density_J_m3": 4.632753642754973e+113,
+    "max_boundary_energy_density_J_m3": 8.230285500786482e+37,
+    "boundary_volume_m3": 1.5286172527517312e-47,
+    "total_boundary_energy_J": 1.2580956411574637e-09,
+    "max_theoretical_power_W": 2.3335893183107057e+34,
+    "practical_power_W": 2.3335893183107055e+28,
+    "energy_to_mass_ratio": 8.230285500786481e+34
+  },
+  "array_optimization": {
+    "total_power_W": 0.022434621762294917,
+    "power_density_W_m3": 4486.924352458984,
+    "cost_per_watt_USD_W": 2674437.779059859,
+    "total_cost_USD": 60000.0
+  }
+}

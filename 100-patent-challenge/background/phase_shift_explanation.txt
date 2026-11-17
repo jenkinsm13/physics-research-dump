@@ -1,0 +1,23 @@
+# Gravitational Phase Shift in Quantum Gravity as Inverse Temporal Flow
+
+Total phase shift along Path 1: -18116360879454731077108394622976.00
+Total phase shift along Path 2: -5450867971286032559134572806144.00
+Phase difference: 12665492908168700769773635502080.00
+
+
+            The simulation demonstrates how gravity creates quantum phase shifts 
+            through the inverse temporal flow mechanism. Path 1, which passes closer 
+            to the gravitational source, accumulates a different phase than Path 2.
+            
+            This phase difference leads to observable interference effects, 
+            which could be measured in precision quantum interference experiments.
+            
+            In the temporal shell model, these phase shifts arise from the particle's
+            wave function interacting with multiple temporal shells, each distorted
+            differently by the gravitational source.
+            
+            This provides a testable prediction of the Quantum Gravity as Inverse
+            Temporal Flow theory: gravitational fields should produce specific
+            interference patterns distinct from those predicted by both standard
+            quantum mechanics and general relativity alone.
+        

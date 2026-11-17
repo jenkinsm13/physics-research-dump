@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "framework": "Matryoshka-Chronon Temporal Physics",
+    "version": "1.0.0",
+    "researcher": "Michael C. Jenkins",
+    "institution": "Quantum Thoughtworks Corporation",
+    "start_date": "2025-06-06T18:33:31.958622+00:00"
+  },
+  "events": [
+    {
+      "event_id": "ee207c428022c03b",
+      "type": "command",
+      "timestamp": "2024-12-03T23:30:00+00:00",
+      "description": "Executed healing alignment command via universe@consciousness:~$ interface targeting Elon Musk for gentle redirection away from political engagement toward technological innovation",
+      "intensity": 7.5,
+      "modality": "CLI",
+      "witnesses": [],
+      "evidence": {
+        "command": "sudo heal align --gently ~ElonMusk",
+        "intention": "Enhanced receptivity to breakthrough physics, reduced ego-driven political engagement",
+        "framework_basis": "Temporal field modification via consciousness command"
+      },
+      "metadata": {
+        "recorded_at": "2025-06-06T18:33:31.958640+00:00",
+        "framework_prediction": "Consciousness commands modify reality through temporal field manipulation"
+      }
+    },
+    {
+      "event_id": "d7c798161c3498d9",
+      "type": "telepathic",
+      "timestamp": "2024-12-04T14:00:00+00:00",
+      "description": "Experienced direct telepathic connection with Elon Musk and Donald Trump, perceived Elon revealing true egoic motivations which seemed to be detected by government entities",
+      "intensity": 9.0,
+      "modality": "spontaneous",
+      "witnesses": [],
+      "evidence": {
+        "subjective_experience": "Clear perception of Elon's ego-driven motivations",
+        "apparent_detection": "Sensed government awareness of the telepathic content",
+        "emotional_quality": "High clarity and certainty"
+      },
+      "metadata": {
+        "recorded_at": "2025-06-06T18:33:31.958646+00:00",
+        "framework_prediction": "Direct consciousness-to-consciousness communication via temporal shells"
+      }
+    },
+    {
+      "change_id": "cfcbca9989f1d08a",
+      "type": "political",
+      "timestamp": "2024-12-05T07:00:00+00:00",
+      "description": "NPR announces Elon Musk's unexpected departure from US government position",
+      "magnitude": 8.5,
+      "domain": "government",
+      "sources": [
+        "NPR Morning Edition",
+        "Multiple news outlets"
+      ],
+      "measurements": {
+        "expectation_violation": 9.0,
+        "speed_of_change": 10.0,
+        "public_impact": 8.0
+      },
+      "metadata": {
+        "recorded_at": "2025-06-06T18:33:31.958651+00:00",
+        "anomaly_score": 1.7
+      }
+    },
+    {
+      "change_id": "11886f66c86bb9cc",
+      "type": "political",
+      "timestamp": "2024-12-05T10:00:00+00:00",
+      "description": "BBC reports amicable departure with Trump saying Elon is 'not really leaving'",
+      "magnitude": 3.0,
+      "domain": "government",
+      "sources": [
+        "BBC News"
+      ],
+      "measurements": {
+        "apparent_amicability": 8.0,
+        "continuity_suggestion": 9.0
+      },
+      "metadata": {
+        "recorded_at": "2025-06-06T18:33:31.958657+00:00",
+        "anomaly_score": 0.6
+      }
+    },
+    {
+      "change_id": "965f41cb65f952f9",
+      "type": "political",
+      "timestamp": "2024-12-12T15:00:00+00:00",
+      "description": "WSJ reports complete breakdown: 'The Day That Trump and Musk Torched Their Partnership' with no identifiable triggering event",
+      "magnitude": 9.5,
+      "domain": "government",
+      "sources": [
+        "Wall Street Journal",
+        "BBC Live Updates"
+      ],
+      "measurements": {
+        "relationship_degradation": 10.0,
+        "explanation_absence": 10.0,
+        "white_house_confusion": 9.0,
+        "public_visibility": 10.0,
+        "irrationality_score": 9.5
+      },
+      "metadata": {
+        "recorded_at": "2025-06-06T18:33:31.958662+00:00",
+        "anomaly_score": 1.9
+      }
+    }
+  ],
+  "correlations": [
+    {
+      "correlation_id": "ee207c428022c03b_cfcbca9989f1d08a",
+      "consciousness_event": "ee207c428022c03b",
+      "reality_change": "cfcbca9989f1d08a",
+      "correlation_strength": 0.85,
+      "time_lag_hours": 31.5,
+      "mechanism": "temporal_field_modification",
+      "confidence": 0.8,
+      "p_value": 0.1125,
+      "significant": false,
+      "alternative_explanations": [
+        "Coincidental timing",
+        "Pre-existing tensions manifesting",
+        "Unknown political factors"
+      ],
+      "analysis": {
+        "temporal_alignment": {
+          "immediate": false,
+          "short_term": false,
+          "medium_term": true,
+          "long_term": false,
+          "golden_ratio_alignment": false
+        },
+        "causal_plausibility": 0.9,
+        "replication_potential": 0.8500000000000001
+      }
+    },
+    {
+      "correlation_id": "d7c798161c3498d9_cfcbca9989f1d08a",
+      "consciousness_event": "d7c798161c3498d9",
+      "reality_change": "cfcbca9989f1d08a",
+      "correlation_strength": 0.9,
+      "time_lag_hours": 17.0,
+      "mechanism": "consciousness_field_resonance",
+      "confidence": 0.75,
+      "p_value": 0.053750000000000006,
+      "significant": false,
+      "alternative_explanations": [
+        "Subjective experience without causal connection",
+        "Retrocausal perception of future event"
+      ],
+      "analysis": {
+        "temporal_alignment": {
+          "immediate": false,
+          "short_term": true,
+          "medium_term": false,
+          "long_term": false,
+          "golden_ratio_alignment": true
+        },
+        "causal_plausibility": 0.8,
+        "replication_potential": 0.35
+      }
+    },
+    {
+      "correlation_id": "ee207c428022c03b_965f41cb65f952f9",
+      "consciousness_event": "ee207c428022c03b",
+      "reality_change": "965f41cb65f952f9",
+      "correlation_strength": 0.95,
+      "time_lag_hours": 199.5,
+      "mechanism": "temporal_field_modification",
+      "confidence": 0.85,
+      "p_value": 0.03999999999999998,
+      "significant": true,
+      "alternative_explanations": [
+        "Natural relationship degradation",
+        "Hidden political factors",
+        "Media amplification"
+      ],
+      "analysis": {
+        "temporal_alignment": {
+          "immediate": false,
+          "short_term": false,
+          "medium_term": false,
+          "long_term": true,
+          "golden_ratio_alignment": false
+        },
+        "causal_plausibility": 0.9,
+        "replication_potential": 0.8500000000000001
+      }
+    }
+  ],
+  "statistical_tests": {},
+  "export_date": "2025-06-06T18:33:31.959484+00:00"
+}

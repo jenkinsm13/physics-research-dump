@@ -1,0 +1,112 @@
+\section{Cosmology, the vacuum, and gravitational waves}
+\label{sec:cosmo}
+
+The two-vector $\Vvec(k)=(\cosh\rap,-\sinh\rap)$ with $\rap=k/\phigr$ compounds one boost $\Lambda(1/\phigr)$ per shell. Carried to cosmological scale, the accumulated boost fixes both the global geometry and a finite vacuum.
+
+\subsection{The depletion horizon and the cosmological constant}
+
+Define the depletion horizon as the shell at which the accumulated rapidity has carried the oscillator from $\lP$ to the Hubble radius $R_H$:
+\begin{equation}
+\Nstar=\log_{\phigr}\!\left(\frac{R_H}{\lP}\right)
+=\frac{\ln(8.04\times10^{60})}{\lnphi}=291.88 .
+\label{eq:cosmo:nstar}
+\end{equation}
+The associated vacuum energy density scales as $\phigr^{-2\Nstar}$:
+\begin{equation}
+\boxed{\;\Lambda\,\lP^{2}\sim\phigr^{-2\Nstar}=\phigr^{-583.76}
+\sim e^{-280.9}\sim 10^{-122}\;}
+\label{eq:cosmo:lambda}
+\end{equation}
+recovering the observed order of magnitude of the cosmological-constant problem from the horizon sitting at $\Nstar\approx292$. We mark this as a \emph{consistency check, not a derivation}: the input $R_H/\lP$ is measured, and \eqref{eq:cosmo:lambda} reduces to the standard holographic statement $\Lambda\lP^{2}\sim(\lP/R_H)^2$. The golden-ratio dressing repackages rather than predicts.
+
+\subsection{Friedmann dynamics from the boost run-out}
+
+Promoting the static horizon to dynamics, identify the scale factor with the accumulated per-shell expansion,
+\begin{equation}
+a(N)\sim\phigr^{N},\qquad N_0=\Nstar ,
+\label{eq:cosmo:scalefactor}
+\end{equation}
+so $N\lnphi$ counts e-folds. With proper-time tick $dt\sim\phigr^{-N}dN$ the Friedmann equation emerges as
+\begin{equation}
+H^2=\frac{8\pi G}{3}\,\rho+\frac{\Lambda}{3},
+\label{eq:cosmo:friedmann}
+\end{equation}
+where matter dilutes as $\phigr^{-3N}$ and the $\Lambda$ term is the residual boost floor that does not redshift away. Acceleration begins one golden boost back, when the floor overtakes the diluting matter:
+\begin{equation}
+z_t=\frac{1}{\phigr}=0.618 ,
+\label{eq:cosmo:zt}
+\end{equation}
+a parameter-free relation within $2\%$ of the $\Lambda$CDM value $z_t\approx0.63$. The density ratio is
+\begin{equation}
+\frac{\Omega_\Lambda}{\Omega_m}=\frac{\phigr^{3}}{2}=2.118
+\quad(\text{observed }2.226),
+\label{eq:cosmo:omega}
+\end{equation}
+an honest $2.5\%$ near-miss, not an exact hit. The equation of state $w_0\approx-0.997$, $w_a\approx-0.006$ is essentially $\Lambda$CDM (the framework sits $0.08\sigma$ from the $\Lambda$CDM point in DESI's plane). This is now a \emph{tension}: DESI DR2 (2025) prefers \emph{evolving} dark energy ($w_0>-1$, $w_a<0$) and excludes $\Lambda$CDM at $2.8$--$4.2\sigma$ depending on the supernova sample, so the framework inherits that exclusion at $\sim2.4$--$3.7\sigma$. The direction is right (quintessence, with a phantom crossing at $z_\times=1.77$) but the magnitude is two orders too small ($|w_a|\sim10^{-2}$ vs the preferred $\sim1$). The genuinely independent discriminator is instead the cosmic jerk:
+\begin{equation}
+\boxed{\;j_0=0.9938\;}\qquad(\text{$\Lambda$CDM: }j_0\equiv1).
+\label{eq:cosmo:jerk}
+\end{equation}
+This $0.6\%$ deficit is not yet testable --- present cosmographic resolution $\sigma_{j_0}\sim0.1$ is $15\times$ too coarse to separate it from $\Lambda$CDM --- but it is the framework's cleanest in-principle falsifier, awaiting a joint $H(z)$ reaching $\sigma_{j_0}\lesssim10^{-3}$ (Euclid/LSST/Roman).
+
+\subsection{The regulated chronon vacuum}
+
+The chronon field is a tower of oscillators with frequency $\omega(k)=\omega_0\,\osc(k)$, $\osc(k)\in[\tfrac12,1]$. The zero-point sum carries the kappa shell measure $\kappa(k)=\osc(k)e^{-\rap}$:
+\begin{equation}
+E_{\mathrm{vac}}=\frac{\hbar\omega_0}{2}\sum_{n=0}^{\infty}\osc(k_n)\,e^{-k_n/\phigr}.
+\label{eq:cosmo:zpe}
+\end{equation}
+This is \emph{UV-finite with no cutoff}: the per-shell decay $e^{-\Dk/\phigr}=e^{-2.018}=0.133$ dominates a geometric series. The structural reason is sharp,
+\begin{equation}
+\lnphi=0.481<\frac{1}{\phigr}=0.618
+\quad\Longleftrightarrow\quad
+\phigr\,e^{-1/\phigr}=0.872<1 ,
+\label{eq:cosmo:finite}
+\end{equation}
+the kappa decay rate exceeds the spectral growth rate---the chronon analogue of asymptotic safety. The sum evaluates to $S\approx0.577$, an $O(1)$ number. Identifying $\omega_0$ with the Planck frequency gives $\Lambda\lP^{2}\sim S\,\phigr^{-2\Nstar}$. We are honest that this is \emph{partly circular}: $\Nstar$ already encodes the measured $R_H/\lP$, so $S$ supplies only the $O(1)$ prefactor. The vacuum calculation predicts \emph{finiteness} (a clean result) and that the prefactor is $O(1)$; it does not independently predict the \emph{value} of $\Lambda$.
+
+\subsection{Gravitational-wave echo comb}
+
+A black hole of Schwarzschild radius $r_s$ sets a horizon shell $n_H=\log_{\phigr}(r_s/\lP)$; for $M=M_\odot$,
+\begin{equation}
+n_H=\frac{\ln(1.826\times10^{38})}{\lnphi}=183.08 ,\qquad S_{BH}=c\,n_H,\;\; c=3 ,
+\label{eq:cosmo:horizonshell}
+\end{equation}
+the $c=3$ area law tracking the three Frenet directions the winding sweeps. The ringdown is not a clean exponential but an echo comb with shell ratio and decrement
+\begin{equation}
+\frac{f_{n+1}}{f_n}=e^{\pi/2}=4.810 ,\qquad
+\gamma_{\mathrm{echo}}=e^{-S_1}=e^{-2.018}=0.133 ,
+\label{eq:cosmo:comb}
+\end{equation}
+where $S_1=\Dk/\phigr=2.018$ is the single-shell action, so amplitudes run $1,\,0.133,\,0.0177,\dots$. The envelope obeys a power law
+\begin{equation}
+\boxed{\;|h(t)|\sim t^{-1.2843}\;}
+\label{eq:cosmo:envelope}
+\end{equation}
+whose exponent equals that of the static spatial potential---a space$\leftrightarrow$time duality. The operational matched-filter template is the damped ringdown plus its echo train,
+\begin{equation}
+h_+(t)=\sum_{n=0}^{N}A_0\,\gamma_{\mathrm{echo}}^{\,n}\,
+e^{-(t-n\tau_e)/\tau}\cos\!\big(2\pi f_0(t-n\tau_e)+\phi_0\big)\,\Theta(t-n\tau_e),
+\label{eq:cosmo:template}
+\end{equation}
+with envelope crossover $A_{\mathrm{env}}(t)=A_0(1+t/\tau)^{-1.2843}$ marking the exponential$\to$power-law transition that separates this from standard QNM ringdown. Stacking echoes yields only a $\rho_{\mathrm{echo}}/\rho_{\mathrm{ring}}=(1-\gamma_{\mathrm{echo}}^2)^{-1/2}=1.0089$ SNR gain---coherent but small.
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lll}
+\toprule
+Parameter & Value & Source \\
+\midrule
+Echo decrement $\gamma_{\mathrm{echo}}$ & $0.133$ & $e^{-S_1},\;S_1=2.018$ \\
+Echo spacing (freq.) & $e^{\pi/2}=4.810$ & shell ratio \\
+Envelope exponent $p$ & $1.2843$ & space$\leftrightarrow$time duality \\
+Damping time $\tau$ & $\sim4$ ms (GW150914) & QNM \\
+Echo delay $\tau_e$ & $\sim3$ ms (GW150914) & shell round-trip \\
+Number of echoes $N$ & $3$--$5$ & $\gamma^{N}$ decay \\
+\bottomrule
+\end{tabular}
+\caption{Echo-comb template parameters.}
+\label{tab:cosmo:template}
+\end{table}
+
+\paragraph{GW190521 --- the cleanest near-term test.} The fundamental overtone $f_1=f_0\,e^{-\pi/2}\approx13.7$ Hz falls below band, so the operative feature is the echo \emph{sideband}: with $\tau_e\approx7$ ms, $\Delta f=1/\tau_e\approx143$ Hz places teeth at $\{66,\,209,\,352\}$ Hz about the $f_0\approx66$ Hz ringdown. The $209$ Hz sideband sits squarely in LIGO's most sensitive band and is the concrete, falsifiable prediction; a null result constrains the shell-echo picture.

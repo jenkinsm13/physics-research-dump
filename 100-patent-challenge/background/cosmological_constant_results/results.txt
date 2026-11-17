@@ -1,0 +1,9 @@
+Cosmological Constant Calculation Results
+========================================
+
+Calculated Lambda: 5.233353470297990e-21 m^-2
+Observed Lambda:   1.105600000000000e-52 m^-2
+Ratio (calc/obs):  4.733496264741308e+31
+
+Contributions:
+  Finite shells:      7.909711604684326e-258

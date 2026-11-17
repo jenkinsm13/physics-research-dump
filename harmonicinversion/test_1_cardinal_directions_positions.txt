@@ -1,0 +1,14 @@
+3D Spatial Audio Test - Position Information
+==================================================
+
+Time     Name            Position             Frequency 
+------------------------------------------------------------
+1.1      Front           (0.0, 2.0, 0.0)      600       
+2.2      Back            (0.0, -2.0, 0.0)     650       
+3.3      Left            (-2.0, 0.0, 0.0)     700       
+4.4      Right           (2.0, 0.0, 0.0)      750       
+5.5      Above           (0.0, 0.0, 2.0)      800       
+6.6      Below           (0.0, 0.0, -1.0)     850       
+
+Total positions: 6
+Instructions: Put on headphones and listen for each tone's position in 3D space.

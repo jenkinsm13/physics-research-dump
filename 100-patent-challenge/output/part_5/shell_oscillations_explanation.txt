@@ -1,0 +1,26 @@
+SHELL-MODIFIED NEUTRINO OSCILLATIONS VISUALIZATION
+=================================================
+
+These visualizations show how the Matryoshka shell framework modifies neutrino oscillation probabilities.
+
+In standard quantum mechanics, neutrino oscillation probability is given by:
+P(νₐ → νᵦ) = |∑ⱼ Uₐⱼ* Uᵦⱼ exp(-i·Δmⱼ²·L/(2E))|²
+
+In the shell framework, this is modified to:
+P(νₐ → νᵦ) = |∑ⱼ Uₐⱼ* Uᵦⱼ exp(-i·Δmⱼ²·L/(2E)·Γ(j,ω))|²
+
+Where Γ(j,ω) = 1 + λᵥ·|j-ω/2|/ω is the shell-structure modification term.
+
+Key observations from these visualizations:
+
+1. The shell modification preserves the overall oscillation pattern but changes the exact location and amplitude of oscillation maxima.
+
+2. The relative effect of shell modifications ranges from -5% to +5% depending on energy and baseline.
+
+3. The shell effect is most pronounced at specific energy-baseline combinations where interference between different mass eigenstates is maximized.
+
+4. The pattern of shell modifications follows a distinctive structure that could be detected in precise measurements from long-baseline neutrino experiments.
+
+This effect emerges directly from the first principles of the Matryoshka shell framework, where neutrinos are treated as excitations of the shell structure at specific ordinal depths.
+
+The shell parameter λᵥ = 0.014233 and ω = 63.32 used in these calculations come directly from the golden ratio structure of the shell framework.

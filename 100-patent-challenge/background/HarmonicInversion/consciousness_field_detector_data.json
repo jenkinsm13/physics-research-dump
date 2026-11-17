@@ -1,0 +1,162 @@
+{
+  "system_configuration": {
+    "neural_shells": 31,
+    "shell_range": [
+      140,
+      170
+    ],
+    "spatial_scale_m": [
+      2.9294056604706107e-06,
+      5.450153372492681
+    ]
+  },
+  "consciousness_signatures": {
+    "awake_focused": {
+      "coherence_factor": 0.95,
+      "frequency_band": [
+        8,
+        40
+      ],
+      "temporal_stability": 0.9,
+      "shell_coupling_pattern": "hierarchical"
+    },
+    "awake_relaxed": {
+      "coherence_factor": 0.85,
+      "frequency_band": [
+        8,
+        13
+      ],
+      "temporal_stability": 0.8,
+      "shell_coupling_pattern": "synchronized"
+    },
+    "deep_sleep": {
+      "coherence_factor": 0.3,
+      "frequency_band": [
+        0.5,
+        4
+      ],
+      "temporal_stability": 0.4,
+      "shell_coupling_pattern": "minimal"
+    },
+    "unconscious": {
+      "coherence_factor": 0.1,
+      "frequency_band": [
+        0,
+        2
+      ],
+      "temporal_stability": 0.1,
+      "shell_coupling_pattern": "random"
+    },
+    "meditative": {
+      "coherence_factor": 0.98,
+      "frequency_band": [
+        4,
+        8
+      ],
+      "temporal_stability": 0.95,
+      "shell_coupling_pattern": "unified"
+    }
+  },
+  "sensor_specifications": {
+    "sensor_type": "quantum_interferometer",
+    "number_of_sensors": 31,
+    "spatial_arrangement": "neural_shell_matched",
+    "sensitivity": {
+      "temporal_flow_rate": 1e-15,
+      "phase_coherence": 1e-06,
+      "frequency_resolution": 0.1
+    },
+    "bandwidth": {
+      "low_frequency": 0.1,
+      "high_frequency": 1000
+    },
+    "integration_time": {
+      "minimum": 1,
+      "optimal": 60,
+      "maximum": 3600
+    }
+  },
+  "calibration_results": {
+    "unconscious": {
+      "accuracy": 0.6958061206307652,
+      "measured_coherence": -0.012763741755667477,
+      "expected_coherence": 0.1
+    },
+    "deep_sleep": {
+      "accuracy": 0.6899909157085249,
+      "measured_coherence": -0.03004709644463328,
+      "expected_coherence": 0.3
+    },
+    "awake_relaxed": {
+      "accuracy": 0.6388958581733172,
+      "measured_coherence": -0.033312581949948065,
+      "expected_coherence": 0.85
+    },
+    "awake_focused": {
+      "accuracy": 0.6388895093006278,
+      "measured_coherence": -0.03333148746428106,
+      "expected_coherence": 0.95
+    },
+    "meditative": {
+      "accuracy": 0.6455556488347086,
+      "measured_coherence": -0.033333055545902004,
+      "expected_coherence": 0.98
+    }
+  },
+  "test_measurement": {
+    "detected_state": "meditative",
+    "confidence": 0.8108834913711455,
+    "coherence_level": 0.9993995927081588,
+    "temporal_stability": 0.997949933178405
+  },
+  "clinical_protocol": {
+    "patient_preparation": {
+      "position": "Supine, relaxed",
+      "environment": "Quiet, dimly lit room",
+      "duration": "30 minutes acclimatization",
+      "instructions": "Breathe normally, minimize movement"
+    },
+    "measurement_phases": [
+      {
+        "phase": "baseline_awake",
+        "duration": 300,
+        "instructions": "Eyes open, normal awareness",
+        "expected_state": "awake_relaxed"
+      },
+      {
+        "phase": "focused_attention",
+        "duration": 180,
+        "instructions": "Focus on breathing, count breaths",
+        "expected_state": "awake_focused"
+      },
+      {
+        "phase": "meditation",
+        "duration": 600,
+        "instructions": "Deep meditative state if possible",
+        "expected_state": "meditative"
+      },
+      {
+        "phase": "drowsy_transition",
+        "duration": 300,
+        "instructions": "Allow natural drowsiness",
+        "expected_state": "transitional"
+      }
+    ],
+    "data_analysis": {
+      "real_time_monitoring": true,
+      "consciousness_level_display": true,
+      "coherence_trending": true,
+      "alert_thresholds": {
+        "consciousness_drop": 0.3,
+        "coherence_loss": 0.5
+      }
+    },
+    "clinical_applications": [
+      "Anesthesia depth monitoring",
+      "Coma assessment and prognosis",
+      "Meditation depth measurement",
+      "Sleep disorder evaluation",
+      "Consciousness disorder diagnosis"
+    ]
+  }
+}

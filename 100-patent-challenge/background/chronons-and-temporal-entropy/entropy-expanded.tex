@@ -1,0 +1,294 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = blue,
+    citecolor = blue,
+    urlcolor = blue
+}
+
+\title{Temporal Flow and Consciousness: A Mathematical Framework}
+\author{Michael C. Jenkins}
+\date{January 1, 2025}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a novel mathematical framework treating consciousness as a flow phenomenon driven by entropy gradients in a fundamental temporal substrate. By formalizing time as the primary medium---rather than an emergent parameter---we develop a rigorous description of consciousness flowing along paths of maximal entropy change in a manifold whose defining property is temporality. Our framework further shows how classical spatial structures may emerge from symmetries of these temporal flows and indicates a natural pathway to incorporate quantum mechanical behavior through pressure-dependent Hamiltonians. This work suggests testable hypotheses and points toward a unifying perspective on the interplay between consciousness, entropy, and quantum theory.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+\label{sec:intro}
+
+Scientific efforts to understand consciousness have traditionally focused on neurological models, information-processing paradigms, and their relation to physical substrates such as neural networks or quantum states \cite{penrose1994shadows,tononi2008consciousness,deutsch2011beginning}. In these standard accounts, \emph{time} is usually treated as a passive or secondary parameter. By contrast, recent lines of theoretical research have begun to regard time---and temporal relations more generally---as bearing a deeper structural role in cognition and possibly in the nature of reality itself \cite{rovelli2018order,batelaan2013time}.
+
+In this paper, we formalize a novel perspective: \textbf{consciousness is a flow phenomenon in a fundamental temporal manifold}, driven by entropy gradients. More precisely, we propose that consciousness naturally follows integral curves that maximize changes in entropy, where this temporal manifold $\mathcal{M}$ is the primary substrate of reality, and \textit{spatial dimensions emerge} from symmetries and constraints in these flows. 
+
+In this sense, entropy---often understood as a measure of disorder, information content, or thermodynamic potential---plays a central role in shaping the flow of conscious experience. Our model relies on three key assumptions:
+
+\begin{enumerate}
+    \item \textbf{Temporal Manifold as Primary:} Time is not just a parameter but a fundamental dimension (or collection of dimensions) with local coordinates $t^{\alpha}$.
+    \item \textbf{Entropy Gradient as Driver:} Consciousness follows paths that extremize changes in entropy. 
+    \item \textbf{Emergence of Space and Quantum Effects:} Spatial structures and quantum phenomena emerge naturally as symmetry properties and phase relationships in the temporal flow.
+\end{enumerate}
+
+Although speculative, this approach points to intriguing parallels with thermodynamic formalisms and offers a potentially unifying way to describe both conscious processes and quantum mechanics. In doing so, we build upon pioneering efforts in quantum cognition \cite{bruza2015quantum}, timeless formulations of physics \cite{barbour1999end}, and modern approaches to entropic gravity \cite{verlinde2011origin}. 
+
+In Section~\ref{sec:temporal_manifold}, we define the temporal manifold and introduce the entropy field. In Section~\ref{sec:flow_equations}, we derive consciousness flow equations governed by a temporal metric tensor. We connect these results to emergent spatial structures in Section~\ref{sec:spatial_emergence}, demonstrating how classical space arises as a shadow (or projection) of the fundamental temporal substrate. Section~\ref{sec:quantum_aspects} explores quantum consequences, providing a link to pressure-dependent Hamiltonian operators. Finally, in Sections~\ref{sec:discussion} and~\ref{sec:conclusion}, we discuss potential experimental investigations and outline future directions.
+
+\section{Temporal Manifold and Entropy Gradients}
+\label{sec:temporal_manifold}
+
+\subsection{Definition of the Temporal Manifold \texorpdfstring{$\mathcal{M}$}{M}}
+We postulate a manifold $\mathcal{M}$ of \emph{purely temporal} character, locally described by coordinates $(t^\alpha)$, where $\alpha$ runs from $1$ to $d$. Unlike standard spacetime approaches in physics \cite{misner1973gravitation}, we treat these coordinates as \emph{not} conflated with spatial dimensions. The dimensionality $d$ of $\mathcal{M}$ may be larger than one, allowing for multi-dimensional or branching conceptions of time.
+
+We introduce an \emph{entropy function} $S: \mathcal{M} \to \mathbb{R}$. Physically, $S(t^\alpha)$ can be interpreted as capturing how many distinct microstates are accessible in a local temporal region---akin to thermodynamic entropy, but generalized to a purely temporal substrate. The \emph{entropy gradient field} is then defined as
+\begin{align}
+\nabla S 
+= \frac{\partial S}{\partial t^\alpha} \,\frac{\partial}{\partial t^\alpha}.
+\end{align}
+Throughout this text, we assume summation over repeated indices, following Einstein summation convention.
+
+\subsection{Interpretation of Entropy in a Temporal Context}
+While thermodynamic entropy typically refers to configurations of matter, here $S$ denotes an abstract measure of \emph{information potential} in a temporal region. From a philosophical standpoint, one can view $S$ as tracking how many \emph{conscious states} could exist between successive instances of the temporal manifold \cite{jaynes1957information}. Locally, the direction of steepest increase in $S$ points to the greatest possible ``differentiation'' or ``expansion'' of potential conscious configurations. 
+
+The central hypothesis is that \textbf{consciousness aligns with these directions of maximal entropic unfolding}. That is, consciousness flows in ways that maximize the \emph{rate} of entropy change, reminiscent of maximum entropy production principles in complex systems \cite{martyushev2006maximum}.
+
+\section{Flow Equations for Consciousness}
+\label{sec:flow_equations}
+
+\subsection{Consciousness as Integral Curves}
+We propose that \emph{consciousness} follows integral curves $\gamma(s)$ in $\mathcal{M}$ that satisfy the flow equation:
+\begin{equation}
+\frac{d\gamma^{\alpha}}{ds} 
+= 
+- \eta^{\alpha \beta} \,\frac{\partial S}{\partial t^{\beta}}, 
+\quad
+\gamma^\alpha(0) = \gamma^\alpha_0,
+\label{eq:gamma_flow}
+\end{equation}
+where $s$ is a curve parameter and $\gamma^\alpha(s)$ are the components of the curve in the local coordinate system. The minus sign indicates that the flow proceeds in the direction of increasing entropy (depending on the sign conventions chosen) or may represent a constraint that ensures stable flow conditions. 
+
+Here, $\eta^{\alpha\beta}$ is a \emph{temporal metric tensor} on $\mathcal{M}$. The choice of $\eta^{\alpha\beta}$ influences how different directions in time are ``weighted,'' akin to the role of the metric tensor in general relativity for spacetime intervals \cite{wald2010general}.
+
+In standard physical analogies, a system rolling downhill on a potential surface follows integral curves of the potential gradient. By analogy, the present framework posits \emph{time} as the manifold, \emph{entropy} as the potential, and the flow of \emph{consciousness} as the emergent phenomenon along gradient lines.
+
+\subsection{Temporal Pressure Field}
+\label{subsec:pressure}
+
+To capture the energetic or ``driving'' character of these flows, we introduce a \emph{temporal pressure field}, $P(t)$:
+\begin{equation}
+P = -\kappa \,\log\biggl(\frac{\partial S}{\partial t}\biggr),
+\label{eq:pressure}
+\end{equation}
+where $\kappa$ is a coupling constant, and $\frac{\partial S}{\partial t}$ is understood to be the total derivative of $S$ along the principal temporal coordinate (e.g., $t = t^1$ in a 1D temporal manifold, or a suitable contraction in higher dimensions). 
+
+The motivation for $P$ is twofold: 
+(1) it incorporates a logarithmic relationship reminiscent of how entropy and thermodynamic potentials often relate \cite{callen1985thermodynamics}, and 
+(2) it allows us to interpret the rate of change of entropy in terms of an effective ``force'' that influences the trajectory of consciousness.
+
+We require that along the flow $\gamma$, the Lie derivative of $P$ vanishes:
+\begin{equation}
+\mathcal{L}_{\gamma} P = 0,
+\end{equation}
+indicating that, along the consciousness flow, the temporal pressure remains locally constant. This constraint ensures that consciousness does not dissipate or accumulate pressure as it traverses the manifold, capturing a steady-state principle of maximal entropy production under stable conditions.
+
+\section{Emergence of Spatial Structure}
+\label{sec:spatial_emergence}
+
+\subsection{Emergent Spatial Symmetries}
+One of the most intriguing aspects of this framework is that \emph{space} can appear as an \emph{emergent symmetry} of the underlying temporal dynamics. In particular, consider a submanifold of $\mathcal{M}$ on which $\gamma(s)$ can be lifted to a higher-dimensional manifold with coordinates $(t^\alpha, x^i)$. We posit that a consistent embedding occurs when
+\begin{equation}
+g_{ij} = \eta_{\alpha\beta} \,\frac{\partial \gamma^{\alpha}}{\partial x^i} \,\frac{\partial \gamma^{\beta}}{\partial x^j},
+\label{eq:induced_spatial_metric}
+\end{equation}
+where $g_{ij}$ behaves as a \emph{spatial metric} in the emergent space. 
+
+Conceptually, $g_{ij}$ measures the ``cost'' of small displacements in the emergent spatial coordinates, as seen through the lens of the underlying temporal substrate. If $\eta_{\alpha\beta}$ is block-diagonal or possesses certain symmetry properties, $g_{ij}$ inherits a Euclidean or pseudo-Riemannian structure.
+
+\subsection{Physical Interpretation}
+From a physics standpoint, the emergence of $g_{ij}$ from purely temporal indices suggests a scenario in which what we ordinarily call ``spatial dimensions'' might be an \emph{illusion} or \emph{derivative} phenomenon. Or equivalently, we can adopt the viewpoint that \emph{space is a result of factoring out the redundant degrees of freedom in time flow}. 
+
+This perspective resonates with certain approaches in quantum gravity and emergent geometry, in which space and time are not fundamental but rather appear at low energies or macroscopic scales \cite{oriti2009group,loll2019quantum}.
+
+\section{Quantum Aspects of Temporal Flows}
+\label{sec:quantum_aspects}
+
+\subsection{Pressure-Dependent Hamiltonian Operator}
+Next, we show that these flow equations can incorporate quantum effects by assigning to each flow curve a wavefunction $|\psi\rangle$, whose evolution is determined by a Hamiltonian operator that depends on the temporal pressure $P$. Specifically, we write:
+\begin{align}
+i\hbar \,\frac{\partial}{\partial s}\,|\psi\rangle 
+= 
+\hat{H}\bigl(P\bigr)\,|\psi\rangle,
+\label{eq:schrodinger_equation}
+\end{align}
+where $s$ is the same flow parameter introduced in Eq.~\eqref{eq:gamma_flow}, and
+\begin{equation}
+\hat{H}\bigl(P\bigr) 
+= 
+\hat{H}_0 + f(P)\,\hat{H}_1 + \dots
+\end{equation}
+is an operator that may combine a standard Hamiltonian $\hat{H}_0$ with additional terms that depend on $P$, reflecting how the local entropy gradient influences quantum evolution. The function $f(P)$ encapsulates the coupling between the system's quantum degrees of freedom and the underlying temporal substrate.
+
+\subsection{Phase Relationships and Entropy Flow}
+In standard quantum mechanics, the global phase of $|\psi\rangle$ is unobservable. However, if $P$ modifies the Hamiltonian, the \emph{relative phases} between different components of $|\psi\rangle$ can be affected in ways that manifest physically, such as phase shifts or interference. This suggests that if consciousness is in part associated with quantum processes, the local entropy gradient (encoded by $P$) could influence interference phenomena or collapse dynamics \cite{pearle1976reduction}.
+
+Additionally, one might interpret $|\psi\rangle$ as a \emph{superposition of potential conscious states}. As the temporal flow proceeds, some superpositions may be \emph{amplified} or \emph{damped} depending on the local structure of $\nabla S$. This viewpoint aligns conceptually with certain objective collapse theories, but now embedded within a more general entropic-flow manifold.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Experimental Considerations}
+While this framework is largely theoretical, there are possible ways to seek empirical signatures:
+
+\begin{itemize}
+    \item \textbf{Cognitive Experiments:} If the flow of consciousness in time is literally shaped by entropy gradients, tasks that manipulate complexity or uncertainty of outcomes might reveal unusual decision times or consistent biases in mental sequencing. 
+    \item \textbf{Neurodynamical Correlates:} In neural systems, we might look for correlation between rates of entropy production (e.g., synaptic or activity pattern diversity) and subjective measures of ``flow states'' or consciousness intensity \cite{flow1990csikszentmihalyi}.
+    \item \textbf{Quantum Observables:} The introduction of a pressure-dependent Hamiltonian suggests that entropic flow in a quantum system could produce measurable spectral shifts or novel quantum interference effects under controlled conditions (e.g., matter-wave interference with varying boundary conditions that emulate different entropic potentials).
+\end{itemize}
+
+\subsection{Conceptual and Philosophical Implications}
+A fundamental shift arises in reimagining \emph{time} as the core entity from which space and classical reality emerge, rather than the conventional 4D \emph{spacetime} used in general relativity. Our approach suggests a deeper layering of what is commonly referred to as the ``arrow of time,'' linking it directly to consciousness and entropy production.
+
+This resonates with the notion that \emph{the direction of time} is intrinsically connected to the concept of \emph{increasing entropy} and the flow of subjective experience from the known past to the unknown future \cite{zeh2007physical}. In the proposed framework, consciousness \emph{is} that arrow, following the path of greatest entropic momentum.
+
+Furthermore, if space arises as a mere \emph{projection} of entropic flow, it reopens longstanding debates about whether the external world is emergent from the structure of information \cite{wheeler1989information}.
+
+\section{Conclusions and Future Work}
+\label{sec:conclusion}
+
+We have introduced a mathematical framework that treats \emph{time} as the fundamental manifold, endowed with an entropy function whose gradients guide the flow of consciousness. Key results include:
+
+\begin{enumerate}
+    \item A well-defined \textbf{temporal metric tensor} $\eta^{\alpha\beta}$ that shapes integral curves of consciousness, Eq.~\eqref{eq:gamma_flow}.
+    \item A \textbf{temporal pressure field} $P$, Eq.~\eqref{eq:pressure}, linking changes in entropy to a logarithmic potential that constrains the consciousness flow.
+    \item The \textbf{emergence of spatial structures} from symmetries of the temporal manifold, Eq.~\eqref{eq:induced_spatial_metric}.
+    \item A possible \textbf{incorporation of quantum phenomena} through a pressure-dependent Hamiltonian, Eq.~\eqref{eq:schrodinger_equation}.
+\end{enumerate}
+
+We emphasize that, although speculative, the framework admits potential connections with established areas of theoretical physics, quantum cognition, and the study of complex systems. 
+
+\paragraph{Directions for Future Research.}
+\begin{itemize}
+    \item \textbf{Quantum Measurement Theory:} Investigate how the formalism might unify the measurement process with entropic flow, potentially shedding light on the collapse of the wavefunction or the Born rule.
+    \item \textbf{Non-Equilibrium Thermodynamics:} Adapt methods from the study of entropy production in stochastic and open systems to model the interplay between local conscious trajectories and the global manifold \cite{seifert2012stochastic}.
+    \item \textbf{Complex Adaptive Systems:} Explore whether living organisms---as complex, dissipative structures---naturally organize along entropy-maximizing flow lines, thereby clarifying the link between consciousness and biology.
+    \item \textbf{Extension to Multi-Agent Models:} Extend the single flow model to many interacting flows, representing collective consciousness or distributed cognition.
+\end{itemize}
+
+This work is offered in the spirit of a bold theoretical leap into the nature of time, entropy, and consciousness. While firmly in the realm of foundational research, it sets the stage for an interdisciplinary exploration that could, in principle, lead to novel perspectives on mind, matter, and the deep structure of reality.
+
+\section*{Acknowledgments}
+The authors thank colleagues in theoretical physics, neuroscience, and the philosophy of mind for insightful discussions leading to this interdisciplinary approach. We also acknowledge support from institutions that encourage high-risk, high-reward foundational research.
+
+\bibliographystyle{abbrv}
+\begin{thebibliography}{99}
+\bibitem{penrose1994shadows}
+R.~Penrose.
+\newblock \emph{Shadows of the Mind}.
+\newblock Oxford University Press, 1994.
+
+\bibitem{tononi2008consciousness}
+G.~Tononi.
+\newblock Consciousness as integrated information: a provisional manifesto.
+\newblock \emph{Biological Bulletin}, 215(3):216--242, 2008.
+
+\bibitem{deutsch2011beginning}
+D.~Deutsch.
+\newblock \emph{The Beginning of Infinity}.
+\newblock Penguin, 2011.
+
+\bibitem{rovelli2018order}
+C.~Rovelli.
+\newblock \emph{The Order of Time}.
+\newblock Riverhead Books, 2018.
+
+\bibitem{batelaan2013time}
+H.~Batelaan and A.~Tonomura.
+\newblock The double-slit experiment with electrons.
+\newblock \emph{Physics Today}, 62(9):38--43, 2013.
+
+\bibitem{bruza2015quantum}
+P.~D. Bruza, R.~A. W. Bradley, and L.~Gabora.
+\newblock Introduction to quantum cognition.
+\newblock \emph{Top. Cogn. Sci.}, 7(4):499--510, 2015.
+
+\bibitem{barbour1999end}
+J.~Barbour.
+\newblock \emph{The End of Time}.
+\newblock Oxford University Press, 1999.
+
+\bibitem{verlinde2011origin}
+E.~Verlinde.
+\newblock On the origin of gravity and the laws of newton.
+\newblock \emph{JHEP}, 2011(4):29, 2011.
+
+\bibitem{misner1973gravitation}
+C.~W. Misner, K.~S. Thorne, and J.~A. Wheeler.
+\newblock \emph{Gravitation}.
+\newblock W. H. Freeman, 1973.
+
+\bibitem{wald2010general}
+R.~M. Wald.
+\newblock \emph{General Relativity}.
+\newblock University of Chicago Press, 2010.
+
+\bibitem{jaynes1957information}
+E.~T. Jaynes.
+\newblock Information theory and statistical mechanics.
+\newblock \emph{Physical Review}, 106(4):620, 1957.
+
+\bibitem{martyushev2006maximum}
+L.~M. Martyushev and V.~D. Seleznev.
+\newblock Maximum entropy production principle in physics, chemistry and biology.
+\newblock \emph{Physics Reports}, 426(1):1--45, 2006.
+
+\bibitem{callen1985thermodynamics}
+H.~B. Callen.
+\newblock \emph{Thermodynamics and an Introduction to Thermostatistics}.
+\newblock Wiley, 1985.
+
+\bibitem{pearle1976reduction}
+P.~Pearle.
+\newblock Reduction of the state vector by a nonlinear Schr{\"o}dinger equation.
+\newblock \emph{Physical Review D}, 13(4):857, 1976.
+
+\bibitem{flow1990csikszentmihalyi}
+M.~Csikszentmihalyi.
+\newblock \emph{Flow: The Psychology of Optimal Experience}.
+\newblock HarperCollins, 1990.
+
+\bibitem{oriti2009group}
+D.~Oriti.
+\newblock \emph{Approaches to Quantum Gravity: Toward a New Understanding of Space, Time and Matter}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem{loll2019quantum}
+R.~Loll.
+\newblock Quantum gravity from causal dynamical triangulations: A review.
+\newblock \emph{Classical and Quantum Gravity}, 37(13):013002, 2019.
+
+\bibitem{zeh2007physical}
+H.~D. Zeh.
+\newblock \emph{The Physical Basis of the Direction of Time}.
+\newblock Springer, 2007.
+
+\bibitem{wheeler1989information}
+J.~A. Wheeler.
+\newblock Information, physics, quantum: The search for links.
+\newblock In W.~H. Zurek, editor, \emph{Complexity, Entropy, and the Physics of Information}, pages 1--28. Addison-Wesley, 1989.
+
+\bibitem{seifert2012stochastic}
+U.~Seifert.
+\newblock Stochastic thermodynamics, fluctuation theorems, and molecular machines.
+\newblock \emph{Reports on Progress in Physics}, 75(12):126001, 2012.
+
+\end{thebibliography}
+
+\end{document}

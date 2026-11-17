@@ -1,0 +1,74 @@
+{
+  "scales": {
+    "atomic": {
+      "target_shell": 60,
+      "frequency_Hz": 3.0012240002171944e+43,
+      "wavelength_m": 9.989006417991607e-36,
+      "quality_factor": 1000.0
+    },
+    "molecular": {
+      "target_shell": 80,
+      "frequency_Hz": 3.0012240002171944e+43,
+      "wavelength_m": 9.989006417991607e-36,
+      "quality_factor": 1000.0
+    },
+    "cellular": {
+      "target_shell": 120,
+      "frequency_Hz": 3.0012240002171944e+43,
+      "wavelength_m": 9.989006417991607e-36,
+      "quality_factor": 1000.0
+    },
+    "neural": {
+      "target_shell": 150,
+      "frequency_Hz": 3.0012240002171944e+43,
+      "wavelength_m": 9.989006417991607e-36,
+      "quality_factor": 1000.0
+    }
+  },
+  "detailed_atomic_design": {
+    "cavity_parameters": {
+      "length_m": 4.9945032089958034e-36,
+      "wavelength_m": 9.989006417991607e-36,
+      "frequency_Hz": 3.0012240002171944e+43,
+      "quality_factor": 1000.0,
+      "mode_volume_m3": 1.2458819372927146e-106,
+      "field_enhancement": 31.622776601683793,
+      "finesse": 49.6729413289805
+    },
+    "performance_metrics": {
+      "enhancement_factor": 73.79646109023841,
+      "gate_fidelity_improvement": 1.103674338912935
+    },
+    "construction_specs": {
+      "cavity_resonator": {
+        "material": "Ultra-low-loss dielectric",
+        "length_mm": 4.994503208995803e-33,
+        "diameter_mm": 4.994503208995803e-34,
+        "surface_roughness_nm": 0.1,
+        "loss_tangent": 1e-06,
+        "temperature_coefficient_ppm_K": 0.1
+      },
+      "mirrors": {
+        "reflectivity": 0.99999,
+        "transmission": 1e-05,
+        "scatter_loss_ppm": 1,
+        "coating": "Ion-beam sputtered dielectric stack"
+      },
+      "vacuum_system": {
+        "pressure_torr": 1e-09,
+        "leak_rate_torr_L_s": 1e-12,
+        "pump_type": "Ion pump + titanium sublimation"
+      },
+      "thermal_control": {
+        "temperature_stability_mK": 1,
+        "thermal_time_constant_s": 3600,
+        "heater_power_mW": 100
+      },
+      "vibration_isolation": {
+        "resonant_frequency_Hz": 0.1,
+        "isolation_factor_at_10Hz": 1000000.0,
+        "platform": "Active vibration isolation table"
+      }
+    }
+  }
+}

@@ -1,0 +1,2316 @@
+
+
+==================== GENERATION 1/30 ====================
+
+--- Evaluating Design 1/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397816 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 31 steps.
+
+--- Evaluating Design 2/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397837 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 23 steps.
+
+--- Evaluating Design 3/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397815 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 4/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397671 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 165 steps.
+
+--- Evaluating Design 5/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397666 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 67 steps.
+
+--- Evaluating Design 6/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397692 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 89 steps.
+
+--- Evaluating Design 7/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397675 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 23 steps.
+
+--- Evaluating Design 8/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397998 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 83 steps.
+
+--- Evaluating Design 9/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397628 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 68 steps.
+
+--- Evaluating Design 10/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397950 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 33 steps.
+
+--- Evaluating Design 11/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397658 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 12/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397944 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 7 steps.
+
+--- Evaluating Design 13/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397645 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 112 steps.
+
+--- Evaluating Design 14/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397636 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 15/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397689 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 130 steps.
+
+--- Evaluating Design 16/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397994 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 52 steps.
+
+--- Evaluating Design 17/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397686 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 53 steps.
+
+--- Evaluating Design 18/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397753 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 179 steps.
+
+--- Evaluating Design 19/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397981 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 19 steps.
+
+--- Evaluating Design 20/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397941 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 40 steps.
+
+--- Evaluating Design 21/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397670 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 27 steps.
+
+--- Evaluating Design 22/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397836 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 4 steps.
+
+--- Evaluating Design 23/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397965 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 14 steps.
+
+--- Evaluating Design 24/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397680 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 42 steps.
+
+--- Evaluating Design 25/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397791 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 40 steps.
+
+--- Evaluating Design 26/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397829 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 27/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397755 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 20 steps.
+
+--- Evaluating Design 28/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397958 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 980 steps.
+
+--- Evaluating Design 29/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397891 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 148 steps.
+
+--- Evaluating Design 30/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397667 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 32 steps.
+
+--- Evaluating Design 31/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397750 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 30 steps.
+
+--- Evaluating Design 32/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397793 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 57 steps.
+
+--- Evaluating Design 33/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397701 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 33 steps.
+
+--- Evaluating Design 34/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397825 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 70 steps.
+
+--- Evaluating Design 35/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397946 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 36/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397753 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 46 steps.
+
+--- Evaluating Design 37/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397864 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 159 steps.
+
+--- Evaluating Design 38/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397840 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 1146 steps.
+
+--- Evaluating Design 39/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397972 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 65 steps.
+
+--- Evaluating Design 40/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397855 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 68 steps.
+
+--- Evaluating Design 41/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397856 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 5 steps.
+
+--- Evaluating Design 42/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397772 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 32 steps.
+
+--- Evaluating Design 43/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397648 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 31 steps.
+
+--- Evaluating Design 44/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397921 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 141 steps.
+
+--- Evaluating Design 45/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397845 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 54 steps.
+
+--- Evaluating Design 46/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397606 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 40 steps.
+
+--- Evaluating Design 47/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397747 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 10 steps.
+
+--- Evaluating Design 48/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397626 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 1655 steps.
+
+--- Evaluating Design 49/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397632 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 383 steps.
+
+--- Evaluating Design 50/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397955 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 11 steps.
+
+*** NEW BEST DESIGN FOUND IN GENERATION 1! Fitness (Gain): 86689388040035537185034229911477029086156549678267636151741637012035677178082361344.000000 ***
+
+--- Generation 1 Summary ---
+  Best Fitness in this Gen: 86689388040035537185034229911477029086156549678267636151741637012035677178082361344.000000
+  Overall Best Fitness:     86689388040035537185034229911477029086156549678267636151741637012035677178082361344.000000
+---------------------------
+
+
+
+==================== GENERATION 2/30 ====================
+
+--- Evaluating Design 1/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397604 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 2/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397900 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 3/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397686 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 4/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397931 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 5/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397876 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 7 steps.
+
+--- Evaluating Design 6/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397784 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 5 steps.
+
+--- Evaluating Design 7/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397874 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 8/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397637 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 42 steps.
+
+--- Evaluating Design 9/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397610 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 31 steps.
+
+--- Evaluating Design 10/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397666 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 1146 steps.
+
+--- Evaluating Design 11/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397960 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 20 steps.
+
+--- Evaluating Design 12/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397939 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 640 steps.
+
+--- Evaluating Design 13/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397781 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 67 steps.
+
+--- Evaluating Design 14/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397857 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 159 steps.
+
+--- Evaluating Design 15/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397782 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 16/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397876 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 6 steps.
+
+--- Evaluating Design 17/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397759 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 4 steps.
+
+--- Evaluating Design 18/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397858 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 7 steps.
+
+--- Evaluating Design 19/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397764 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 31 steps.
+
+--- Evaluating Design 20/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397713 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 4 steps.
+
+--- Evaluating Design 21/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397770 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 55 steps.
+
+--- Evaluating Design 22/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397996 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 23/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397911 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 9 steps.
+
+--- Evaluating Design 24/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397810 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 36 steps.
+
+--- Evaluating Design 25/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397730 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 165 steps.
+
+--- Evaluating Design 26/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397908 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 8 steps.
+
+--- Evaluating Design 27/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397840 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 28/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397896 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 46 steps.
+
+--- Evaluating Design 29/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397710 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 83 steps.
+
+--- Evaluating Design 30/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397895 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 159 steps.
+
+--- Evaluating Design 31/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397633 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 4 steps.
+
+--- Evaluating Design 32/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397759 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 33 steps.
+
+--- Evaluating Design 33/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397886 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 9 steps.
+
+--- Evaluating Design 34/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397669 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 89 steps.
+
+--- Evaluating Design 35/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397874 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.06x over 11 steps.
+
+--- Evaluating Design 36/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397878 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 10 steps.
+
+--- Evaluating Design 37/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397716 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 36 steps.
+
+--- Evaluating Design 38/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397759 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 44 steps.
+
+--- Evaluating Design 39/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397735 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 40 steps.
+
+--- Evaluating Design 40/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397726 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 4 steps.
+
+--- Evaluating Design 41/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397836 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 61 steps.
+
+--- Evaluating Design 42/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397927 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 121 steps.
+
+--- Evaluating Design 43/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397763 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 1 steps.
+
+--- Evaluating Design 44/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397970 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 6 steps.
+
+--- Evaluating Design 45/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397782 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 53 steps.
+
+--- Evaluating Design 46/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397634 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 61 steps.
+
+--- Evaluating Design 47/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397826 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 57 steps.
+
+--- Evaluating Design 48/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397950 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 19 steps.
+
+--- Evaluating Design 49/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397648 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.20x over 19 steps.
+
+--- Evaluating Design 50/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397720 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 31 steps.
+
+*** NEW BEST DESIGN FOUND IN GENERATION 2! Fitness (Gain): 86689388040035550665007563486796926419664093188082972970313848282321917729887485952.000000 ***
+
+--- Generation 2 Summary ---
+  Best Fitness in this Gen: 86689388040035550665007563486796926419664093188082972970313848282321917729887485952.000000
+  Overall Best Fitness:     86689388040035550665007563486796926419664093188082972970313848282321917729887485952.000000
+---------------------------
+
+
+
+==================== GENERATION 3/30 ====================
+
+--- Evaluating Design 1/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397800 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 2/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397941 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 3/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397713 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 4/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397621 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 5/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397846 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.20x over 19 steps.
+
+--- Evaluating Design 6/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397712 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.06x over 11 steps.
+
+--- Evaluating Design 7/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397955 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 10 steps.
+
+--- Evaluating Design 8/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397874 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 9/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397915 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 10/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397925 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 7 steps.
+
+--- Evaluating Design 11/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397882 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 12/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397650 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 3 steps.
+
+--- Evaluating Design 13/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397802 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 6 steps.
+
+--- Evaluating Design 14/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397704 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 28 steps.
+
+--- Evaluating Design 15/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397626 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 16/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397896 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 61 steps.
+
+--- Evaluating Design 17/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397762 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 44 steps.
+
+--- Evaluating Design 18/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397963 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 4 steps.
+
+--- Evaluating Design 19/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397615 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 20/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397819 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 6 steps.
+
+--- Evaluating Design 21/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397993 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 61 steps.
+
+--- Evaluating Design 22/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397963 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 8 steps.
+
+--- Evaluating Design 23/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397763 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 7 steps.
+
+--- Evaluating Design 24/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397823 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 28 steps.
+
+--- Evaluating Design 25/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397932 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 67 steps.
+
+--- Evaluating Design 26/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397964 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 27/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397627 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 28/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397732 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 28 steps.
+
+--- Evaluating Design 29/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397643 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 83 steps.
+
+--- Evaluating Design 30/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397833 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 7 steps.
+
+--- Evaluating Design 31/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397665 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 52 steps.
+
+--- Evaluating Design 32/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397858 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 14 steps.
+
+--- Evaluating Design 33/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397745 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 18 steps.
+
+--- Evaluating Design 34/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397797 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 68 steps.
+
+--- Evaluating Design 35/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397808 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 11 steps.
+
+--- Evaluating Design 36/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397913 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 10 steps.
+
+--- Evaluating Design 37/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397953 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 38/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397661 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 61 steps.
+
+--- Evaluating Design 39/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397897 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 81 steps.
+
+--- Evaluating Design 40/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397649 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 40 steps.
+
+--- Evaluating Design 41/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397908 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 42/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397874 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 34 steps.
+
+--- Evaluating Design 43/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397932 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.54x over 4 steps.
+
+--- Evaluating Design 44/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397857 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 731 steps.
+
+--- Evaluating Design 45/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397875 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 42 steps.
+
+--- Evaluating Design 46/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397999 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 47/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397738 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 72 steps.
+
+--- Evaluating Design 48/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397663 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.36x over 33 steps.
+
+--- Evaluating Design 49/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397724 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 89 steps.
+
+--- Evaluating Design 50/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397830 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 31 steps.
+
+*** NEW BEST DESIGN FOUND IN GENERATION 3! Fitness (Gain): 86689388040035564144980897062116823753171636697898309788886059552608158281692610560.000000 ***
+
+--- Generation 3 Summary ---
+  Best Fitness in this Gen: 86689388040035564144980897062116823753171636697898309788886059552608158281692610560.000000
+  Overall Best Fitness:     86689388040035564144980897062116823753171636697898309788886059552608158281692610560.000000
+---------------------------
+
+
+
+==================== GENERATION 4/30 ====================
+
+--- Evaluating Design 1/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397622 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 2/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397641 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 3/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397973 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 4/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397899 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 5/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397627 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 6/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397650 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 7/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397664 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 8/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397721 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 9/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397849 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.36x over 33 steps.
+
+--- Evaluating Design 10/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397735 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.20x over 19 steps.
+
+--- Evaluating Design 11/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397642 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 3 steps.
+
+--- Evaluating Design 12/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397634 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 13/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397967 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 8 steps.
+
+--- Evaluating Design 14/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397791 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.36x over 44 steps.
+
+--- Evaluating Design 15/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397614 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 16/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397917 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 4 steps.
+
+--- Evaluating Design 17/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397850 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 10 steps.
+
+--- Evaluating Design 18/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397862 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 1.00x over 51 steps.
+
+--- Evaluating Design 19/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397673 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 20/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397626 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.60x over 40 steps.
+
+--- Evaluating Design 21/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397967 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.54x over 7 steps.
+
+--- Evaluating Design 22/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397633 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 65 steps.
+
+--- Evaluating Design 23/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397657 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 24/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397652 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 5 steps.
+
+--- Evaluating Design 25/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397761 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 6 steps.
+
+--- Evaluating Design 26/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397979 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 8 steps.
+
+--- Evaluating Design 27/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397893 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 28/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397693 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 29/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397861 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 30/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397732 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 31/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397721 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 4 steps.
+
+--- Evaluating Design 32/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397667 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.36x over 44 steps.
+
+--- Evaluating Design 33/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397979 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 34/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397806 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 35/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397681 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 36/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397666 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 37/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397609 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 38/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397921 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 6 steps.
+
+--- Evaluating Design 39/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397918 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 8 steps.
+
+--- Evaluating Design 40/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397673 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 93 steps.
+
+--- Evaluating Design 41/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397973 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.19x over 35 steps.
+
+--- Evaluating Design 42/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397631 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.03x over 1 steps.
+
+--- Evaluating Design 43/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397916 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 3 steps.
+
+--- Evaluating Design 44/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397863 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 5 steps.
+
+--- Evaluating Design 45/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397777 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.66x over 8 steps.
+
+--- Evaluating Design 46/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397717 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 3 steps.
+
+--- Evaluating Design 47/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397646 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 10 steps.
+
+--- Evaluating Design 48/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397901 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.68x over 7 steps.
+
+--- Evaluating Design 49/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397697 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 50/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397978 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.49x over 7 steps.
+
+*** NEW BEST DESIGN FOUND IN GENERATION 4! Fitness (Gain): 117347456848162820122936792676471798957434463220816606798467275350523767583584288768.000000 ***
+
+--- Generation 4 Summary ---
+  Best Fitness in this Gen: 117347456848162820122936792676471798957434463220816606798467275350523767583584288768.000000
+  Overall Best Fitness:     117347456848162820122936792676471798957434463220816606798467275350523767583584288768.000000
+---------------------------
+
+
+
+==================== GENERATION 5/30 ====================
+
+--- Evaluating Design 1/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397878 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 2/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397906 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 4.74x over 121 steps.
+
+--- Evaluating Design 3/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397978 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 93 steps.
+
+--- Evaluating Design 4/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397704 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 5/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397829 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 6/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397947 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 7/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397700 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 8/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397949 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 9/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397795 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 65 steps.
+
+--- Evaluating Design 10/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397917 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 11/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397658 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 12/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397664 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 51 steps.
+
+--- Evaluating Design 13/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397780 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 93 steps.
+
+--- Evaluating Design 14/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397936 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.35x over 33 steps.
+
+--- Evaluating Design 15/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397625 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 72 steps.
+
+--- Evaluating Design 16/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397964 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 17/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397605 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 18/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397841 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 93 steps.
+
+--- Evaluating Design 19/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397732 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 55 steps.
+
+--- Evaluating Design 20/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397897 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 80 steps.
+
+--- Evaluating Design 21/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397703 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 80 steps.
+
+--- Evaluating Design 22/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397790 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 23/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397875 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.61x over 61 steps.
+
+--- Evaluating Design 24/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397843 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 45 steps.
+
+--- Evaluating Design 25/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397953 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 72 steps.
+
+--- Evaluating Design 26/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397988 initial chronons created.
+  [Physics] Resonant Cascade initiated. Amplification: 5.56x over 37 steps.
+
+--- Evaluating Design 27/50 ---
+FIRING SEQUENCE INITIATED...
+  [1] Laser power at source: 0.0000 TW (includes stability fluctuation).
+  [2] Simulating beam propagation through optics...
+  [3] Delivered power at target: 0.0000 TW (after 99.5% efficiency loss).
+
+FIRING COMPLETE. Pulse delivered to target.
+  [Physics] 'Call of the Void' triggered. 397883 initial chronons created.

@@ -1,0 +1,75 @@
+\section{The base manifold and the conserved current}\label{sec:manifold}
+
+Everything in this paper is anchored to a single closed space curve. The two-vector $\Vvec$, the oscillator $\osc(k)$, and the shell comb of spacing $\Dk$ are all read off the differential geometry of one object: the base curve $\rr(t)$. We therefore begin by fixing that curve, identifying which of its coordinates plays the role of time, and proving that the structure carries an \emph{exactly} conserved scalar that the rest of the framework will reinterpret as the unit norm $\|\Vvec\|^{2}=\Ly=1$.
+
+\subsection{The curve as cylinder $\cap$ saddle}
+
+Take
+\begin{equation}
+\rr(t)=\bigl(\sin t,\ \tfrac{1}{2}\sin 2t,\ \cos t\bigr),
+\qquad t\in[0,2\pi).
+\label{eq:manifold:curve}
+\end{equation}
+This is not an arbitrary Lissajous figure: it is the intersection of two elementary surfaces. The $x$ and $z$ components satisfy $x^{2}+z^{2}=\sin^{2}t+\cos^{2}t=1$, so $\rr(t)$ lies on the unit cylinder about the $y$-axis. Simultaneously, using $\sin 2t=2\sin t\cos t$,
+\begin{equation}
+y=\tfrac{1}{2}\sin 2t=\sin t\cos t=xz,
+\label{eq:manifold:saddle}
+\end{equation}
+so $\rr(t)$ also lies on the saddle $y=xz$. The base curve is exactly
+\begin{equation}
+\rr(t)=\{\,x^{2}+z^{2}=1\,\}\ \cap\ \{\,y=xz\,\}.
+\label{eq:manifold:intersection}
+\end{equation}
+The cylinder supplies the periodic spatial loop; the saddle supplies the height. Their intersection is rigid — the curve is fully determined once these two surfaces are named.
+
+\subsection{Time as a bilinear coupling}
+
+We elect $y$ as the \emph{temporal axis}. By \eqref{eq:manifold:saddle} time is then not an independent coordinate at all but the bilinear product of the two spatial coordinates,
+\begin{equation}
+t_{\mathrm{temporal}}\ \longleftrightarrow\ y=xz.
+\label{eq:manifold:time}
+\end{equation}
+Temporal flow on the saddle is the coupling of the two spatial channels: $y$ peaks where $x$ and $z$ reinforce ($t=\pi/4,5\pi/4$) and vanishes where either spatial coordinate vanishes. This is the geometric seed of the framework's central claim — time is emergent from spatial coupling, and its rate of change will turn out to be exchangeable with spatial curvature.
+
+\subsection{The exact conserved current $\Ly$}
+
+The areal (angular-momentum) density of $\rr$ about the temporal axis is the $\hat{\mathbf{y}}$ component of $\rr'\times\rr''$. Differentiating \eqref{eq:manifold:curve},
+\begin{equation}
+\rr'=(\cos t,\ \cos 2t,\ -\sin t),\qquad
+\rr''=(-\sin t,\ -2\sin 2t,\ -\cos t).
+\label{eq:manifold:derivs}
+\end{equation}
+Writing $(\dot x,\dot y,\dot z)=\rr'$ and $(\ddot x,\ddot y,\ddot z)=\rr''$, the conserved current is
+\begin{equation}
+\Ly=(\rr'\times\rr'')\cdot\hat{\mathbf{y}}
+=\dot z\,\ddot x-\dot x\,\ddot z
+=(-\sin t)(-\sin t)-(\cos t)(-\cos t)
+=\sin^{2}t+\cos^{2}t.
+\label{eq:manifold:Ly}
+\end{equation}
+The result is identically constant:
+\begin{equation}
+\boxed{\ \Ly=(\rr'\times\rr'')\cdot\hat{\mathbf{y}}=1\ }
+\label{eq:manifold:Ly_boxed}
+\end{equation}
+for all $t$. The $\dot y\ddot{(\cdot)}$ terms cancel completely; only the cylinder coordinates survive, and Pythagoras closes the identity. Numerically the current holds to machine precision — its variation across a full period is $\sim 10^{-16}$ — so this is an exact conservation law, not an approximate one. This unit scalar is precisely the norm $\|\Vvec\|^{2}=\cosh^{2}\rap-\sinh^{2}\rap=1$ carried by the two-vector: the boost-invariant that every shell preserves.
+
+\subsection{Frenet curvature and signed torsion}
+
+The intrinsic geometry follows from the standard Frenet data. With $u\equiv\cos^{2}2t$ one finds the curvature
+\begin{equation}
+\kfren=\frac{\sqrt{5-3u}}{(1+u)^{3/2}}\ \in\ \left[\tfrac{1}{2},\ \sqrt{5}\,\right],
+\label{eq:manifold:curvature}
+\end{equation}
+and the \emph{signed} torsion
+\begin{equation}
+\tfren=-\,\frac{3\cos 2t}{\,5-3u\,}.
+\label{eq:manifold:torsion}
+\end{equation}
+The curvature is bounded: it bottoms at $\kfren=\tfrac12$ and tops at $\kfren=\sqrt5$, fixing the dynamic range of the geometry once and for all. The torsion is signed because it changes sense as the curve crosses the saddle — its sign tracks the direction of temporal flow.
+
+\subsection{Complementarity: gravity \emph{is} inverse temporal flow}
+
+The two invariants are complementary. The saddle peaks of $y=xz$ are exactly the points of maximal bending: where $\cos 2t=0$ the torsion vanishes, $\tfren=0$, while the curvature is extremal. At these turning points the temporal flow $\dot y$ reverses, and the conserved unit \eqref{eq:manifold:Ly_boxed} is held fixed by converting torsional (temporal-flow) content into pure spatial curvature. The single conserved quantity $\Ly=1$ is continuously partitioned between a flow part (torsion, the rate of $y=xz$) and a bending part (curvature); their sum is locked.
+
+This is the geometric statement the framework reads as \emph{gravity is inverse temporal flow}: at the instant temporal flow stalls and reverses, the conserved unit is fully transferred from temporal motion into spatial curvature. Gravity, in this picture, is not a separate field added to the curve but the spatial-curvature face of a flow that has run backwards — the same single invariant, viewed at the moment of reversal. Sections building on this manifold inherit \eqref{eq:manifold:Ly_boxed} as the fixed norm of $\Vvec$, with the partition between $\Gsym$ and $\Gflow$ inheriting the curvature/torsion split established here.

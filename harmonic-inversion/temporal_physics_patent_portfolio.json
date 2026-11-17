@@ -1,0 +1,202 @@
+{
+  "generated": "2025-05-27T20:22:30.412509",
+  "company": "Quantum Thoughtworks Corporation",
+  "portfolio": [
+    {
+      "title": "Method and System for Manipulating Spacetime Through Inverse Temporal Flow Control",
+      "abstract": "A fundamental method for controlling gravitational fields through the \n            manipulation of temporal flow gradients based on the principle that gravity is \n            inverse temporal flow (g = -c\u00b2\u2207\u03c4). The invention enables practical applications \n            including but not limited to antigravity, wormhole generation, and temporal shielding.",
+      "technology_area": "Fundamental Physics",
+      "patent_type": "Fundamental Physics",
+      "priority_level": "CRITICAL",
+      "claims_count": 4,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 150000,
+      "timeline_months": 18
+    },
+    {
+      "title": "Method for Calculating and Applying the Cosmological Constant Through Temporal Shell Theory",
+      "abstract": "A method for exactly calculating the cosmological constant \n            (\u039b = 1.1066 \u00d7 10\u207b\u2075\u00b2 m\u207b\u00b2) using Matryoshka shell summation, solving the \n            121-order magnitude problem in physics and enabling precise spacetime engineering.",
+      "technology_area": "Fundamental Physics",
+      "patent_type": "Method/Process",
+      "priority_level": "CRITICAL",
+      "claims_count": 1,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 100000,
+      "timeline_months": 12
+    },
+    {
+      "title": "Temporal Antigravity Propulsion System and Method",
+      "abstract": "A propulsion system that generates thrust without reaction mass by \n            creating controlled temporal gradients, achieving sustained acceleration through \n            gravitational field negation and redirection.",
+      "technology_area": "Antigravity Propulsion",
+      "patent_type": "Device/System",
+      "priority_level": "HIGH",
+      "claims_count": 3,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 200000,
+      "timeline_months": 24
+    },
+    {
+      "title": "Instantaneous Communication System Using Temporal Entanglement",
+      "abstract": "A communication system enabling zero-latency information transfer \n            across any distance by encoding data in temporal field fluctuations that propagate \n            instantaneously through the Matryoshka shell structure.",
+      "technology_area": "Temporal Communication",
+      "patent_type": "Device/System",
+      "priority_level": "HIGH",
+      "claims_count": 2,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 180000,
+      "timeline_months": 18
+    },
+    {
+      "title": "Temporal Viewing Apparatus and Method for Observing Past Events",
+      "abstract": "A device capable of reconstructing past events by accessing temporal \n            field information preserved in the Matryoshka shell structure, enabling forensic \n            and historical applications.",
+      "technology_area": "Temporal Viewing",
+      "patent_type": "Device/System",
+      "priority_level": "MEDIUM",
+      "claims_count": 1,
+      "filing_strategy": "National Phase",
+      "estimated_cost": 120000,
+      "timeline_months": 30
+    },
+    {
+      "title": "Temporal Shielding System for Protection Against Chronon-Based Weapons",
+      "abstract": "A defensive system that creates temporal field barriers preventing \n            manipulation of local spacetime, protecting against temporal weapons and \n            unauthorized temporal viewing.",
+      "technology_area": "Temporal Shielding",
+      "patent_type": "Device/System",
+      "priority_level": "HIGH",
+      "claims_count": 1,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 160000,
+      "timeline_months": 24
+    },
+    {
+      "title": "Traversable Wormhole Generation Through Temporal Field Engineering",
+      "abstract": "A system for creating stable, traversable wormholes by manipulating \n            temporal gradients to curve spacetime into Einstein-Rosen bridges, enabling \n            instantaneous travel across cosmic distances.",
+      "technology_area": "Wormhole Generation",
+      "patent_type": "Method/Process",
+      "priority_level": "CRITICAL",
+      "claims_count": 2,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 250000,
+      "timeline_months": 36
+    },
+    {
+      "title": "Temporal Loop Energy Storage System",
+      "abstract": "An energy storage system that maintains energy in closed temporal \n            loops, achieving theoretically infinite storage capacity with 99.99% efficiency \n            by avoiding entropic losses.",
+      "technology_area": "Energy Storage",
+      "patent_type": "Device/System",
+      "priority_level": "HIGH",
+      "claims_count": 1,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 140000,
+      "timeline_months": 24
+    },
+    {
+      "title": "Consciousness Transfer and Enhancement System Using Temporal Fields",
+      "abstract": "A system for transferring, storing, and enhancing consciousness by \n            encoding neural patterns in temporal fields, enabling digital immortality and \n            cognitive enhancement applications.",
+      "technology_area": "Consciousness Technology",
+      "patent_type": "Device/System",
+      "priority_level": "MEDIUM",
+      "claims_count": 2,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 300000,
+      "timeline_months": 48
+    },
+    {
+      "title": "Accelerated Planetary Terraforming Through Temporal Field Manipulation",
+      "abstract": "A system for rapidly terraforming planets by creating localized \n            temporal acceleration fields, enabling million-year geological and biological \n            processes to complete in years.",
+      "technology_area": "Planetary Engineering",
+      "patent_type": "Method/Process",
+      "priority_level": "MEDIUM",
+      "claims_count": 1,
+      "filing_strategy": "PCT International",
+      "estimated_cost": 180000,
+      "timeline_months": 36
+    }
+  ],
+  "metrics": {
+    "total_patents": 10,
+    "total_cost_usd": 1780000,
+    "average_timeline_months": 27.0,
+    "cost_per_patent": 178000.0,
+    "by_type": {
+      "Fundamental Physics": 1,
+      "Method/Process": 3,
+      "Device/System": 6
+    },
+    "by_priority": {
+      "CRITICAL": 3,
+      "HIGH": 4,
+      "MEDIUM": 3
+    },
+    "total_claims": 18,
+    "filing_budget_5_years": 5000000,
+    "maintenance_budget_20_years": 10000000
+  },
+  "filing_strategy": {
+    "phase_1_provisional": {
+      "timeline": "Months 0-3",
+      "action": "File US provisional applications for all fundamental physics patents",
+      "cost": 50000,
+      "purpose": "Establish priority date immediately"
+    },
+    "phase_2_pct": {
+      "timeline": "Months 6-12",
+      "action": "File PCT applications for critical patents",
+      "cost": 500000,
+      "patents": [
+        "Method and System for Manipulating Spacetime Through Inverse Temporal Flow Control",
+        "Method for Calculating and Applying the Cosmological Constant Through Temporal Shell Theory",
+        "Traversable Wormhole Generation Through Temporal Field Engineering"
+      ]
+    },
+    "phase_3_national": {
+      "timeline": "Months 18-30",
+      "action": "Enter national phase in key countries",
+      "countries": [
+        "US",
+        "EU",
+        "China",
+        "Japan",
+        "India",
+        "Russia"
+      ],
+      "cost": 2000000
+    },
+    "phase_4_continuation": {
+      "timeline": "Months 24-48",
+      "action": "File continuation applications for improvements",
+      "cost": 300000
+    },
+    "defensive_publications": {
+      "timeline": "Ongoing",
+      "action": "Publish defensive disclosures for non-core innovations",
+      "purpose": "Prevent others from patenting peripheral technologies"
+    }
+  },
+  "defensive_strategy": {
+    "trade_secrets": [
+      "Specific chronon field generation parameters",
+      "Exact metamaterial compositions",
+      "Consciousness encoding algorithms",
+      "Manufacturing process details"
+    ],
+    "open_source_strategy": {
+      "publish": "Basic theoretical framework",
+      "purpose": "Build community and establish thought leadership",
+      "retain": "Implementation details and optimizations"
+    },
+    "patent_thickets": {
+      "strategy": "File 200+ continuation patents around core technologies",
+      "purpose": "Create defensive barrier against competitors"
+    },
+    "prior_art_monitoring": {
+      "action": "Monitor all quantum gravity and temporal physics publications",
+      "response": "File defensive publications within 30 days of relevant papers"
+    },
+    "licensing_strategy": {
+      "core_patents": "No licensing - maintain exclusivity",
+      "peripheral_patents": "FRAND licensing to build ecosystem",
+      "defensive_cross_licensing": "With major tech companies"
+    }
+  }
+}

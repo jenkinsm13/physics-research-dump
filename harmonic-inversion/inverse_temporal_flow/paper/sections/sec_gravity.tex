@@ -1,0 +1,101 @@
+\section{Gravity as inverse temporal flow}
+\label{sec:gravity}
+
+Gravity in the two-vector picture is not a separate field but the \emph{advanced} (time-reversed) branch of the same oscillatory transport that gives the comb $\osc(k)=1/(1+\cos^2(2k\lnphi))$. The retarded branch propagates signals forward; the advanced branch — the Wheeler--Feynman absorber response — is what we read off as the static gravitational potential. The two branches are the two components of $\Vvec(k)=(\cosh\rap,\,-\sinh\rap)$ with $\rap=k/\phigr$, and the boost $\Lambda(1/\phigr)$ per shell rotates one into the other.
+
+\subsection{One force, opposing directions}
+
+The sharpest statement of this is that gravity and the forward flow of time are not two phenomena but \emph{one force pointing two opposite ways}. Both are eigendirections of the single boost generator $\Kgen$ ($\Kgen^2=I$), whose spectrum is exactly $\{+1,-1\}$ — equal magnitude, opposite sign, acting at the fixed rate $1/\phigr$ per shell. Diagonalizing $\Kgen$ on its null (light-cone) rays decomposes the two-vector into
+\begin{equation}
+\underbrace{T(\rap)=V_0+V_1=e^{-\rap}}_{\text{time ray, }\Kgen\text{-eigenvalue }-1\text{ (decays = arrow of time)}},
+\qquad
+\underbrace{G(\rap)=V_0-V_1=e^{+\rap}}_{\text{gravity ray, }\Kgen\text{-eigenvalue }+1\text{ (grows = attraction)}}.
+\label{eq:gravity:rays}
+\end{equation}
+Because the eigenvalues are $\pm1$, the two rays obey the exact \emph{reciprocal law}
+\begin{equation}
+\boxed{\;T(\rap)\,G(\rap)=e^{-\rap}e^{+\rap}=1=\Ly\;}
+\label{eq:gravity:reciprocal}
+\end{equation}
+(the bare reading of the Casimir $\Gsym^2-\Gflow^2=\osc^2$): time-rate and gravity-strength trade one-for-one, so \emph{gravitating is literally slowing time}. The net force is the imbalance $\mathcal F=G-T=2\sinh\rap$, which vanishes only at the now $\rap=0$ (the time-reversal fixed point) and saturates at the horizon, where the boost velocity $\beta=(G-T)/(G+T)=\tanh\rap\to1$ and time freezes ($T\to0$). It descends from a single scalar potential $U=-2\cosh\rap$ with $\mathcal F=-dU/d\rap$, carrying the invariant
+\begin{equation}
+U^2-\mathcal F^2 = 4\,\Ly = 4,
+\label{eq:gravity:Uinvariant}
+\end{equation}
+which is the Lorentz relation $1-\beta^2=\mathrm{sech}^2\rap$ in disguise — one force is a boost, and time-versus-gravity is which way it points. This picture \emph{contains} GR's gravitational time dilation in the weak field (rapidity $=$ Newtonian potential, $T=e^{-\rap}\approx1-\Phi_N$), though that recovery is map-independent (so it certifies the framework contains GR, not that it improves on it), and the reciprocal law \eqref{eq:gravity:reciprocal} permits repulsion (the $\rap<0$ branch) but forbids gravity \emph{shielding} (suppressing $G$ costs $\sim1/G$, unbounded).
+
+\subsection{The effective metric and the lapse Wick rotation}
+
+Reading a worldline line element off the Frenet pair $(\kfren,\tfren)$ of the base curve $\rr$ — bend $\kfren$ in the osculating plane, twist $\tfren$ out of it — gives, in the proper-arclength/temporal chart $(\sigma,t)$,
+\begin{equation}
+ds^2 = \kfren(t)\,d\sigma^2 - c\,\tfren(t)\,dt^2 ,
+\qquad N^2(t)\equiv c\,\tfren(t),\quad c>0 .
+\label{eq:gravity:metric}
+\end{equation}
+The linear-in-$\tfren$ form of $g_{tt}$ is the only choice for which the flow reversal $\tfren\to-\tfren$ acts on the metric at all: the signed potential $\Phi\equiv\tfren$ must be inherited as a signed temporal block. The crucial structural point is the analytic continuation. Going from the Lorentzian (forward, entropic, $\tfren>0$) sector to the Euclidean (inverse, gravitational, $\tfren<0$) sector is a Wick rotation of the \emph{lapse}, $N\to iN$, \emph{not} the coordinate $k\to ik$ (equivalently $\rap\to i\rap$ on the propagator, never $k\to ik$):
+\begin{equation}
+g_{tt}=-N^2 \;\xrightarrow{\,N\to iN\,}\; +N^2=+c\,\tfren
+\;\;\Longleftrightarrow\;\; \tfren\to-\tfren .
+\label{eq:gravity:wick}
+\end{equation}
+Rotating the coordinate is false because $t$ is overloaded — it is both the rotated chart axis and the argument of $\tfren(t)$, and $\tfren(it)\neq-\tfren(t)$. The lapse rotation $N\to iN$ is exactly the rapidity rotation $\rap\to i\rap$ on the two-vector ($\cosh\rap\to\cos\rap$, $\sinh\rap\to i\sin\rap$): one and the same $SO(1,1)$ action. The advanced branch is therefore the Euclidean (static) gravity sector, with conserved Minkowski norm $\|\Vvec\|^2=\cosh^2\rap-\sinh^2\rap=1=\Ly$ and $M^2=\Gsym^2-\Gflow^2=\osc^2$ as the position-dependent mass shell.
+
+\subsection{Inversion shells as the horizon locus}
+
+The lapse collapses where the torsion vanishes. The metric \eqref{eq:gravity:metric} degenerates, $g_{tt}\to 0$, at $\cos 2t=0$, i.e.\ at the inversion shells
+\begin{equation}
+k_n=\frac{(2n-1)\pi}{4\lnphi},
+\qquad k_1=1.632,\;\; k_2=4.896,\;\; k_3=8.161,\;\; \Dk=\frac{\pi}{2\lnphi}=3.26425 ,
+\label{eq:gravity:shells}
+\end{equation}
+where $N\to 0$. These are the \emph{null surfaces} of the effective metric and simultaneously the loci of maximal bend ($\kfren=\sqrt5$): the horizon, the lapse collapse, and maximal gravity coincide on one lattice — the gravitational skeleton is the null surface. Between consecutive inversion shells the metric keeps a uniform signature, flipping Lorentzian$\leftrightarrow$Euclidean at every crossing (a row of dominoes, all sharing $|\det g|$, i.e.\ $\Ly=1$). The boost $\Lambda(1/\phigr)$ carries shell $n$ to shell $n+1$, so the construction is a discrete ladder of horizons.
+
+\subsection{The static law, terraces, and redshift}
+
+The static force law is the \emph{half-difference} of the two branches — the purely attenuating combination an absorber re-radiates as a static field. The $\cosh$ correlation and $\sinh$ flow cancel to a single decaying exponential riding the comb,
+\begin{equation}
+\Psi(k)\equiv\Gsym(k)-|\Gflow(k)|
+=\frac{\cosh\rap-\sinh\rap}{1+\cos^2(2k\lnphi)}
+=\osc(k)\,e^{-k/\phigr} ,
+\label{eq:gravity:halfdiff}
+\end{equation}
+so the static field decays at the \emph{intrinsic rapidity rate} $1/\phigr$, not $\lnphi$. Mapping ordinal to radius by $r=r_0\,\phigr^{\,n}$ turns the exponential into a power law; with the exact period-average $\langle 1/(1+\cos^2 x)\rangle=1/\sqrt2$ as leading coefficient,
+\begin{equation}
+\Phi(r)=-\frac{1}{\sqrt2}\,(r/r_0)^{-\nu},
+\qquad \nu=\frac{1}{\phigr\,\lnphi}=1.2843 ,
+\label{eq:gravity:staticlaw}
+\end{equation}
+steeper than the Newtonian $\nu=1$. This is the law the kernel \emph{actually} derives; it is not adjustable. The geometry is terraced: successive shells sit at a fixed ratio
+\begin{equation}
+\frac{r_{n+1}}{r_n}=e^{\pi/2}\approx 4.810 ,
+\label{eq:gravity:terrace}
+\end{equation}
+the spatial image of the boost step. The gravitational redshift accumulated across $n$ terraces saturates,
+\begin{equation}
+f(n)=\tanh\!\left(\frac{n}{\phigr}\right)\;\xrightarrow[n\to\infty]{}\;1 ,
+\label{eq:gravity:redshift}
+\end{equation}
+so $f\to 1$ at the horizon — infinite redshift is reached only in the limit, consistent with the inversion shells \eqref{eq:gravity:shells} being the asymptotic null locus.
+
+\subsection{Absorber completeness: Newton to $0.3\%$, not exactly $1/r$}
+
+The bare exponent $\nu=1.2843$ is corrected once the Wheeler--Feynman absorber sum is completed: summing the advanced response over the full ladder of downstream shells renormalizes $\nu\to\nu_{\mathrm{eff}}$. The completed result is
+\begin{equation}
+\nu_{\mathrm{eff}}=1.00297 ,
+\label{eq:gravity:nueff}
+\end{equation}
+i.e.\ Newtonian inverse-square gravity recovered to within $0.3\%$ — but \emph{not} exactly $1/r$. We keep this as an honest bracket rather than a clean win: $\nu_{\mathrm{eff}}$ is a \emph{fixed line} of the boost renormalization-group flow,
+\begin{equation}
+\beta(\nu)\equiv\frac{d\nu}{d\ln r}=0 \quad\text{at}\quad \nu=\nu_{\mathrm{eff}} ,
+\label{eq:gravity:beta}
+\end{equation}
+and $\nu_{\mathrm{eff}}\neq 1$ exactly. The residual $0.00297$ is not a truncation artifact to be polished away; it is structural. Exact Newtonian gravity ($\nu=1$ identically) is \emph{structurally unreachable} in this construction, because the only RG-stable line the boost flow admits sits at $\nu_{\mathrm{eff}}$, displaced from unity by the same golden-ratio data that fixes $\Dk$ and the terrace ratio. The framework predicts a Newton that is correct to current precision and a definite, small, sign-fixed deviation — not the textbook law on the nose.
+
+\subsection{Transport reciprocity}
+
+The even/odd split of the two-vector controls reciprocity directly. The even component $\Gsym=\osc\cosh\rap$ is symmetric under source--detector exchange and reproduces \emph{Helmholtz reciprocity}: the reciprocal kernel is exactly the $\Gsym$ branch. Reciprocity-breaking lives entirely in the odd component. Writing the forward and reverse impedances as $\kappa(\pm k)=\osc\,e^{\mp\rap}$, the non-reciprocity ratio is
+\begin{equation}
+R(k)=\frac{\kappa(+k)-\kappa(-k)}{\kappa(+k)+\kappa(-k)}=-\tanh\rap ,
+\label{eq:gravity:nonrecip}
+\end{equation}
+which vanishes at $\rap=0$ (the $\Gsym$-only, fully reciprocal point) and grows monotonically with rapidity. Thus reciprocity is not assumed but derived: it is the $\rap\to 0$ limit of \eqref{eq:gravity:nonrecip}, and the advanced gravity branch — being the odd $\Gflow$ sector — is precisely the maximally non-reciprocal, $\tanh\rap$-weighted channel.

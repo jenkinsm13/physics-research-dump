@@ -1,0 +1,24 @@
+Name,Frequency,Relationship,Mechanism
+AM Radio,1 MHz,Red ÷ 430000000,Deep subharmonic
+FM Radio,100 MHz,Red ÷ 4300000,Subharmonic
+Cellular,1 GHz,Red ÷ 430000,Subharmonic
+WiFi 2.4GHz,2.4 GHz,|Blue-Green| ÷ 45833,Beat frequency subharmonic
+Microwave Oven,2.45 GHz,|Blue-Green| ÷ 44898,Water resonance beat
+5G mmWave,30 GHz,|Blue-Red| ÷ 7333,Difference frequency
+Far Infrared,1 THz,Red ÷ 430,Subharmonic approach
+Thermal IR,30 THz,Red ÷ 14.3,Body heat emission
+Near Infrared,300 THz,Red ÷ 1.43,Approaching visible
+Red Light,430 THz,FUNDAMENTAL,Primary entropy orbit
+Yellow,485 THz,(Red + Green) ÷ 2,Mixing frequency
+Green Light,540 THz,FUNDAMENTAL,Primary entropy orbit
+Cyan,595 THz,(Green + Blue) ÷ 2,Mixing frequency
+Blue Light,650 THz,FUNDAMENTAL,Primary entropy orbit
+Violet,700 THz,Blue × 1.08,Overtone edge
+UV-A,860 THz,Red × 2,Second harmonic
+UV-B,1080 THz,Green × 2,Second harmonic
+UV-C,1300 THz,Blue × 2,Second harmonic
+Extreme UV,10 PHz,Blue × 15.4,High harmonic
+Soft X-ray,100 PHz,Red × 233,High harmonic generation
+Hard X-ray,10 EHz,"Green × 18,519",Extreme harmonic
+Low Gamma,100 EHz,"Blue × 154,000",Entropy singularity
+High Gamma,1 ZHz,Red × 2.3×10⁶,Topological defect

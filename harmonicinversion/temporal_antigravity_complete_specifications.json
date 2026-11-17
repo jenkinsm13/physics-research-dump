@@ -1,0 +1,1509 @@
+{
+  "system_overview": {
+    "dry_mass_kg": 4151527.4631919307,
+    "payload_mass_kg": 1000,
+    "total_mass_kg": 4152527.4631919307,
+    "total_cost_usd": 61487451165.9902,
+    "assembly_time_days": 844.5,
+    "thrust_N": 98100.00000000001,
+    "acceleration_g": 10.0,
+    "power_to_weight_ratio": 132.55992175262057,
+    "cost_per_kg_payload": 61487451.165990196
+  },
+  "field_generator": {
+    "components": [
+      {
+        "name": "Temporal Field Core",
+        "mass_kg": 565486.6776461628,
+        "power_rating_W": 5400000000.0,
+        "cost_usd": 56548667764.61628,
+        "assembly_time_hours": 240
+      },
+      {
+        "name": "Primary Field Coil 1",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 2",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 3",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 4",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 5",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 6",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 7",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 8",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 9",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 10",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 11",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Primary Field Coil 12",
+        "mass_kg": 33552.20954033899,
+        "power_rating_W": 450000000.0,
+        "cost_usd": 16776104.770169495,
+        "assembly_time_hours": 48
+      },
+      {
+        "name": "Field Modulation Element 1",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 2",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 3",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 4",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 5",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 6",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 7",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 8",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 9",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 10",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 11",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 12",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 13",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 14",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 15",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 16",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 17",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 18",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 19",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 20",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 21",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 22",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 23",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 24",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 25",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 26",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 27",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 28",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 29",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 30",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 31",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 32",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 33",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 34",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 35",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 36",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 37",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 38",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 39",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 40",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 41",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 42",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 43",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 44",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 45",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 46",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 47",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 48",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 49",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 50",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 51",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 52",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 53",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 54",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 55",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 56",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 57",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 58",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 59",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 60",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 61",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 62",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 63",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 64",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 65",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 66",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 67",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 68",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 69",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 70",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 71",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 72",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 73",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 74",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 75",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 76",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 77",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 78",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 79",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 80",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 81",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 82",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 83",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 84",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 85",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 86",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 87",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 88",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 89",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 90",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 91",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 92",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 93",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 94",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 95",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 96",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 97",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 98",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 99",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 100",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 101",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 102",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 103",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 104",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 105",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 106",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 107",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 108",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 109",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 110",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 111",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 112",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 113",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 114",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 115",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 116",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 117",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 118",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 119",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 120",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 121",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 122",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 123",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 124",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 125",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 126",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 127",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 128",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 129",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 130",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 131",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 132",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 133",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 134",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 135",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 136",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 137",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 138",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 139",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 140",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 141",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 142",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 143",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Field Modulation Element 144",
+        "mass_kg": 0.8000000000000002,
+        "power_rating_W": 37500000.0,
+        "cost_usd": 8000.000000000002,
+        "assembly_time_hours": 2
+      },
+      {
+        "name": "Structural Housing",
+        "mass_kg": 2477271.471061696,
+        "power_rating_W": 0,
+        "cost_usd": 74318144.13185087,
+        "assembly_time_hours": 120
+      },
+      {
+        "name": "Cryogenic Cooling System",
+        "mass_kg": 5000,
+        "power_rating_W": 50000000.0,
+        "cost_usd": 2000000,
+        "assembly_time_hours": 72
+      },
+      {
+        "name": "Quantum Control Electronics",
+        "mass_kg": 1000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 10000000,
+        "assembly_time_hours": 168
+      }
+    ],
+    "performance": {
+      "total_mass_kg": 3451499.863191933,
+      "total_cost_usd": 56837451165.9902,
+      "assembly_time_hours": 1464,
+      "assembly_time_days": 61.0,
+      "total_power_rating_W": 16350000000.0,
+      "power_density_W_per_kg": 4737.071026530358,
+      "thrust_N": 98100.00000000001,
+      "specific_impulse_s": 2.7997812065715446e+22,
+      "efficiency_total": 0.5832,
+      "thrust_to_weight_ratio": 0.00289729114772499,
+      "cost_per_kW": 3476.296707400012,
+      "manufacturing_readiness_level": 6
+    }
+  },
+  "power_system": {
+    "components": [
+      {
+        "name": "Compact Fusion Reactor",
+        "mass_kg": 50000,
+        "power_rating_W": 3000000000.0,
+        "cost_usd": 1000000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 1",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 2",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 3",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 4",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 5",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 6",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 7",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 8",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 9",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 10",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 11",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 12",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 13",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 14",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 15",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 16",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 17",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 18",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 19",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 20",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 21",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 22",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 23",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Zero-Point Energy Extractor 24",
+        "mass_kg": 24000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 100000000.0
+      },
+      {
+        "name": "Power Conditioning System",
+        "mass_kg": 10000,
+        "power_rating_W": 5400000000.0,
+        "cost_usd": 50000000.0
+      }
+    ]
+  },
+  "control_system": {
+    "components": [
+      {
+        "name": "Quantum Field Processor 1",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 2",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 3",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 4",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 5",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 6",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 7",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 8",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 9",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 10",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 11",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Quantum Field Processor 12",
+        "mass_kg": 2.3,
+        "power_rating_W": 10000000.0,
+        "cost_usd": 50000000.0
+      },
+      {
+        "name": "Temporal Navigation Computer",
+        "mass_kg": 4000,
+        "power_rating_W": 100000000.0,
+        "cost_usd": 500000000.0
+      },
+      {
+        "name": "Safety Monitoring Array",
+        "mass_kg": 60000,
+        "power_rating_W": 50000000.0,
+        "cost_usd": 100000000.0
+      }
+    ]
+  },
+  "manufacturing_plan": {
+    "phases": {
+      "Phase 1: Research & Development": {
+        "duration_months": 36,
+        "activities": [
+          "Metamaterial development and testing",
+          "Zero-point extraction prototype",
+          "Quantum control algorithms",
+          "Safety protocol development"
+        ],
+        "cost_usd": 2000000000.0,
+        "milestones": [
+          "Laboratory demonstration of temporal gradient",
+          "1kW zero-point extractor prototype",
+          "Quantum field control validation",
+          "Safety analysis completion"
+        ]
+      },
+      "Phase 2: Component Manufacturing": {
+        "duration_months": 48,
+        "activities": [
+          "Metamaterial core fabrication",
+          "Superconductor coil winding",
+          "Fusion reactor construction",
+          "ZPE extractor production"
+        ],
+        "cost_usd": 36892470699.59412,
+        "milestones": [
+          "First metamaterial core complete",
+          "All superconductor coils tested",
+          "Fusion reactor first plasma",
+          "ZPE extractors operational"
+        ]
+      },
+      "Phase 3: System Integration": {
+        "duration_months": 24,
+        "activities": [
+          "Field generator assembly",
+          "Power system integration",
+          "Control system installation",
+          "Full system testing"
+        ],
+        "cost_usd": 18446235349.79706,
+        "milestones": [
+          "Field generator operational",
+          "Power system full power test",
+          "Integrated system checkout",
+          "Flight readiness review"
+        ]
+      },
+      "Phase 4: Flight Testing": {
+        "duration_months": 12,
+        "activities": [
+          "Ground testing with full power",
+          "Low-altitude flight tests",
+          "Orbital insertion tests",
+          "Interplanetary mission readiness"
+        ],
+        "cost_usd": 6148745116.59902,
+        "milestones": [
+          "First levitation achieved",
+          "Sustained 1g acceleration",
+          "Orbital flight demonstration",
+          "Operational certification"
+        ]
+      }
+    },
+    "total_duration_months": 120,
+    "total_duration_years": 10.0,
+    "total_program_cost_usd": 63487451165.9902,
+    "critical_path": "Metamaterial development \u2192 ZPE extraction \u2192 System integration",
+    "risk_factors": [
+      "Metamaterial stability at operational power",
+      "ZPE extraction efficiency scaling",
+      "Quantum coherence maintenance",
+      "System reliability and safety"
+    ]
+  },
+  "materials_database": {
+    "metamaterial_core": {
+      "density": 2500,
+      "strength": 2000000000.0,
+      "cost_per_kg": 100000,
+      "availability": "Future"
+    },
+    "superconductor_nb3sn": {
+      "density": 8900,
+      "strength": 200000000.0,
+      "cost_per_kg": 500,
+      "availability": "Current"
+    },
+    "titanium_alloy": {
+      "density": 4430,
+      "strength": 880000000.0,
+      "cost_per_kg": 30,
+      "availability": "Current"
+    },
+    "carbon_nanotube": {
+      "density": 1300,
+      "strength": 63000000000.0,
+      "cost_per_kg": 50000,
+      "availability": "Near-term"
+    },
+    "graphene_composite": {
+      "density": 1600,
+      "strength": 40000000000.0,
+      "cost_per_kg": 10000,
+      "availability": "Near-term"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "n_shells": 20,
+  "shell_data": [
+    {
+      "index": 0,
+      "radius": 2.614688e-35,
+      "flow_rate": -1.0,
+      "entropy": 0.0
+    },
+    {
+      "index": 1,
+      "radius": 4.2305651840000005e-35,
+      "flow_rate": -1.0,
+      "entropy": 0.0025000000000000005
+    },
+    {
+      "index": 2,
+      "radius": 6.845054467712002e-35,
+      "flow_rate": -1.0,
+      "entropy": 0.010000000000000002
+    },
+    {
+      "index": 3,
+      "radius": 1.1075298128758018e-34,
+      "flow_rate": -1.0,
+      "entropy": 0.0225
+    },
+    {
+      "index": 4,
+      "radius": 1.7919832372330474e-34,
+      "flow_rate": -1.0,
+      "entropy": 0.04000000000000001
+    },
+    {
+      "index": 5,
+      "radius": 2.899428877843071e-34,
+      "flow_rate": -1.0,
+      "entropy": 0.0625
+    },
+    {
+      "index": 6,
+      "radius": 4.691275924350089e-34,
+      "flow_rate": -1.0,
+      "entropy": 0.09
+    },
+    {
+      "index": 7,
+      "radius": 7.590484445598445e-34,
+      "flow_rate": -1.0,
+      "entropy": 0.12249999999999998
+    },
+    {
+      "index": 8,
+      "radius": 1.2281403832978285e-33,
+      "flow_rate": -1.0,
+      "entropy": 0.16000000000000003
+    },
+    {
+      "index": 9,
+      "radius": 1.9871311401758868e-33,
+      "flow_rate": -1.0,
+      "entropy": 0.2025
+    },
+    {
+      "index": 10,
+      "radius": 3.215178184804585e-33,
+      "flow_rate": -1.0,
+      "entropy": 0.25
+    },
+    {
+      "index": 11,
+      "radius": 5.2021583030138184e-33,
+      "flow_rate": -1.0,
+      "entropy": 0.30250000000000005
+    },
+    {
+      "index": 12,
+      "radius": 8.417092134276358e-33,
+      "flow_rate": -1.0,
+      "entropy": 0.36
+    },
+    {
+      "index": 13,
+      "radius": 1.361885507325915e-32,
+      "flow_rate": -1.0,
+      "entropy": 0.42250000000000004
+    },
+    {
+      "index": 14,
+      "radius": 2.2035307508533305e-32,
+      "flow_rate": -1.0,
+      "entropy": 0.48999999999999994
+    },
+    {
+      "index": 15,
+      "radius": 3.565312754880689e-32,
+      "flow_rate": -1.0,
+      "entropy": 0.5625
+    },
+    {
+      "index": 16,
+      "radius": 5.768676037396955e-32,
+      "flow_rate": -1.0,
+      "entropy": 0.6400000000000001
+    },
+    {
+      "index": 17,
+      "radius": 9.333717828508274e-32,
+      "flow_rate": -1.0,
+      "entropy": 0.7224999999999999
+    },
+    {
+      "index": 18,
+      "radius": 1.510195544652639e-31,
+      "flow_rate": -1.0,
+      "entropy": 0.81
+    },
+    {
+      "index": 19,
+      "radius": 2.44349639124797e-31,
+      "flow_rate": -1.0,
+      "entropy": 0.9025
+    }
+  ],
+  "applications": {
+    "gravity_drive": {
+      "average_thrust": 0.0,
+      "specific_impulse": 0.0,
+      "power_requirement": 0.0,
+      "field_asymmetry": 0.4,
+      "efficiency": 0.85
+    },
+    "gravitational_lens": {
+      "focal_length": 1.0,
+      "max_deflection": 0.0,
+      "aperture": 2.44349639124797e-31,
+      "magnification": 3.82454809139752e+34
+    },
+    "wormhole": {
+      "throat_radius": 1e-10,
+      "negative_energy_density": -9.63134068808854e+43,
+      "traversable": true,
+      "stability_duration": 96313406880885.4,
+      "required_shells": 20
+    }
+  }
+}

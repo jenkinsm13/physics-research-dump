@@ -1,0 +1,64 @@
+{
+  "framework": "Matryoshka-Chronon Temporal Physics",
+  "core_principle": "g = -c\u00b2 \u2207\u03c4",
+  "temporal_asymmetry": "\u03ba\u207b/\u03ba\u207a = 1.20",
+  "system_configuration": {
+    "vehicle_mass_kg": 1000,
+    "active_shells": 51,
+    "shell_range": [
+      150,
+      200
+    ]
+  },
+  "performance_envelope": {
+    "0.1g": {
+      "power_required": "541.5 kW",
+      "thrust_kN": 0.981,
+      "specific_impulse_s": 2.799781206571545e+24,
+      "efficiency": 543112.3381289243
+    },
+    "1.0g": {
+      "power_required": "54.2 MW",
+      "thrust_kN": 9.81,
+      "specific_impulse_s": 2.799781206571545e+23,
+      "efficiency": 54311.23381289241
+    },
+    "10.0g": {
+      "power_required": "5.4 GW",
+      "thrust_kN": 98.1,
+      "specific_impulse_s": 2.7997812065715446e+22,
+      "efficiency": 5431.12338128924
+    },
+    "100.0g": {
+      "power_required": "541.5 GW",
+      "thrust_kN": 981.0,
+      "specific_impulse_s": 2.799781206571545e+21,
+      "efficiency": 543.1123381289241
+    }
+  },
+  "launch_capability": {
+    "time_to_orbit_s": 228.5999999999913,
+    "max_altitude_km": 400.1991952499982,
+    "max_velocity_m_s": 3968.63549999998
+  },
+  "interstellar_performance": {
+    "acceleration_phase": {
+      "acceleration_g": 10,
+      "time_to_0.1c_days": 3.5370235634462186,
+      "distance_AU": 30.620396447503154,
+      "max_velocity_fraction_c": 0.1
+    },
+    "energy_requirements": {
+      "kinetic_energy_J": 4.493775893684088e+17,
+      "power_required_W": 5415019704.969167,
+      "power_plant_mass_kg": 54150.19704969167,
+      "mass_ratio": 54.15019704969167
+    },
+    "mission_capability": {
+      "proxima_centauri_years": 42.4,
+      "alpha_centauri_years": 43.699999999999996,
+      "nearest_100_stars_accessible": true,
+      "max_range_ly": "Unlimited (no fuel constraints)"
+    }
+  }
+}
